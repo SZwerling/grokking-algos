@@ -1,3 +1,4 @@
+//binary search is log2n steps or 2 multiplied by 2 how many times to reach n.
 //start index
 //middle index
 //end index
