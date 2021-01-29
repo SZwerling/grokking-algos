@@ -7,12 +7,14 @@ function selectionSort(inputArr) {
     for(let i = 0; i < n; i++) {
         // Finding the smallest number
         let min = i;
+        console.log(inputArr)
         for(let j = i+1; j < n; j++){
             if(inputArr[j] < inputArr[min]) {
                 min=j; 
             }
          }
          if (min != i) {
+             console.log(min)
              // making a swap, i is at 0 the first time here
              let tmp = inputArr[i]; 
              inputArr[i] = inputArr[min];
@@ -22,6 +24,6 @@ function selectionSort(inputArr) {
     return inputArr;
 }
 
-arr1 = [5, 3, 1, 9, 6, 8, 5]
+arr1 = [26, 3, 0, 4, 9, 1, 55]
 selectionSort(arr1)
 console.log(arr1)
