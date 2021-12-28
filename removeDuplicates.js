@@ -1,7 +1,7 @@
 // /**
 //  * @param {number[]} nums
 //  * @return {number}
-//  */
+//  *//
  var removeDuplicates = function(nums) {
     let count1 = 0;
     let count2 = 1;
