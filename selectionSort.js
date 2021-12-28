@@ -14,7 +14,7 @@ function selectionSort(inputArr) {
             }
          }
          if (min != i) {
-             console.log(min)
+             //console.log(min)
              // making a swap, i is at 0 the first time here
              let tmp = inputArr[i]; 
              inputArr[i] = inputArr[min];
@@ -24,6 +24,6 @@ function selectionSort(inputArr) {
     return inputArr;
 }
 
-arr1 = [26, 3, 0, 4, 9, 1, 55]
+arr1 = [5, 3, 0, 2]
 selectionSort(arr1)
 console.log(arr1)
