@@ -20,9 +20,9 @@ function validAnagram(word1, word2) {
 }
 
 const wrd1 = "stuff";
-const wrd2 = "fstuf";
+const wrd2 = "fluff";
 
-//console.log(validAnagram(wrd1, wrd2));
+console.log(validAnagram(wrd1, wrd2));
 
 //or
 

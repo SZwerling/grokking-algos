@@ -11,7 +11,7 @@
 
 //when input is at least 2 characters, compare to repo.
 //return only three matches in alphabetical order
-//continue searcing with more characters input
+//continue searching with more characters input
 const repo = ['baggage', 'cloth', 'bar', 'barrage', 'bad', 'bag'] 
 const custom = 'bag'
 function searchSuggestions(repository, customerQuery) {
@@ -19,7 +19,7 @@ function searchSuggestions(repository, customerQuery) {
     let fitsList = []
     let tempList = repository
     let len = customerQuery.length
-    for(i=0; i<len; i++){
+    for(let i=0; i<len; i++){
         fitsList = tempList.filter((word) => {
             word[i] === customerQuery[i]})
         tempList = fitsList

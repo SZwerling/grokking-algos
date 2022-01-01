@@ -15,6 +15,8 @@ function areThereDuplicates() {
         }
         return false
     }
+
+    console.log(areThereDuplicates3(1, 2, 3, 3, 3, 3, 'a'))
   
 //some reason with 'arguments' need to plug in freq[arguments[val]]
 
@@ -35,6 +37,8 @@ function areThereDuplicates2(...args){
 
 //areThereDuplicates One Liner Solution   ????????
 function areThereDuplicates3() {
-  return new Set(arguments).size !== arguments.length;
+  return new Set(arguments).size !== arguments.length; 
 }
+//The size accessor property returns the number of (unique) elements in a Set object.
+
   

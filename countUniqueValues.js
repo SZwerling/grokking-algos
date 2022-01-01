@@ -2,16 +2,16 @@ function countUniqueValues(arr){
     let left = 0
     let right = 1
     let holder = []//to hold unique values
-    while(right < arr.length){
+    while(right <= arr.length){
         if(arr[left] === arr[right]){
             arr.splice(right-1, 1) 
         }
         if(arr[left] !== arr[right]){
             holder.push(arr[left])
-            console.log(holder)
+            right++;
+            left++;
         }
-        right++;
-        left++;
+       
     }
     return holder.length
 }
@@ -19,13 +19,13 @@ function countUniqueValues(arr){
 
 
 
-let  arr = [0, 0, 0, 1]
+let  arr = [0, 0, 0, 1, 1, 34]
 console.log(countUniqueValues(arr))
 
 function countUniqueValues2(arr){
-    let i = 0;
-    for(j=1; j<arr.length; j++){
-        if(arr[i] !== arr[j]){
+    let i = 0;                                         
+    for(j=1; j<arr.length; j++){               
+        if(arr[i] !== arr[j]){              
             i++;
             arr[i] = arr[j]
         }

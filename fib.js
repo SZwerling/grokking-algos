@@ -8,7 +8,7 @@ function fib1(n){
     }
     return arr[n]
 }
-//console.log(fib(4))
+console.log(fib1(10))
 // 0, 1, 1, 2, 3, 5, 8, 13
 // same thing w for loop
 fip = (num) => {
@@ -57,4 +57,4 @@ function slowFib(n) {
 } 
 
 const fib = memoize(slowFib)
-console.log(fib(3))
+//console.log(fib(10))
