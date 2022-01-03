@@ -1,10 +1,26 @@
-//slice returns a new array from array, betwen given index values
- const happy = "happy days are here"
- let result = happy[0].toUpperCase();
- 
-    
-    if(happy[i-1] === " "){
-        result = result + str1[i].toUpperCase()
-    } else {
-        result = result + str1[i]
-    })
+//min subArray
+
+function minSubArray(arr, sum){
+    let start = 0;
+    let end = 0;
+    let total = 0;
+    let minLen = Infinity;
+
+    while(start < arr.length){
+        if(total < sum && end < arr.length){
+            total += arr[end];
+            end++
+        } else if(total >= sum){
+            minLen = Math.min(minLen, end-start);
+            total -= arr[start];
+            start++;
+        } else {
+            break;
+        }
+    }
+    return minLen
+}
+
+const arr = [2, 3, 5, 2, 4, 3];
+const num = 11
+console.log(minSubArray(arr, num))

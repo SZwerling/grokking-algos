@@ -6,7 +6,7 @@ function maxSubArray(arr, num){
     }
     let max = -Infinity
     
-    for(i=0; i<arr.length - num + 1; i++){
+    for(let i=0; i<arr.length - num + 1; i++){
         temp=0;
         for(j=0; j<num; j++){
             temp += arr[i + j]
@@ -19,8 +19,8 @@ function maxSubArray(arr, num){
     return max;
 }
 
-let arr1  = [-1, -3, -6, -8]
-let num = 3
+let arr1  = [1, 1, 2]
+let num = 2
 
 console.log(maxSubArray(arr1, num))
 
@@ -32,11 +32,11 @@ function maxSubArray2(arr, num){
     }
     let tempSum = 0;
     let maxSum = 0;
-    for(i = 0; i<num; i++){
-        maxSum += arr[i];
+    for(let i = 0; i<num; i++){
+        maxSum += arr[i];           //2
     }
-    tempSum = maxSum;
-    for(j=num; j<arr.length; j++){
+    tempSum = maxSum; //temp sum now 2
+    for(let j=num; j<arr.length; j++){ //j is 2 while less than 3
         tempSum = tempSum - arr[j - num] + arr[j];  //subtracts 1st number and adds next number in arr to total
         maxSum = Math.max(maxSum, tempSum);         //in this way it moves the 'window' forward.
     }                                              

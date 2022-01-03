@@ -13,4 +13,4 @@ function isSubsequence(str1, str2) {
     }
     return str1.length === count;
 }
-  console.log(isSubsequence('sing', 'sting'))
+  console.log(isSubsequence('sin', 'sting'))
