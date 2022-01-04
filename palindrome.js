@@ -10,7 +10,7 @@ function palindrom(str){
 
 
 
-console.log(palindrom('pot'))
+console.log(palindrom('tot'))
 
 function palindrome(str){
     let left = 0

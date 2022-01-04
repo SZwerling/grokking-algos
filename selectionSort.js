@@ -7,13 +7,13 @@ function selectionSort(inputArr) {
     for(let i = 0; i < n; i++) {
         // Finding the smallest number
         let min = i;
-        console.log(inputArr)
+        
         for(let j = i+1; j < n; j++){
             if(inputArr[j] < inputArr[min]) {
                 min=j; 
             }
          }
-         if (min != i) {
+         if (min !== i) {
              //console.log(min)
              // making a swap, i is at 0 the first time here
              let tmp = inputArr[i]; 

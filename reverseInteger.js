@@ -3,7 +3,7 @@ function reverseInteger(integ) {
    return parseInt(integ.toString().split("").reverse().join("")) * sign;
 }
 
-console.log(reverseInteger(-21));
+console.log(reverseInteger(21));
 
 function reverseInteger2(integ) {
    let x = Math.sign(integ);

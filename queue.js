@@ -10,7 +10,7 @@
 //stack is first added last removed
 
 class Queue{
-    constructor(color = 'black'){
+    constructor(color = ''){
         this.color = color;
         this.data = [];
     }
@@ -53,7 +53,7 @@ function weave(x, y){
         return tap
 }
 
-console.log(weave(q1, q2))
-console.log(q1.color)
+
+console.log(q1)
 
 

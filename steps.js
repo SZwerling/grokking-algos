@@ -11,10 +11,10 @@ function steps(n) {
    let i = 1;
    let space = " ";
    let pound = "#";
-   let times = n - 1;
-   while (i <= n) {
-      console.log(pound.repeat(i) + space.repeat(times));
-      i++;
+   let times = n - 1;  
+   while (i <= n) { 
+      console.log(pound.repeat(i) + space.repeat(times));  
+      i++;                                                 
       times--;
    }
 }
@@ -55,5 +55,5 @@ function steps3(n, row = 0, stair = ''){
 }
 
 //steps(3);
-//steps2(4);
-steps3(10)
+steps2(4);
+//steps(4)
