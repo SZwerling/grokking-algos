@@ -6,6 +6,7 @@ function outer() {
           console.log(a+b);
      }
     return inner;
+    
  }
  var one = outer(); //outer() invoked the first time
  var two = outer(); //outer() invoked the second time
