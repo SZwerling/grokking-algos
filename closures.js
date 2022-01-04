@@ -9,7 +9,7 @@ function outer() {
 
  }
  var one = outer(); //outer() invoked the first time
- var two = outer(); //outer() invoked the second time
+ var two = outer(); //outer() invoked the second tim
 
 
  //further exampl
