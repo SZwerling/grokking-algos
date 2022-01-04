@@ -6,13 +6,13 @@ function outer() {
           console.log(a+b);
      }
     return inner;
-    
+
  }
  var one = outer(); //outer() invoked the first time
  var two = outer(); //outer() invoked the second time
 
 
- //further example
+ //further exampl
  function outer() {
     var b = 10;
     var c = 100;
