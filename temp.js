@@ -24,3 +24,10 @@ function minSubArray(arr, sum){
 const arr = [2, 3, 5, 2, 4, 3];
 const num = 11
 console.log(minSubArray(arr, num))
+
+function squared(n){
+    let num = n**2
+    return console.log(num)
+  }
+
+squared(25)
