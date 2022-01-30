@@ -25,6 +25,7 @@ let num = 2
 console.log(maxSubArray(arr1, num))
 
 //moving window algo
+//also called sliding window
 // O(n)
 function maxSubArray2(arr, num){
     if(num > arr.length){
