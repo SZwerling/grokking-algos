@@ -28,4 +28,4 @@ function chunk1(arr, size){
     return chunked
 }
 
-console.log(chunk1(array1, 2))
+console.log(chunk1(array1, 3))

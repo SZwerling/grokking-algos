@@ -25,6 +25,7 @@ function areThereDuplicates2(...args){
     args.sort((a,b) => a > b);
     let start = 0
     let next = 1
+    console.log(args)
     while(next < args.length){
         if(args[start] === args[next]){
             return true
@@ -34,6 +35,8 @@ function areThereDuplicates2(...args){
     }
     return false
 }
+
+areThereDuplicates2(1, 1, 2, 3, 3, 6, 3)
 
 //areThereDuplicates One Liner Solution   ????????
 function areThereDuplicates3() {
