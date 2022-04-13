@@ -1,11 +1,11 @@
-
+//function that returns true if one array contains square of each value of other array
 
 function isSquare(arr1, arr2){
     if(arr1.length !== arr2.length){
         return false
     }
     for(i=0; i<arr1.length; i++){
-        let correctIndex = arr2.indexOf(arr1[i] * 2) 
+        let correctIndex = arr2.indexOf(arr1[i] * 2) //runtime of n sqaured because 'indexOf' is loop inside loop
         if(correctIndex === -1){
             return false
         }
