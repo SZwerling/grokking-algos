@@ -21,8 +21,9 @@ function validAnagram(word1, word2) {
 
 const wrd1 = "stuff";
 const wrd2 = "fluff";
+const wrd3 = "ffust"
 
-console.log(validAnagram(wrd1, wrd2));
+//console.log(validAnagram(wrd1, wrd2));
 
 //or
 
@@ -45,4 +46,33 @@ function anagram(word1, word2) {
    return true;
 }
 
-console.log(anagram(wrd1, wrd2));
+
+
+
+//given two strings write a function to determine if the second string
+//is an anagram of the first
+
+function isAnagram(one, two){
+   if(one.length !== two.length){
+      return false
+   }
+
+   let obj1 = {}
+   let obj2 = {}
+
+   for(let ch of one){
+      obj1[ch] = (obj1[ch] || 0) + 1
+   }
+
+   for(let ch of two){
+      obj2[ch] = (obj2[ch] || 0 + 1)
+   }
+
+   for(let key in obj1){
+      if(!obj2[key]) return false;
+      if(obj1[key !== obj2[key]]) return false;
+   }
+   return true
+}
+
+console.log(isAnagram(wrd3, wrd1))
