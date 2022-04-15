@@ -1,3 +1,6 @@
+//function that accepts a sorted array and
+//counts the unique values in the array
+
 function countUniqueValues(arr){
     let left = 0
     let right = 1
@@ -5,6 +8,7 @@ function countUniqueValues(arr){
     while(right <= arr.length){
         if(arr[left] === arr[right]){
             arr.splice(right-1, 1) 
+
         }
         if(arr[left] !== arr[right]){
             holder.push(arr[left])
@@ -19,7 +23,7 @@ function countUniqueValues(arr){
 
 
 
-let  arr = [0, 0, 0, 1, 1, 34]
+let  arr = [1, 1, 1, 1, 1, 2]
 console.log(countUniqueValues(arr))
 
 function countUniqueValues2(arr){
