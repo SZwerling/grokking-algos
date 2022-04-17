@@ -1,4 +1,5 @@
 //binary search is log2n steps or 2 multiplied by 2 how many times to reach n.
+//also called divide and conquer
 //start index
 //middle index
 //end index
