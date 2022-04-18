@@ -18,13 +18,14 @@ function areThereDuplicates() {
         return false
     }
 
-    console.log(areThereDuplicates3(1, 2, 3, 3, 3, 3, 'a'))
+    // console.log(areThereDuplicates3(1, 2, 3, 3, 3, 3, 'a'))
   
 //some reason with 'arguments' need to plug in freq[arguments[val]]
 
 //solution with multiple pointers
 function areThereDuplicates2(...args){
-    args.sort((a,b) => a > b);
+    args.sort();
+    console.log(args)
     let start = 0
     let next = 1
     
@@ -38,7 +39,7 @@ function areThereDuplicates2(...args){
     return false
 }
 
-areThereDuplicates2(1, 1, 2, 3, 3, 6, 3)
+console.log(areThereDuplicates2(1, 'c', 2, 'b', 6, 3, 'b'))
 
 //areThereDuplicates One Liner Solution   ????????
 function areThereDuplicates3() {
@@ -59,6 +60,6 @@ function areThereDuplicates4(...args) {
         return false
     }
 
-    console.log(areThereDuplicates4(1, 1, 3, 4))
+    // console.log(areThereDuplicates4(1, 1, 3, 4))
 
   
