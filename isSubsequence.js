@@ -13,4 +13,24 @@ function isSubsequence(str1, str2) {
     }
     return str1.length === count;
 }
-  console.log(isSubsequence('sin', 'sting'))
+  console.log(isSubsequence('sing', 'santa fe never good'))
+
+////////////////////////////////////////////
+
+  function isSubsequence2 (string1, string2) {
+    let right = 0
+    let left = 0
+    while(right < string2.length){
+        if(string1[left] === string2[right]){
+            left++
+            right++
+        }
+        right++
+    }
+    if(left === string1.length){
+        return true
+    }
+    return false
+  }
+
+  console.log(isSubsequence2('sing', 'santa is fe never good'))
