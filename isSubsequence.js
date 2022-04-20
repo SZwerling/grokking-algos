@@ -13,7 +13,7 @@ function isSubsequence(str1, str2) {
     }
     return str1.length === count;
 }
-  console.log(isSubsequence('sing', 'santa fe never good'))
+//   console.log(isSubsequence('sing', 'santa fe never good'))
 
 ////////////////////////////////////////////
 
@@ -33,4 +33,15 @@ function isSubsequence(str1, str2) {
     return false
   }
 
-  console.log(isSubsequence2('sing', 'santa is fe never good'))
+//   console.log(isSubsequence2('sing', 'santa is fe never good'))
+
+  //resursice version
+
+  function isSubsequence(str1, str2) {
+    if(str1.length === 0) return true
+    if(str2.length === 0) return false
+    if(str2[0] === str1[0]) return isSubsequence(str1.slice(1), str2.slice(1))  
+    return isSubsequence(str1, str2.slice(1))
+  }
+
+  console.log(isSubsequence('sing', 'santa s fe never good'))
