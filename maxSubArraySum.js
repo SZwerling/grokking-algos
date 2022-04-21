@@ -42,3 +42,23 @@ console.log(maxSubarraySum(arr1, 3)); //output 16
 //    return max;
 // }
 // console.log(nestedLoop([1, 4, 2, 10, -1], 3)); //output 16
+
+
+function max (nums, num) {
+   if(nums.length < num) return null;
+   let temp = 0;
+   for(let i = 0; i < num; i++)
+   {
+   temp += nums[i]
+   }
+
+   let max = temp
+   for(let j = num; j < nums.length; j++)
+   {
+   temp = temp + nums[j] - nums[j-num]
+   max = Math.max(temp, max)
+   }
+   return max
+}
+
+console.log(max(arr1, 3))
