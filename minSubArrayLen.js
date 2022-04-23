@@ -1,3 +1,9 @@
+//Function that takes two parameters, an array of positive integers and a positive integer
+//and returns the minimal length of a contiguous subarray of which the sum is
+//greater than or equal to the positive integer passed to the function.
+//If there is not one, return 0.
+
+
 
 function minSubArrayLen(nums, sum) {    //[3, 1, 5], 6          //smallest subarray equal to or greater than number 
     let total = 0;    
@@ -28,7 +34,7 @@ function minSubArrayLen(nums, sum) {    //[3, 1, 5], 6          //smallest subar
 
 
 const arr = [2, 3, 5, 2, 4, 3];
-const num = 1
+const num = 14
 console.log(minSubArrayLen(arr, num))
 //([2, 3, 1, 2, 4, 3], 7)  output 2, because [4, 3] is smallest subarray that is greater or equal to num input
 //[2, 1, 6, 5, 4], 9  output is 
