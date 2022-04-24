@@ -10,9 +10,9 @@ function minSubArrayLen(nums, sum) {    //[3, 1, 5], 6          //smallest subar
     let start = 0;
     let end = 0;
     let minLen = Infinity;
-                                                                            // 3, 1, 5
+                                                                            
     while (start < nums.length) {  
-     //increase window to the right
+     //increase window to the right if total too small AND more room to the right
       if(total < sum && end < nums.length){  //
         total += nums[end];  
               end++;
@@ -31,13 +31,12 @@ function minSubArrayLen(nums, sum) {    //[3, 1, 5], 6          //smallest subar
    
     return minLen === Infinity ? 0 : minLen;
   }
-
-
 const arr = [2, 3, 5, 2, 4, 3];
-const num = 14
+const num = 5
 console.log(minSubArrayLen(arr, num))
 //([2, 3, 1, 2, 4, 3], 7)  output 2, because [4, 3] is smallest subarray that is greater or equal to num input
 //[2, 1, 6, 5, 4], 9  output is 
 //start with 1, if too small, increase window to right
-//if too small, decrease window on the left
+//if too big, decrease window on the left
 //if equal or greater, move entire window right and repeat
+//we're changing the total as we move, but the length is always the smalles that we come across that satisfies >=
