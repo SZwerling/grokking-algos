@@ -33,3 +33,8 @@ function pureCollectOdds(arr){
 }
 
 console.log(pureCollectOdds(nums))
+
+//pure recursion tips
+//for arr's use slice, spread operator, and concat that copies arr's and does not mutate
+//for strings use slice, substr, or substring to make copies of strings
+//to make copies of objects use Object.assign or the spread operator
