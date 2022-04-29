@@ -1,3 +1,4 @@
+
 function reverseString(str){
     return str.split('').reduce((reversed, letter) => letter + reversed, '');
 }
