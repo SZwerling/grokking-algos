@@ -18,3 +18,10 @@ function factorial(x){
 }
 
 console.log(factorial(.5))
+
+
+const facto = function (num) {
+    if(num === 0) return 1;
+    if(num === 1) return num;
+    return num * facto(num - 1)
+}
