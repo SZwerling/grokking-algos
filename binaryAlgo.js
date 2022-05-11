@@ -1,4 +1,5 @@
-//binary search is log2n steps or 2 multiplied by 2 how many times to reach n.
+//binary search is log2n steps or 2 multiplied by 2 how many times to reach n
+// ?? above
 //also called divide and conquer
 //start index
 //middle index
@@ -11,6 +12,7 @@
 // create left pointer [0] and a right pointer [.length - 1]
 // while left is less than right, check middle compared to value
 // if middle is too small, move left to middle // too big, move right to middle
+// it is log(n), which is better than linear O(n), almost as good as constant O(1)
 
 const binarySearch = (array, target) => {
     let startIndex = 0;
@@ -46,16 +48,12 @@ const binarySearch = (array, target) => {
     let right = arr.length - 1
     while(left <= right){
       let middle = Math.floor((left + right) / 2)
-      if(arr[middle] === value){
-        return middle;
-      } else if(arr[middle] < value){
-        left = middle + 1
-      } else {
-        right = middle - 1
-      }
+      if(arr[middle] === value) return middle;
+      else if(arr[middle] < value) left = middle + 1;
+      else right = middle - 1;
     }
     return -1; //or null or whatever is asked for if value not found
   }
 
- console.log(bSearch(["Adam", "Bob", "Clinton", "Dale", "Erin", "Frank", "Gary"], "Gary"))
+ console.log(bSearch(["Adam", "Bob", "Clinton", "Dale", "Erin", "Frank", "Gary"], "Alain"))
 
