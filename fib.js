@@ -1,4 +1,4 @@
-function fib1(n){
+function fib1(n){ 
     let i = 2
     let arr = [0, 1];
     while(arr.length <= n){
