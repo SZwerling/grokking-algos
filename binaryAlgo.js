@@ -6,6 +6,12 @@
 //if target greater, move start index to middle index
 //if target is smaller, move end index to middle index
 
+//Binary Search pseudocode
+// function accepts a sorted array and a value
+// create left pointer [0] and a right pointer [.length - 1]
+// while left is less than right, check middle compared to value
+// if middle is too small, move left to middle // too big, move right to middle
+
 const binarySearch = (array, target) => {
     let startIndex = 0;
     let endIndex = array.length - 1;
@@ -33,5 +39,23 @@ const binarySearch = (array, target) => {
   }
 
   arrt = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-  binarySearch(arrt, 11)
+  // binarySearch(arrt, 11)
+
+  const bSearch = function (arr, value) {
+    let left = 0
+    let right = arr.length - 1
+    while(left <= right){
+      let middle = Math.floor((left + right) / 2)
+      if(arr[middle] === value){
+        return middle;
+      } else if(arr[middle] < value){
+        left = middle + 1
+      } else {
+        right = middle - 1
+      }
+    }
+    return -1; //or null or whatever is asked for if value not found
+  }
+
+ console.log(bSearch(["Adam", "Bob", "Clinton", "Dale", "Erin", "Frank", "Gary"], "Gary"))
 

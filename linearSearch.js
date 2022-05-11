@@ -33,7 +33,8 @@ const linearSearch3 = function (arr, value) {
 }
 
 const list = [1, 5, 6, 3, 9]
+const list2 = ["Sam", "Beth", "Ralph", "Susan", "John"]
 
 console.log(linearSearch(list, 5))
 console.log(linearSearch2(list, 5))
-console.log(linearSearch3(list, 5))
+console.log(linearSearch3(list2, "John"))
