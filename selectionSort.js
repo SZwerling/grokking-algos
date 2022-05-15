@@ -1,5 +1,11 @@
 //selection sort without making a separate array
 //  O(n*n)  or big O(n squared)
+//PSUEDOCODE
+//store - as index - first element as smallest value
+//compare this item along arr until you find a smaller value
+//update min value index with that smaller value
+//then swap to beginning, while beginning moves to the right
+
 
 function selectionSort(inputArr) {
    let n = inputArr.length;
@@ -16,9 +22,10 @@ function selectionSort(inputArr) {
       if (min !== i) {
          //console.log(min)
          // making a swap, i is at 0 the first time here
-         let tmp = inputArr[i];
-         inputArr[i] = inputArr[min];
-         inputArr[min] = tmp;
+         [inputArr[i], inputArr[min]] = [inputArr[min], inputArr[i]] //es6 swap syntax
+         // let tmp = inputArr[i];
+         // inputArr[i] = inputArr[min];
+         // inputArr[min] = tmp;
       }
    }
    return inputArr;
