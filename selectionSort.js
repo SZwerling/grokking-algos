@@ -4,7 +4,7 @@
 //store - as index - first element as smallest value
 //compare this item along arr until you find a smaller value
 //update min value index with that smaller value
-//then swap to beginning, while beginning moves to the right
+//if needed - then swap to beginning, while beginning moves to the right
 
 
 function selectionSort(inputArr) {
