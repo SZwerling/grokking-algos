@@ -6,6 +6,10 @@
 //update min value index with that smaller value
 //if needed - then swap to beginning, while beginning moves to the right
 
+//Selection sort is not very good O(n**2)
+//Might be better than bubble sort IF for some reason you're
+//trying to avoid swapping at each comparison
+
 
 function selectionSort(inputArr) {
    let n = inputArr.length;
@@ -19,8 +23,7 @@ function selectionSort(inputArr) {
             min = j;
          }
       }
-      if (min !== i) {
-         //console.log(min)
+      if (min !== i) { //this checks so we only swap if necessary, only if lowest is not already at index i
          // making a swap, i is at 0 the first time here
          [inputArr[i], inputArr[min]] = [inputArr[min], inputArr[i]] //es6 swap syntax
          // let tmp = inputArr[i];
@@ -44,7 +47,7 @@ function selectionSort2(arr) {
          }
       }
       if (indexOfMin != i) {
-         let lesser = arr[indexOfMin];
+         let lesser = arr[indexOfMin]; //could also use es6 swap syntax [arr[a], arr[b]] = [arr[b], arr[a]]
          arr[indexOfMin] = arr[i];
          arr[i] = lesser;
       }
