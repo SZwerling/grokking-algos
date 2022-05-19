@@ -1,20 +1,28 @@
+// BIG O 
+// O(n log n) why?
+// log n in the destructing or decomposition part
+// O(n) in the comparing to order them part
+// put it together and it's O(n log n)
+// space complexity is O(n)
 
-// const arr1 = [0, 50];
-// const arr2 = [-1, 52, 60];
-// const arr3 = [1, 2, 3, 4, 0, 50, 9, -1, 52, 60, 8, 7, 6, 5]
+const arr3 = [1, 2, 3, 4, 0, 50, 9, -1, 52, 60, 8, 7, 6]
 
-// function mergeSort(arr){
-//     if(arr.length === 1){
-//         return arr
-//     }
+function mergeSort(arr){
+    if(arr.length === 1){
+        return arr
+    }
 
-//     const center = Math.floor(arr.length / 2);
-//     const left = arr.slice(0, center);  //up to but not including center
-//     const right = arr.slice(center)
-//     console.log(left, right)
-//     return merge(mergeSort(left), mergeSort(right));  //recursive function to mergeSort that splits so then only
-// }                                                     //two elements at a time sent into merge
-// console.log(mergeSort(arr3))
+    const center = Math.floor(arr.length / 2);
+    //could also put recursive call here
+    //e.g. const left = mergeSort(arr.slice(0, center))
+    //which gives us multple singe-item arrays
+    //then merger(left, right)
+    const left = arr.slice(0, center);  //up to but not including center
+    const right = arr.slice(center)
+    console.log(left, right)
+    return merger(mergeSort(left), mergeSort(right));  //recursive function to mergeSort that splits into multiple single-item arrays
+}                                                     //and those are sent into  merge
+console.log(mergeSort(arr3))
 
 
 // //
@@ -55,4 +63,4 @@ function merger(arr1, arr2){
 
 const num1 = [1, 3, 5, 7, 8, 9, 10, 11, 12, 13]
 const num2 = [2, 3, 4, 6, 8, 10, 11]
-console.log(merger(num1, num2))
+// console.log(merger(num1, num2))
