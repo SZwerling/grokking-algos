@@ -22,11 +22,11 @@ const nums = [60, 4, 8, 2, 43, 1, 6, 7, 6, 2, 32]
 // console.log(pivotHelper(nums))
 
 //COLT STEEL WAY:
-function pivot(arr, start=0, end=arr.length+1){
+function pivot(arr, start=0, end=arr.length-1){
     let pivot = arr[start];
     let swapIdx = start;
 
-    for(let i = start; i < arr.length; i++){
+    for(let i = start; i <= end; i++){
         if(pivot > arr[i]){
             swapIdx ++;
             [arr[swapIdx], arr[i]] = [arr[i], arr[swapIdx]]
@@ -55,3 +55,11 @@ function quickSort(arr, left=0, right=arr.length-1){
 
 
 console.log(quickSort(nums))
+
+
+//BIG O
+// Average:
+//  O(n log n) // similar to merge sort
+//  the decomposition is the log n, and the comparing is the n
+// Worst case:
+//  O(n**2)
