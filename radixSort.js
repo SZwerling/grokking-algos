@@ -1,8 +1,8 @@
 // For lists of numbers.
 // Never makes comparisons between two numbers.
 // Distributes elements into buckets according to their radix.
-//To place numbers in buckets according to their digits and digit placement,
-//we need some helper functions.
+// To place numbers in buckets according to their digits and digit placement,
+// we need some helper functions.
 
 // getDigit(num, place) -- returns digit in num at given place value
 // getDigit(12345, 0); returns 5
@@ -16,6 +16,7 @@ function getDigit(num, i){
 // 73.23  and then Math.floor gives us 73
 // divide by ten and remainder is 3
 /////////////////////////////////////////////////////////////////////////////////
+
 // We need to know number of digits in largest number.
 // digitCount(656) returns 3
 // Math.log10(num) -- 10 to what power gives us the number?
@@ -35,3 +36,20 @@ function mostDigits(list){
     }
     return maxDigits
 }
+//////////////////////////////////////////////////////////////////////////////////
+
+
+// Radix Sort PSEUDOCODE
+//  Function that accepts a list of numbers.
+//  Know how many digits the largest number has.
+//  Loop from 0 to largest number digits.
+//    For each iteration create buckets for each digit -
+//      this could be an array of 10 subarrays, 0-9, -
+//     and place each number in correct bucket based on kth digit.
+
+function radixSort(list){
+    
+}
+
+const list = [7, 956, 35, 22]
+console.log(radixSort(list))
