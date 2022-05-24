@@ -48,8 +48,22 @@ function mostDigits(list){
 //     and place each number in correct bucket based on kth digit.
 
 function radixSort(list){
-    
+    let maxDigits = mostDigits(list)
+    for(let i = 0; i < maxDigits; i++){
+        let buckets = Array.from({length: 10}, () => [])  // creates 10 subarrays, indexes 0-9
+        for(let num of list){
+            buckets[getDigit(num, i)].push(num)
+        }
+        list = [].concat(...buckets) //use spread operator to convert from subarrays to one array
+        console.log(list)
+    }
+    return list
 }
 
-const list = [7, 956, 35, 22]
+const list = [7, 3, 0, 956, 35, 22, 99, 666, 22, 1]
 console.log(radixSort(list))
+
+
+
+// Big O is O(nk)
+// n is number of inputs, k is length of digits 
