@@ -1,3 +1,9 @@
+// DATA STRUCTRUES
+// a data structure is a collection of values,
+// the relationships among them, and the functions
+// or operations that can be applied to the data.
+
+
 //Review
 class Node {
    constructor(data) {
