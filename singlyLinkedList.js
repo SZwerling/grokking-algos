@@ -29,7 +29,30 @@ class SinglyLinkedList{
         this.tail = null;
     }
     push(val){
-        
+        const newNode = new Node(val)
+        if(!this.head){
+            this.head = newNode;
+            this.tail = this.head;
+        } else {
+            this.tail.next = newNode;
+            this.tail = newNode
+        }
+        this.length ++;
+        return this;
     }
 }
+
+// push PSEUDOCODE
+// function accepts value creates new node with that value
+// if no head, set head and tail to that val
+// otherwise, set next property on tail to be new node and increment length by one
+
+const list = new SinglyLinkedList()
+
+list.push("Sam")
+console.log(list)
+list.push(56)
+
+list.push('ClamChowder')
+console.log(list)
 
