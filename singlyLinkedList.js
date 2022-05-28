@@ -49,10 +49,9 @@ class SinglyLinkedList{
 
 const list = new SinglyLinkedList()
 
-list.push("Sam")
-console.log(list)
-list.push(56)
-
-list.push('ClamChowder')
-console.log(list)
+// pop PSUEDOCODE
+// Traverse the list with current and next.
+// When next has no next, sever the connection with that last node and return it.
+// current = this.head
+// proxima = this.head.next
 
