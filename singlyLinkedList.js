@@ -40,6 +40,28 @@ class SinglyLinkedList{
         this.length ++;
         return this;
     }
+    pop(){
+        if(!this.head){
+            return
+        }
+        if(!this.head.next){
+            let temp = this.head
+            this.head = null;
+            this.tail = this.head
+            this.length--;
+            return temp;
+        }
+        let current = this.head;
+        let previous = null;
+        while(current.next){
+            previous = current
+            current = current.next
+        }
+        this.tail = previous
+        this.tail.next = null
+        this.length --;
+        return current;
+    }
 }
 
 // push PSEUDOCODE
@@ -48,10 +70,19 @@ class SinglyLinkedList{
 // otherwise, set next property on tail to be new node and increment length by one
 
 const list = new SinglyLinkedList()
-
+list.push('one')
+list.push('two')
+list.push('three')
 // pop PSUEDOCODE
 // Traverse the list with current and next.
 // When next has no next, sever the connection with that last node and return it.
 // current = this.head
-// proxima = this.head.next
+// previous = this.head.next
+
+console.log(list.pop())
+console.log(list.pop())
+console.log(list.pop())
+console.log(list)
+console.log(list.pop())
+
 
