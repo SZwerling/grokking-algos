@@ -67,8 +67,8 @@ class SinglyLinkedList{
             return undefined
         }
         let temp = this.head;
-        this.head = this.head.next;
-        this.length --;
+        this.head = temp.next;
+        this.length--;
         return temp;
     }
 }
@@ -95,8 +95,13 @@ list.push('three')
 // Set head property to be current head's next property
 // Decrement length by one
 // Return value of node removed
-console.log(list.shift)
+
+console.log(list.shift())
 console.log(list)
-
-
+console.log(list.shift())
+console.log(list)
+console.log(list.shift())
+console.log(list)
+list.push(56)
+console.log(list)
 
