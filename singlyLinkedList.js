@@ -62,6 +62,15 @@ class SinglyLinkedList{
         this.length --;
         return current;
     }
+    shift(){
+        if(!this.head){
+            return undefined
+        }
+        let temp = this.head;
+        this.head = this.head.next;
+        this.length --;
+        return temp;
+    }
 }
 
 // push PSEUDOCODE
@@ -80,10 +89,14 @@ list.push('three')
 // previous = this.head.next
 //
 
-console.log(list.pop())
-console.log(list.pop())
-console.log(list.pop())
+// shift PSUEDOCODE
+// If no nodes return undefined
+// Store current head property in temp var
+// Set head property to be current head's next property
+// Decrement length by one
+// Return value of node removed
+console.log(list.shift)
 console.log(list)
-console.log(list.pop())
+
 
 
