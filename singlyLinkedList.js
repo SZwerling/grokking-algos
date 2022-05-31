@@ -78,6 +78,7 @@ list.push('three')
 // When next has no next, sever the connection with that last node and return it.
 // current = this.head
 // previous = this.head.next
+//
 
 console.log(list.pop())
 console.log(list.pop())
