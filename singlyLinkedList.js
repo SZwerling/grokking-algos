@@ -74,6 +74,18 @@ class SinglyLinkedList{
         }
         return temp;
     }
+    unshift(val){
+        const newNode = new Node(val);
+        if(!this.head){
+            this.head = newNode;
+            this.tail = newNode;
+        } else {
+            newNode.next = this.head;
+            this.head = newNode;
+        }
+        this.length++;
+        return this;
+    }
 }
 
 // push PSEUDOCODE
@@ -99,12 +111,20 @@ list.push('three')
 // Decrement length by one
 // Return value of node removed
 
-console.log(list.shift())
+// unshift PSEUDOCODE
+// function accepts a value
+// if no head, set head and tail to be newly created node
+// otherwise set new node's next property to be the old head
+// set head as newly created node
+
+list.unshift(33)
 console.log(list)
-console.log(list.shift())
+list.shift()
+list.shift()
+list.shift()
+list.shift()
 console.log(list)
-console.log(list.shift())
+list.unshift(33)
 console.log(list)
-list.push(56)
-console.log(list)
+
 
