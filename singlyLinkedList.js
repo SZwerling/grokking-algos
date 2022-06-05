@@ -116,6 +116,7 @@ list.push('three')
 // if no head, set head and tail to be newly created node
 // otherwise set new node's next property to be the old head
 // set head as newly created node
+// I need to review more.
 
 list.unshift(33)
 console.log(list)
