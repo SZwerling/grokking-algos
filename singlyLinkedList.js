@@ -86,6 +86,16 @@ class SinglyLinkedList{
         this.length++;
         return this;
     }
+    get(index){
+        if(index < 0 || index > this.length) return null;
+        let count = 0;
+        let temp = this. head
+        while(count < index){
+            temp = temp.next
+            count++
+        }
+        return temp
+    }
 }
 
 // push PSEUDOCODE
@@ -97,35 +107,35 @@ const list = new SinglyLinkedList()
 list.push('one')
 list.push('two')
 list.push('three')
-// pop PSUEDOCODE
+list.push(4)
+// POP PSUEDOCODE
 // Traverse the list with current and next.
 // When next has no next, sever the connection with that last node and return it.
 // current = this.head
 // previous = this.head.next
 //
 
-// shift PSUEDOCODE
+// SHIFT PSUEDOCODE
 // If no nodes return undefined
 // Store current head property in temp var
 // Set head property to be current head's next property
 // Decrement length by one
 // Return value of node removed
 
-// unshift PSEUDOCODE
+// UNSHIFT PSEUDOCODE
 // function accepts a value
 // if no head, set head and tail to be newly created node
 // otherwise set new node's next property to be the old head
 // set head as newly created node
 // I need to review more.
 
-list.unshift(33)
-console.log(list)
-list.shift()
-list.shift()
-list.shift()
-list.shift()
-console.log(list)
-list.unshift(33)
-console.log(list)
+// GET PSEUDOCODE
+// Accepts an index (number).
+// If the index is less than zero or greater than or equal to 
+// the length of the list, return null.
+// Loop through index and return node at specific index.
+
+console.log(list.get(-1))
+
 
 
