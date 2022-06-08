@@ -96,6 +96,14 @@ class SinglyLinkedList{
         }
         return temp
     }
+    set(index, value){
+        let temp = this.get(index);
+        if(temp){
+            temp.val = value;
+            return true;
+        }
+        return false;
+    }
 }
 
 // push PSEUDOCODE
@@ -135,7 +143,13 @@ list.push(4)
 // the length of the list, return null.
 // Loop through index and return node at specific index.
 
-console.log(list.get(-1))
+// SET PSEUDOCODE
+// Accepts index and value.
+// Use get method to find a given node. If not found return false.
+// Update that node's value. Return true
+
+console.log(list.set(1, 'new set value'))
+console.log(list.get(1))
 
 
 
