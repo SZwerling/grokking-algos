@@ -148,6 +148,14 @@ list.push(4)
 // Use get method to find a given node. If not found return false.
 // Update that node's value. Return true
 
+// INSERT PSEUDOCODE
+// Accepts index and value.
+// If index is LESS than zero or GREATER than the length, return false.
+// If index is zero, use unshift. If index is equal to length, use push.
+// Otherwise use get method with index -1. Set next property on that node to be new node.
+// Set new node's next to the old node's next.
+// Increment length and return true.
+
 console.log(list.set(1, 'new set value'))
 console.log(list.get(1))
 
