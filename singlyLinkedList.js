@@ -104,6 +104,23 @@ class SinglyLinkedList{
         }
         return false;
     }
+    insert(index, value){
+        if(index < 0 || index > this.length) return false;
+        if(index === 0){
+            this.unshift(value);
+            return true
+        };
+        if(index === this.length){
+            this.push(value);
+            return true
+        }
+        const newNode = new Node(value)
+        let prev = this.get(index-1)
+        let oldNext = prev.next
+        prev.next = newNode
+        newNode.next = oldNext
+        this.length++
+    }
 }
 
 // push PSEUDOCODE
@@ -156,8 +173,9 @@ list.push(4)
 // Set new node's next to the old node's next.
 // Increment length and return true.
 
-console.log(list.set(1, 'new set value'))
-console.log(list.get(1))
+console.log(list)
+console.log(list.insert(0, 'inserted at one'))
+console.log(list)
 
 
 
