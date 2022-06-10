@@ -221,9 +221,14 @@ list.push(4)
 // Set previous to be value of current.
 // Set current to be value of next.
 
+// BIG O OF SINGLY LINKED LIST
+// insertion in O(1)
+// removal from beginning can be O(1), otherwise it's O(n)
+// searching O(n)
+// accessing/getting O(n)
+// Singly linked lists are better than arrays for inserting and deleting at the begging of the list.
 
-console.log(list)
-list.reverse()
-console.log(list)
+
+
 
 
