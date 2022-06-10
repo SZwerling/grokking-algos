@@ -136,11 +136,18 @@ class SinglyLinkedList{
         return selected
     }
     reverse(){
-        let current = this.head
-        this.head = this.tail
-        this.tail = current
-        let prev = null
-        let next
+        let current = this.head;
+        this.head = this.tail;
+        this.tail = current;
+        let prev = null;
+        let next;
+        for(let i = 0; i < this.length; i++){
+            next = current.next
+            current.next = prev
+            prev = current
+            current = next
+        }
+        return this;
     }
 }
 
@@ -216,7 +223,7 @@ list.push(4)
 
 
 console.log(list)
-console.log(list.remove(-1))
+list.reverse()
 console.log(list)
 
 
