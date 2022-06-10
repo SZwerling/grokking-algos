@@ -121,6 +121,20 @@ class SinglyLinkedList{
         newNode.next = oldNext
         this.length++
     }
+    remove(index){
+        if(index < 0 || index >= this.length) return undefined;
+        if(index === this.length-1){
+            return this.pop()
+        }
+        if(index === 0){
+            return this.shift()
+        }
+        let prev = this.get(index-1)
+        let removed = prev.next
+        prev.next = removed.next
+        this.length--
+        return selected
+    }
 }
 
 // push PSEUDOCODE
@@ -173,8 +187,18 @@ list.push(4)
 // Set new node's next to the old node's next.
 // Increment length and return true.
 
+// REMOVE PSEUDOCODE
+// Takes index to be removed.
+// If index is less than zero or greater than or equal to the length, return undefined.
+// If index is same as length - 1, use pop()
+// If index is 0, use shift()
+// Otherwise use get() method to acces node at index - 1
+// and set next property on that node to be the next of the next
+// this.length--
+// return value of removed node
+
 console.log(list)
-console.log(list.insert(0, 'inserted at one'))
+console.log(list.remove(-1))
 console.log(list)
 
 
