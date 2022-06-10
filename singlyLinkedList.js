@@ -135,6 +135,13 @@ class SinglyLinkedList{
         this.length--
         return selected
     }
+    reverse(){
+        let current = this.head
+        this.head = this.tail
+        this.tail = current
+        let prev = null
+        let next
+    }
 }
 
 // push PSEUDOCODE
@@ -196,6 +203,17 @@ list.push(4)
 // and set next property on that node to be the next of the next
 // this.length--
 // return value of removed node
+
+// REVERSE PSEUDOCODE
+// Swap head and tail.
+// Create a variable called next and a variable called previous.
+// Create variable called 'current' and initialize it to start at the head.
+// Loop through the list.
+// Set next to be next property on whatever 'current' is.
+// Set next property on current to be whatever previous is.
+// Set previous to be value of current.
+// Seth current to be value of next.
+
 
 console.log(list)
 console.log(list.remove(-1))
