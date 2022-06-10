@@ -141,7 +141,7 @@ class SinglyLinkedList{
         this.tail = current;
         let prev = null;
         let next;
-        for(let i = 0; i < this.length; i++){
+        while(current !== null){
             next = current.next
             current.next = prev
             prev = current
@@ -216,15 +216,14 @@ list.push(4)
 // Create a variable called next and a variable called previous.
 // Create variable called 'current' and initialize it to start at the head.
 // Loop through the list.
-// Set next to be next property on whatever 'current' is.
-// Set next property on current to be whatever previous is.
+// Set next to be .next property on whatever 'current' is.
+// Set .next property on current to be whatever previous is.
 // Set previous to be value of current.
-// Seth current to be value of next.
+// Set current to be value of next.
 
 
 console.log(list)
 list.reverse()
 console.log(list)
-
 
 
