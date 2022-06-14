@@ -29,6 +29,20 @@ class DoublyLinkedList{
         this.length++;
         return this;
     }
+    pop(){
+        if(this.length === 0) return undefined;
+        const oldTail = this.tail
+        if(this.length === 1){
+            this.head = null;
+            this.tail = null;
+        } else {
+            this.tail = oldTail.prev;
+            this.tail.next = null;
+            oldTail.prev = null;
+        }
+        this.length--;
+        return oldTail;
+    }
 }
 
 // PUSH PSEUDOCODE
@@ -38,7 +52,16 @@ class DoublyLinkedList{
 // property on new node/new tail to be old node. Update tail property to be new node.
 // Increment length and return list.
 
+// POP PSEUDOCODE
+// If length is zero, return undefined.
+// Otherwise, store current tail in variable to return later.
+// If length is one, set head and tail to null.
+// Update tail to be previous node.
+// Set new tail.next to be null.
+
 const list = new DoublyLinkedList
-console.log(list.push('first'))
-console.log(list.push('second'))
-console.log(list.push(3))
+list.push('first')
+list.push('second')
+list.push(3)
+console.log(list.pop())
+console.log(list)
