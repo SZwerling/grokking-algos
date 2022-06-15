@@ -43,6 +43,23 @@ class DoublyLinkedList{
         this.length--;
         return oldTail;
     }
+    shift(){
+       if(!this.head){
+        return undefined
+       } 
+       let temp = this.head;
+       if(this.length === 1){
+        this.head = null;
+        this.tail = null;
+       } else {
+        this.head = temp.next;
+        this.head.prev = null;
+        temp.next = null;
+       }
+      
+       this.length--;
+       return temp;
+    }
 }
 
 // PUSH PSEUDOCODE
