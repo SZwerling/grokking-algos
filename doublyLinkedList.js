@@ -60,6 +60,19 @@ class DoublyLinkedList{
        this.length--;
        return temp;
     }
+    unshift(val){
+        const newNode = new Node(val);
+        if(!this.head){
+            this.head = newNode
+            this.tail = newNode
+        } else {
+            this.head.prev = newNode
+            newNode.next = this.head
+            this.head = newNode
+        }
+        this.length++
+        return this;
+    }
 }
 
 // PUSH PSEUDOCODE
@@ -76,9 +89,15 @@ class DoublyLinkedList{
 // Update tail to be previous node.
 // Set new tail.next to be null.
 
+// UNSHIFT PSEUDOCODE
+// Create new Node with value.
+// If !this.head, set new Node to be this.head and this.tail
+// Otherwise, set this.head.prev to be new Node. This.next on new Node to be this.head. This.head to be new Node.
+
 const list = new DoublyLinkedList
 list.push('first')
 list.push('second')
 list.push(3)
-console.log(list.pop())
+
 console.log(list)
+console.log(list.unshift('four at the beginning'))
