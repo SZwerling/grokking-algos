@@ -73,6 +73,29 @@ class DoublyLinkedList{
         this.length++
         return this;
     }
+    get(index){
+        if(index < 0 || index >= this.length) return null;
+        let temp;
+        let middle = (this.length-1) / 2
+        if(index <= middle){
+            console.log('from beginning')
+            let count = 0;
+            temp = this.head;
+            while(count < index){
+                temp = temp.next;
+                count++;
+            }
+        } else {
+            console.log('from end')
+            let count = this.length-1;
+            temp = this.tail;
+            while(count > index){
+                temp = temp.prev;
+                count--
+            } 
+        }
+        return temp
+    }
 }
 
 // PUSH PSEUDOCODE
@@ -94,10 +117,22 @@ class DoublyLinkedList{
 // If !this.head, set new Node to be this.head and this.tail
 // Otherwise, set this.head.prev to be new Node. This.next on new Node to be this.head. This.head to be new Node.
 
+// GET PSEUDOCODE
+// If index given is less than zero or greater than length, return null.
+// If index is less than or equal to half the length of the list:
+//   start at the head and loop towards middles to return node.
+// otherwise index is greater and start at the tail, loop towards middle.
+
 const list = new DoublyLinkedList
 list.push('first')
 list.push('second')
 list.push(3)
+list.push(4)
+list.push(5)
+list.push(6)
+list.push(7)
 
-console.log(list)
-console.log(list.unshift('four at the beginning'))
+
+// console.log(list)
+// console.log(list.unshift('four at the beginning'))
+console.log(list.get(3))
