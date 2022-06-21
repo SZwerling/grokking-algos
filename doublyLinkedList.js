@@ -2,109 +2,136 @@
 
 // Doubly linked list class has head, tail and length
 
-class Node{
-    constructor(val){
-        this.val = val;
-        this.prev = null;
-        this.next = null;
-    }
+class Node {
+   constructor(val) {
+      this.val = val;
+      this.prev = null;
+      this.next = null;
+   }
 }
 
-class DoublyLinkedList{
-    constructor(){
-        this.length = 0;
-        this.head = null;
-        this.tail = null;
+class DoublyLinkedList {
+   constructor() {
+      this.length = 0;
+      this.head = null;
+      this.tail = null;
+   }
+   push(val) {
+      const newNode = new Node(val);
+      if (!this.head) {
+         this.head = newNode;
+         this.tail = newNode;
+      } else {
+         this.tail.next = newNode;
+         newNode.prev = this.tail;
+         this.tail = newNode;
+      }
+      this.length++;
+      return this;
+   }
+   pop() {
+      if (this.length === 0) return undefined;
+      const oldTail = this.tail;
+      if (this.length === 1) {
+         this.head = null;
+         this.tail = null;
+      } else {
+         this.tail = oldTail.prev;
+         this.tail.next = null;
+         oldTail.prev = null;
+      }
+      this.length--;
+      return oldTail;
+   }
+   shift() {
+      if (!this.head) {
+         return undefined;
+      }
+      let temp = this.head;
+      if (this.length === 1) {
+         this.head = null;
+         this.tail = null;
+      } else {
+         this.head = temp.next;
+         this.head.prev = null;
+         temp.next = null;
+      }
+
+      this.length--;
+      return temp;
+   }
+   unshift(val) {
+      const newNode = new Node(val);
+      if (!this.head) {
+         this.head = newNode;
+         this.tail = newNode;
+      } else {
+         this.head.prev = newNode;
+         newNode.next = this.head;
+         this.head = newNode;
+      }
+      this.length++;
+      return this;
+   }
+   get(index) {
+      if (index < 0 || index >= this.length) return null;
+      let temp;
+      let middle = (this.length - 1) / 2;
+      if (index <= middle) {
+         let count = 0;
+         temp = this.head;
+         while (count < index) {
+            temp = temp.next;
+            count++;
+         }
+      } else {
+         let count = this.length - 1;
+         temp = this.tail;
+         while (count > index) {
+            temp = temp.prev;
+            count--;
+         }
+      }
+      return temp;
+   }
+   set(index, val) {
+      const indexToSet = this.get(index);
+      if (!indexToSet) {
+         return false;
+      } else {
+         indexToSet.val = val;
+         return true;
+      }
+   }
+   insert(index, val) {
+      const newNode = new Node(val);
+      if (index === 0) {
+         this.unshift(val);
+         return true;
+      }
+      if (index === this.length - 1) {
+         this.push(val);
+         return true;
+      }
+      let temp = this.get(index - 1);
+      if (!temp) {
+         return false;
+      } else {
+         temp.next.prev = newNode;
+         newNode.next = temp.next;
+         temp.next = newNode;
+         newNode.prev = temp;
+         this.length++;
+         return true;
+      }
+   }
+   print(){
+    let current = this.head;
+    while(current.next){
+        console.log(current)
+        current = current.next
     }
-    push(val){
-        const newNode = new Node(val);
-        if(!this.head){
-            this.head = newNode;
-            this.tail = newNode;
-        } else {
-            this.tail.next = newNode;
-            newNode.prev = this.tail;
-            this.tail = newNode;
-        }
-        this.length++;
-        return this;
-    }
-    pop(){
-        if(this.length === 0) return undefined;
-        const oldTail = this.tail
-        if(this.length === 1){
-            this.head = null;
-            this.tail = null;
-        } else {
-            this.tail = oldTail.prev;
-            this.tail.next = null;
-            oldTail.prev = null;
-        }
-        this.length--;
-        return oldTail;
-    }
-    shift(){
-       if(!this.head){
-        return undefined
-       } 
-       let temp = this.head;
-       if(this.length === 1){
-        this.head = null;
-        this.tail = null;
-       } else {
-        this.head = temp.next;
-        this.head.prev = null;
-        temp.next = null;
-       }
-      
-       this.length--;
-       return temp;
-    }
-    unshift(val){
-        const newNode = new Node(val);
-        if(!this.head){
-            this.head = newNode
-            this.tail = newNode
-        } else {
-            this.head.prev = newNode
-            newNode.next = this.head
-            this.head = newNode
-        }
-        this.length++
-        return this;
-    }
-    get(index){
-        if(index < 0 || index >= this.length) return null;
-        let temp;
-        let middle = (this.length-1) / 2
-        if(index <= middle){
-            console.log('from beginning')
-            let count = 0;
-            temp = this.head;
-            while(count < index){
-                temp = temp.next;
-                count++;
-            }
-        } else {
-            console.log('from end')
-            let count = this.length-1;
-            temp = this.tail;
-            while(count > index){
-                temp = temp.prev;
-                count--
-            } 
-        }
-        return temp
-    }
-    set(index, val){
-        const indexToSet = this.get(index)
-        if(!indexToSet){
-            return false;
-        } else {
-            indexToSet.val = val;
-            return true;
-        }
-    }
+   }
 }
 
 // PUSH PSEUDOCODE
@@ -139,17 +166,24 @@ class DoublyLinkedList{
 // Return true.
 // Otherwise return false.
 
-const list = new DoublyLinkedList
-list.push('first')
-list.push('second')
-list.push(3)
-list.push(4)
-list.push(5)
-list.push(6)
-list.push(7)
+// INSERT PSEUDOCODE
+// Use get method to access index minus one
+// If index is 0, unshift
+// If index equals length, push
+// Set next and prev on all three nodes
+// Increment length by one
+// return true
+
+const list = new DoublyLinkedList();
+list.push("zero index");
+list.push("One index");
+list.push('2 index');
+list.push(3);
+list.push('four index');
+list.push(5);
+list.push('6 index');
 
 
-// console.log(list)
-// console.log(list.unshift('four at the beginning'))
-list.set(4, "this is new five")
-console.log(list.get(4))
+console.log(list.insert(0, 'new two index'))
+
+
