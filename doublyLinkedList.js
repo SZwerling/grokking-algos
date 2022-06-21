@@ -96,6 +96,15 @@ class DoublyLinkedList{
         }
         return temp
     }
+    set(index, val){
+        const indexToSet = this.get(index)
+        if(!indexToSet){
+            return false;
+        } else {
+            indexToSet.val = val;
+            return true;
+        }
+    }
 }
 
 // PUSH PSEUDOCODE
@@ -123,6 +132,13 @@ class DoublyLinkedList{
 //   start at the head and loop towards middles to return node.
 // otherwise index is greater and start at the tail, loop towards middle.
 
+// SET PSEUDOCODE
+// Takes index and value
+// Create variable which is result of get method taking index.
+// If get returns a valid node, set value of that node with given value.
+// Return true.
+// Otherwise return false.
+
 const list = new DoublyLinkedList
 list.push('first')
 list.push('second')
@@ -135,4 +151,5 @@ list.push(7)
 
 // console.log(list)
 // console.log(list.unshift('four at the beginning'))
-console.log(list.get(3))
+list.set(4, "this is new five")
+console.log(list.get(4))
