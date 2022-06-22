@@ -125,12 +125,24 @@ class DoublyLinkedList {
          return true;
       }
    }
-   print(){
-    let current = this.head;
-    while(current.next){
-        console.log(current)
-        current = current.next
-    }
+   print() {
+      let current = this.head;
+      while (current.next) {
+         console.log(current);
+         current = current.next;
+      }
+   }
+   remove(index){
+      if(index === 0) return this.shift();
+      if(index === this.length - 1) return this.pop();
+      let selected = this.get(index);
+      if(!selected) return undefined;
+      selected.prev.next = selected.next;
+      selected.next.prev = selected.prev;
+      selected.next = null;
+      selected.prev = null;
+      this.length--;
+      return selected
    }
 }
 
@@ -174,16 +186,22 @@ class DoublyLinkedList {
 // Increment length by one
 // return true
 
+// REMOVE PSEUDOCODE
+// If index is zero, shift().
+// If index is this.length - 1, pop().
+// Otherwise, use this.get(index).
+// Update next and prev properties to remove node.
+// Decrement this.length.
+// Return node with next and prev wiped to null.
+
 const list = new DoublyLinkedList();
 list.push("zero index");
 list.push("One index");
-list.push('2 index');
+list.push("2 index");
 list.push(3);
-list.push('four index');
+list.push("four index");
 list.push(5);
-list.push('6 index');
+list.push("6 index");
 
-
-console.log(list.insert(0, 'new two index'))
-
-
+list.insert(0, "new two index")
+console.log(list.remove(6))
