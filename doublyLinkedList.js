@@ -194,6 +194,13 @@ class DoublyLinkedList {
 // Decrement this.length.
 // Return node with next and prev wiped to null.
 
+// BIG O OF DOUBLY LINKED LISTS
+// Insertion -- O(1)
+// Removal -- O(1)
+// Searching -- O(n)
+// Acces -- O(n)
+
+
 const list = new DoublyLinkedList();
 list.push("zero index");
 list.push("One index");
