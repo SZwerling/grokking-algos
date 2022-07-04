@@ -28,6 +28,8 @@
 // console.log(list)
 
 // IMPLEMENATION USING LIST-LIKE
+// We're adding and removing from the beginning because that is constant time.
+// If we have to traverse to the end, that's not constant time.
 
 class Node {
     constructor(value){
@@ -56,12 +58,27 @@ class Stack {
         this.size++;
         return this.size;
     }
+    pop(){
+        if(this.size === 0) return null;
+        let temp = this.first;
+        if(this.size === 1){
+            this.first = null;
+            this.last = null;
+        } else {
+            this.first = temp.next;
+        }
+        this.size--;
+        return temp.val;
+    }
 }
 
 const stack = new Stack()
 console.log(stack.push(1))
 console.log(stack.push(2))
-console.log(stack)
+console.log(stack.push('three'))
+console.log(stack.push('four'))
+console.log(stack.pop())
+
 
 // PUSH PSEUDOCODE
 // Function accepts value and creates new node.
@@ -69,6 +86,13 @@ console.log(stack)
 // Otherwise make temp, put current first in there, than make
 // new first the first with its next as the old first.
 
+// POP PSEUDOCODE
+// If stack empty, return null.
+// Temp var for first item in stack.
+// If only one node, set first and last to be null.
+// Otherwise set this.first prop to be next on current first.
+// Decrement size.
+// Return value of removed node.
 
 
 
