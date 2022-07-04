@@ -126,11 +126,13 @@ class DoublyLinkedList {
       }
    }
    print() {
+      let arr = []
       let current = this.head;
-      while (current.next) {
-         console.log(current);
+      while (current) {
+         arr.push(current)
          current = current.next;
       }
+      console.log(arr)
    }
    remove(index){
       if(index === 0) return this.shift();
@@ -143,6 +145,21 @@ class DoublyLinkedList {
       selected.prev = null;
       this.length--;
       return selected
+   }
+   reverse(){
+      let temp = this.head;
+      this.head = this.tail;
+      this.tail = temp;
+      let prev = null;
+      let next;
+      while(temp){
+         next = temp.next;
+         temp.next = prev;
+         temp.prev = next;
+         prev = temp;
+         temp = next;
+      }
+      return this;
    }
 }
 
@@ -210,5 +227,7 @@ list.push("four index");
 list.push(5);
 list.push("6 index");
 
-list.insert(0, "new two index")
-console.log(list.remove(6))
+list.reverse()
+
+// console.log(list.remove(6))
+console.log(list)
