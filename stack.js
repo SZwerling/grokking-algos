@@ -20,6 +20,13 @@ class Stack{
     }
 }
 
+const list = new Stack
+list.push(1)
+list.push(2)
+list.push(3)
+console.log(list.peek())
+console.log(list)
 
-module.exports = Stack;
+
+
 
