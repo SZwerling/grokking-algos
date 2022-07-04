@@ -27,9 +27,13 @@
 // console.log(list.peek())
 // console.log(list)
 
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
 // IMPLEMENATION USING LIST-LIKE
 // We're adding and removing from the beginning because that is constant time.
 // If we have to traverse to the end, that's not constant time.
+// Last In First Out
 
 class Node {
     constructor(value){
@@ -93,6 +97,10 @@ console.log(stack.pop())
 // Otherwise set this.first prop to be next on current first.
 // Decrement size.
 // Return value of removed node.
+
+// BIG O of stacks.
+// Insertion: O(1)
+// Removal: O(1)
 
 
 
