@@ -105,4 +105,6 @@ console.log(cue.remove())
 console.log(cue.remove())
 console.log(cue)
 
-
+// BIG O OF QUEUES
+// Insertion: O(1)
+// Removal: O(1)
