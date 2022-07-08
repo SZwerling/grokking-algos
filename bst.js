@@ -6,18 +6,18 @@ class BST {
    }
    insert(val) {
       if (!this.root) {
-        console.log('hello')
          this.root = new Node(val);
          return this;
       }
       let current = this.root;
       while (true) {
-        if(val === current.value) return undefined;
+         if (val === current.value) return undefined;
          if (val < current.value) {
             if (!current.left) {
                current.left = new Node(val);
                return this;
-            } else { // this else is not necessary becuase of return statement above
+            } else {
+               // this else is not necessary becuase of return statement above
                current = current.left;
             }
          } else {
@@ -31,6 +31,25 @@ class BST {
             }
          }
       }
+   }
+   find(val) {
+      if (!this.root) return false;
+      let current = this.root;
+      while (current) {
+         if (val < current.value) {
+            current = current.left
+            console.log('go left')
+         } else if(val > current.value) {
+            current = current.right;
+            console.log('go right')
+         } else if(val === current.value){
+            console.log('equals')
+            return true
+         } else {
+            return false //in case a string or some such nonsense is entered
+         }
+      }
+      return false
    }
 }
 
@@ -47,3 +66,14 @@ class Node {
 // If root, check if newNode is greater, if so, check if node to the right and repeat.
 // If less than root, check if node to the left and repeat.
 
+// FIND PSEUDOCODE
+// Very similar to insert.
+
+const quack = new BST
+quack.insert(10)
+quack.insert(20)
+quack.insert(5)
+quack.insert(22)
+quack.insert(3)
+quack.insert(-3)
+console.log(quack.find(3))
