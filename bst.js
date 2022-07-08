@@ -69,6 +69,8 @@ class Node {
 // FIND PSEUDOCODE
 // Very similar to insert.
 
+//  BIG O of insert and find is O(log n)
+
 const quack = new BST
 quack.insert(10)
 quack.insert(20)
