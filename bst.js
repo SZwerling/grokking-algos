@@ -51,6 +51,25 @@ class BST {
       }
       return false
    }
+   bfs(){ // could write Queue class and Qnode for the queue
+      if(!this.root) return undefined;
+      let queue = []
+      let list = []
+      let node;
+      queue.push(this.root)
+      let i = 0;
+      while(queue.length){
+         node = queue.shift()
+         list.push(node)
+         if(node.left){
+            queue.push(node.left)
+         }
+         if(node.right){
+            queue.push(node.right)
+         }
+      }
+      return list
+   }
 }
 
 class Node {
@@ -71,6 +90,12 @@ class Node {
 
 //  BIG O of insert and find is O(log n)
 
+// Breadth First Search // Can be done on any kind of binary tree
+// Two lists (one is a queue, the other is the returned array or list or whatever)
+// Start with root in queue -- first in first out
+// Move first node in queue to list, does it have a left or right, if so, put them in queue
+// Continue while queue is not empty
+
 const quack = new BST
 quack.insert(10)
 quack.insert(20)
@@ -78,4 +103,4 @@ quack.insert(5)
 quack.insert(22)
 quack.insert(3)
 quack.insert(-3)
-console.log(quack.find(3))
+console.log(quack.bfs())
