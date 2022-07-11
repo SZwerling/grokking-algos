@@ -70,6 +70,21 @@ class BST {
       }
       return list
    }
+   dfsPreOrder(){
+      const values = [];
+      let current = this.root; // could skip setting current var and just --helper(this.root)-- below
+      const helper = function(node){
+         values.push(node.value)
+         if(node.left){
+            helper(node.left)
+         }
+         if(node.right){
+            helper(node.right)
+         }
+      }
+      helper(current) 
+      return values
+   }
 }
 
 class Node {
@@ -103,4 +118,4 @@ quack.insert(5)
 quack.insert(22)
 quack.insert(3)
 quack.insert(-3)
-console.log(quack.bfs())
+console.log(quack.dfsPreOrder())
