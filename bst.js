@@ -85,6 +85,20 @@ class BST {
       helper(current) 
       return values
    }
+   dfsPostOrder(){ // list bottom nodes first, working our way up, left then right, root last
+      const values = []
+      const helper = function(node){
+         if(node.left){
+            helper(node.left)
+         }
+         if(node.right){
+            helper(node.right)
+         }
+         values.push(node.value)
+      }
+      helper(this.root)
+      return values;
+   } 
 }
 
 class Node {
@@ -113,9 +127,10 @@ class Node {
 
 const quack = new BST
 quack.insert(10)
-quack.insert(20)
-quack.insert(5)
-quack.insert(22)
+quack.insert(6)
+quack.insert(15)
 quack.insert(3)
-quack.insert(-3)
+quack.insert(8)
+quack.insert(20)
 console.log(quack.dfsPreOrder())
+console.log(quack.dfsPostOrder())
