@@ -37,68 +37,80 @@ class BST {
       let current = this.root;
       while (current) {
          if (val < current.value) {
-            current = current.left
-            console.log('go left')
-         } else if(val > current.value) {
+            current = current.left;
+            console.log("go left");
+         } else if (val > current.value) {
             current = current.right;
-            console.log('go right')
-         } else if(val === current.value){
-            console.log('equals')
-            return true
+            console.log("go right");
+         } else if (val === current.value) {
+            console.log("equals");
+            return true;
          } else {
-            return false //in case a string or some such nonsense is entered
+            return false; //in case a string or some such nonsense is entered
          }
       }
-      return false
+      return false;
    }
-   bfs(){ // could write Queue class and Qnode for the queue
-      if(!this.root) return undefined;
-      let queue = []
-      let list = []
+   bfs() {
+      // could write Queue class and Qnode for the queue
+      if (!this.root) return undefined;
+      let queue = [];
+      let list = [];
       let node;
-      queue.push(this.root)
+      queue.push(this.root);
       let i = 0;
-      while(queue.length){
-         node = queue.shift()
-         list.push(node)
-         if(node.left){
-            queue.push(node.left)
+      while (queue.length) {
+         node = queue.shift();
+         list.push(node);
+         if (node.left) {
+            queue.push(node.left);
          }
-         if(node.right){
-            queue.push(node.right)
+         if (node.right) {
+            queue.push(node.right);
          }
       }
-      return list
+      return list;
    }
-   dfsPreOrder(){
+   dfsPreOrder() {
       const values = [];
       let current = this.root; // could skip setting current var and just --helper(this.root)-- below
-      const helper = function(node){
-         values.push(node.value)
-         if(node.left){
-            helper(node.left)
+      const helper = function (node) {
+         values.push(node.value);
+         if (node.left) {
+            helper(node.left);
          }
-         if(node.right){
-            helper(node.right)
+         if (node.right) {
+            helper(node.right);
          }
-      }
-      helper(current) 
-      return values
-   }
-   dfsPostOrder(){ // list bottom nodes first, working our way up, left then right, root last
-      const values = []
-      const helper = function(node){
-         if(node.left){
-            helper(node.left)
-         }
-         if(node.right){
-            helper(node.right)
-         }
-         values.push(node.value)
-      }
-      helper(this.root)
+      };
+      helper(current);
       return values;
-   } 
+   }
+   dfsPostOrder() {
+      // list bottom nodes first, working our way up, left then right, root last
+      const values = [];
+      const helper = function (node) {
+         if (node.left) {
+            helper(node.left);
+         }
+         if (node.right) {
+            helper(node.right);
+         }
+         values.push(node.value);
+      };
+      helper(this.root);
+      return values;
+   }
+   dfsInOrder() {
+      const values = [];
+      const helper = function (node) {
+         if (node.left) helper(node.left);
+         values.push(node.value);
+         if (node.right) helper(node.right);
+      };
+      helper(this.root);
+      return values;
+   }
 }
 
 class Node {
@@ -125,12 +137,12 @@ class Node {
 // Move first node in queue to list, does it have a left or right, if so, put them in queue
 // Continue while queue is not empty
 
-const quack = new BST
-quack.insert(10)
-quack.insert(6)
-quack.insert(15)
-quack.insert(3)
-quack.insert(8)
-quack.insert(20)
-console.log(quack.dfsPreOrder())
-console.log(quack.dfsPostOrder())
+const quack = new BST();
+quack.insert(10);
+quack.insert(6);
+quack.insert(15);
+quack.insert(3);
+quack.insert(8);
+quack.insert(20);
+// console.log(quack.dfsPreOrder());
+console.log(quack.dfsInOrder());
