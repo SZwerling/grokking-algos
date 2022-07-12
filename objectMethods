@@ -11,3 +11,10 @@ const isKey = 'one' in obj1  // true
 const isValue = Object.values(obj1).includes('Jameson') // true
 
 console.log(isValue)
+
+// not object method, but cool.
+const num = Number('68') // 68
+const isNum =function(num){
+    return "0123456789".includes(num)
+}
+console.log(isNum('3'))
