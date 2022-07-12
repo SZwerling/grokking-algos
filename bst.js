@@ -61,7 +61,7 @@ class BST {
       let i = 0;
       while (queue.length) {
          node = queue.shift();
-         list.push(node);
+         list.push(node.value);
          if (node.left) {
             queue.push(node.left);
          }
@@ -145,4 +145,7 @@ quack.insert(3);
 quack.insert(8);
 quack.insert(20);
 // console.log(quack.dfsPreOrder());
+console.log(quack.bfs());
+console.log(quack.dfsPreOrder());
+console.log(quack.dfsPostOrder());
 console.log(quack.dfsInOrder());
