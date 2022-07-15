@@ -11,29 +11,31 @@
 // binary search ?
 
 var searchInsert = function (nums, target) {
-   if (target < nums[0]) return 0;
-   if (target > nums[nums.length - 1]) return nums.length;
-   let endIndex = nums.length - 1;
-   let startIndex = 0;
-   let middle;
-   while (startIndex < endIndex) {
-    // if(middle === Math.floor((startIndex + endIndex / 2))){
-    //     return middle;
-    //   }
-      middle = Math.floor((startIndex + endIndex) / 2);
-      console.log(`start: ${startIndex}, middle: ${middle}, end: ${endIndex}`)
-      
-      if (nums[middle] === target) return middle;
-      if (nums[middle] > target) end = middle -1;
-     
-      if (nums[middle] < target) start = middle + 1;
+   if(target > nums[nums.length-1]){
+      return nums.length;
    }
-   return middle;
-};
+   if(target < nums[nums.length[0]]){
+      return 0;
+   }
+   let start = 0;
+   let end = nums.length -1 ;
+   let middle;
+   while (start < end) {
+      middle = Math.floor((start + end) / 2);
+     
+      
+      if(nums[middle] === target) return middle;
+      if(nums[middle] < target){ 
+         start = middle + 1;
+      } 
+      if(nums[middle] > target){
+         end = middle;
+   }
+}
+return start;
+ };
 
-let arr = [1, 3, 5, 6]
-console.log(searchInsert(arr, 5));
+let arr = [1, 3, 5, 6, 8, 9] ;
+console.log(searchInsert(arr, 4));
 
 
-
-//Output: 1
