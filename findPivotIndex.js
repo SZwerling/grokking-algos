@@ -14,6 +14,19 @@
 //  @param {number[]} nums
 //  @return {number}
  
- var pivotIndex = function(nums) {
+ var pivotIndex = function(index) {
+    let totalSum = 0;
+    let leftSum = 0;
+
+    index.forEach(num => totalSum = totalSum + num)
     
+    for(let i = 0; i < index.length; i++){
+        if(totalSum - leftSum - index[i] === leftSum){
+            return i;
+        }
+        leftSum += index[i]
+    }
+    return -1;
 };
+
+console.log(pivotIndex([1,7,3,6,5,6]))
