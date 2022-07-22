@@ -1,7 +1,7 @@
 
 class MaxBinaryHeap {
    constructor() {
-      this.values = [41, 39, 33, 18, 27, 12];
+      this.values = [41, 39, 33, 18, 27, 12]; // prefilling to save time.
    }
    insert(val) {
       this.values.push(val);
@@ -32,7 +32,7 @@ class MaxBinaryHeap {
    }
    sinkDown(){
       let index = 0;
-      const length = this.values.length;
+      // const length = this.values.length;
       const element = this.values[0]
       while(true){
          let leftChildIdx = index * 2 + 1
@@ -76,7 +76,84 @@ class MaxBinaryHeap {
 // Child swapped to now becomes new parent index.
 // Keep swapping until neither child is greater than parent or no children.
 
-const heap = new MaxBinaryHeap();
-heap.insert(55)
-heap.insert(1)
-heap.insert(45)
+// const heap = new MaxBinaryHeap();
+// heap.insert(55)
+// heap.insert(1)
+// heap.insert(45)
+
+class Node{
+   constructor(val, priority){
+      this.val = val;
+      this.priority = priority
+   }
+}
+
+class PriorityQueue{
+   constructor(){
+      this.values = []
+   }
+   enqueue(val, priority){
+      const newNode = new Node(val, priority);
+      this.values.push(newNode);
+      if(this.values.length === 1) return this;
+      let index = this.values.length - 1;
+      let parentIndex = Math.floor((index -1) / 2);
+      while(this.values[index].priority < this.values[parentIndex].priority){
+         let temp = this.values[index].priority;
+         this.values[index].priority = this.values[parentIndex].priority;
+         this.values[parentIndex].priority = temp;
+         index = parentIndex;
+         parentIndex = Math.floor((index - 1) / 2);
+      }
+      return this; 
+   }
+   dequeue(){
+      const max = this.values[0];
+      const end = this.values.pop();
+      if(this.values.length > 0){
+         this.values[0] = end;
+         this.sinkDown();
+      }
+      
+      return max
+   }
+   sinkDown(){
+      let index = 0;
+      // const length = this.values.length;
+      const element = this.values[0]
+      while(true){
+         let leftChildIdx = index * 2 + 1
+         let rightChildIdx = index * 2 + 2
+         let leftChild, rightChild;
+         let swap = null;
+         if(this.values[leftChildIdx]){
+            leftChild = this.values[leftChildIdx]
+            if(leftChild > element){
+               swap = leftChildIdx;
+            }
+         }
+         if(this.values[rightChildIdx]){
+            rightChild = this.values[rightChildIdx]
+            if(
+               (swap === null && rightChild > element) ||
+               (swap && rightChild > leftChild)
+            ){
+               swap = rightChildIdx;
+            }
+         }
+
+         if(swap === null) break;
+         this.values[index] = this.values[swap];
+         this.values[swap] = element;
+         index = swap;
+      }
+   }
+}
+
+const prio = new PriorityQueue()
+prio.enqueue('injury', 2)
+prio.enqueue('tumor', 3)
+prio.enqueue('mental illness', 5)
+prio.enqueue('depression', '4')
+prio.enqueue('death', 1)
+console.log(prio)

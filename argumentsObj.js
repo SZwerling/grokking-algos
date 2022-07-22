@@ -16,23 +16,20 @@ const b = [3, 5, 6]
 const c = [7, 6, 9]
 
 
-const sym = function(){
-    let args = [...arguments];
+const sym = function(...args){
     
-    const symDiff = function(arr1, arr2){
-        let result = []
-        arr1.forEach((item) => {
-            if(arr1.indexOf(item) < 0 && arr2.indexOf(item) < 0) {
-                result.push(item)
-            }
-        });
-
-        arr2.forEach((item) => {
-            if(arr2.indexOf(item) < 0 && arr1.indexOf(item) < 0){
-                result.push(item)
-            }
-        });
-        return result
+    console.log(args)
+    const result = []
+    const symDiff = function(a, b){
+       if(result.indexOf(a) > 0){
+        result.push(a)
+       }
+       if(result.indexOf(b) > 0){
+        result.push(b)
+       }
+     
+      return result;
+       
     }
 
     return args.reduce(symDiff)
