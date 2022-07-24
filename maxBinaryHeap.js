@@ -1,3 +1,8 @@
+// BIG O of binary heaps
+// They excel in insertion and deletion.
+// O(log n)
+// But searching is not so great. O(n)
+
 class MaxBinaryHeap {
    constructor() {
       this.values = [41, 39, 33, 18, 27, 12]; // prefilling to save time.
