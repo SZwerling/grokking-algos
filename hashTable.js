@@ -30,3 +30,7 @@ console.log(hash('hello', 13))
 console.log(hash('bye', 13))
 console.log(hash('violet', 13))
 console.log(hash('leg warmer', 13))
+
+// DEALING WITH COLLISIONS
+// LINEAR PROBING: If index is taken, move up to next available index.
+// SEPARATE CHAINING: Store multiple data(key:value) at same index, using sub-arrays or linked lists.
