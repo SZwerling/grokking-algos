@@ -10,42 +10,49 @@
 // If the integer is out of the 32-bit signed integer range [-231, 231 - 1], then clamp the integer so that it remains in the range. Specifically, integers less than -231 should be clamped to -231, and integers greater than 231 - 1 should be clamped to 231 - 1.
 // Return the integer as the final result.
 
-
-
-
-var myAtoi = function(s) {
-    let str = s.trim()
-    let arr = []
-    let value = 1; //set sign to positive
-    for(let el of str){
-        arr.push(el)
+var myAtoi = function(input) {
+    let sign = 1; 
+    let result = 0;
+    let index = 0;
+    input = input.trim()
+    let n = input.length;
+    
+    let INT_MAX = Math.pow(2,31) - 1; // 32-bit integer range
+    let INT_MIN = -Math.pow(2, 31);
+        
+    // sign = +1, if it's positive number, otherwise sign = -1. 
+    if (index < n && input[index] == '+') {
+        sign = 1;
+        index++;
+    } else if (index < n && input[index] == '-') {
+        sign = -1;
+        index++;
     }
 
-    //check for sign
-    if(arr[0] === '-'){
-        value = -1;
-        arr.splice(0, 1)
-    }
-    if(arr[0] === '+'){
-        arr.splice(0,1)
+    // Traverse next digits of input and stop if it is not a digit. 
+    // End of string is also non-digit character.
+    while (index < n && input[index] >= '0' && input[index] <= '9') {
+        let digit = input[index] - '0'; //converts string to number // careful because + '0' adds a string zero to the right
+
+        // Check overflow and underflow conditions. 
+        if ((result > Math.floor(INT_MAX / 10)) || 
+            (result == Math.floor(INT_MAX / 10) && digit > INT_MAX % 10)) {     
+            // If integer overflowed return 2^31-1, otherwise if underflowed return -2^31.    
+            return sign == 1 ? INT_MAX : INT_MIN; //2147483647 or -2147483648
+        }
+
+        // Append current digit to the result.
+        result = 10 * result + digit; // we passed the range check so move result to left of tens place and add new digit
+        index++;
     }
 
-    let num = '';
-    let i = 0;
-    while(arr[i] >= '0' && arr[i] <= '9'){ //when character is not a number, end loop
-        num = num + arr[i] //concat character
-        i++
-    }
-
-    return Number(num) * value  //Number forces to string to number and multiply by sign
+    // We have formed a valid number without any overflow/underflow.
+    // Return it after multiplying it with its sign.
+    return sign * result;
 };
 
-console.log(myAtoi('  -123f 2'))
+let INT_MAX = Math.pow(2,31) - 1; // 32-bit integer range
+let INT_MIN = -Math.pow(2, 31);
 
-// let INT_MAX = Math.pow(2,31) - 1;
-// let INT_MIN = -Math.pow(2, 31);
-// if ((result > Math.floor(INT_MAX / 10)) || 
-// (result == Math.floor(INT_MAX / 10) && digit > INT_MAX % 10)) {     
-// // If integer overflowed return 2^31-1, otherwise if underflowed return -2^31.    
-// return sign == 1 ? INT_MAX : INT_MIN;
-// }
+var smut = '7'
+console.log(smut - '0')
