@@ -17,7 +17,7 @@ var myAtoi = function(input) {
     input = input.trim()
     let n = input.length;
     
-    let INT_MAX = Math.pow(2,31) - 1; // 32-bit integer range
+    let INT_MAX = Math.pow(2,31) - 1; // 32-bit integer range // Math.pow(base, exponent)
     let INT_MIN = -Math.pow(2, 31);
         
     // sign = +1, if it's positive number, otherwise sign = -1. 
