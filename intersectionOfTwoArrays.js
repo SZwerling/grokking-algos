@@ -6,23 +6,29 @@
 // Explanation: [9,4] is also accepted.
 
 
-var intersect = function(nums1, nums2) {
-    let obj = {}
-    let answer = []
-    for(let num of nums1){
-        obj[num] = (obj[num] || 0) + 1
-    }
+// var intersect = function(nums1, nums2) {
+//     let obj = {}
+//     let answer = []
+//     for(let num of nums1){
+//         obj[num] = (obj[num] || 0) + 1
+//     }
 
-    for(let num of nums2){
-        if(obj[num] > 0){
-            answer.push(num);
-            obj[num]--;
-        }
-    }
-    return answer;
-};
+//     for(let num of nums2){
+//         if(obj[num] > 0){
+//             answer.push(num);
+//             obj[num]--;
+//         }
+//     }
+//     return answer;
+// };
 
-const nums1 =  [4, 6, 7, 7, 7, 9]
-const nums2 = [0, 0, 1, 2, 2, 4, 5, 6, 6]
+// const nums1 =  [4, 6, 7, 7, 7, 9]
+// const nums2 = [0, 0, 1, 2, 2, 4, 5, 6, 6]
                
-console.log(intersect(nums1, nums2))
+// console.log(intersect(nums1, nums2))
+
+for(let i=0; i < 10; i++) { 
+    console.log(i)
+    console.log(`i % 7 is ${i % 7}`)
+    console.log(`i % 5 is ${i % 5}`)
+    if ((i % 7) == 0) { console.log("Money") } else if ((i % 5) == 0) { console.log("Dolly") } }
