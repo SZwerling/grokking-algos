@@ -1,13 +1,14 @@
 const phrase = "Hello there, 60 people!"
 
-letter = "!"
+
 const reg = /[A-Za-z0-9]/
 let obj = {}
-for(let letter of phrase){
-    if(reg.test(letter)){
-        obj[letter.toLocaleLowerCase()] = (obj[letter.toLocaleLowerCase()] || 0) + 1
-    }
-}
+// for(let letter of phrase){
+//     letter = letter.toLocaleLowerCase()
+//     if(reg.test(letter)){
+//         obj[letter] = ++obj[letter] || 1
+//     }
+// }
 
 // console.log(obj)
 
@@ -31,4 +32,30 @@ const regg = /^[0-9]{1,3}$/
 const intro = 'My name is Humblefoot'
 const findName = /name is ([A-Za-z]+)/ 
 const match = findName.exec(intro)
-console.log(match[1])
+// console.log(match[1])
+
+//we can also use charCodeAt
+//The charCodeAt() method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index.
+//It is a little faster then a regex.
+//And we could write helper function.
+function isAlphaNumeric(charct){
+    let code = charct.charCodeAt(0);  //0 indicating index is optional because only one character
+    if(!(code > 47 && code < 58) &&   // 0-9
+        !(code > 64 && code < 91) &&  // A-Z
+        !(code > 96 && code < 123)){  // a-z
+            return false
+        }
+        return true
+}
+
+function charCount(sentence){
+    for(let letter of sentence){  
+        if(isAlphaNumeric(letter)){
+            letter = letter.toLocaleLowerCase()
+            obj[letter] = ++obj[letter] || 1
+        }
+    }
+    return obj
+}
+
+console.log(charCount(intro))
