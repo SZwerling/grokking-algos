@@ -46,7 +46,7 @@ function anagram(word1, word2) {
    return true;
 }
 
-
+console.log(anagram(wrd3, wrd2))
 
 
 //given two strings write a function to determine if the second string
@@ -75,4 +75,3 @@ function isAnagram(one, two){
    return true
 }
 
-console.log(isAnagram(wrd3, wrd1))

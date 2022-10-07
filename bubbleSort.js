@@ -32,7 +32,7 @@ const sort = function (arr) {
       noSwaps = true;  // optimize so if no swaps, break out
       for (let j = 0; j < i; j++) {
          console.log(
-            `Comparing ${arr[j]} and ${arr[j + 1]} and the array is ${arr}`
+            `Comparing ${arr[j]} and ${arr[j + 1]} and the array is ${arr}. i is ${i}`
          );
          if (arr[j] > arr[j + 1]) {
             [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]; //new es6 swap syntax

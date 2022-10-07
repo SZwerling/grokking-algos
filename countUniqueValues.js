@@ -23,10 +23,11 @@ function countUniqueValues(arr){
 
 
 
-let  arr = [1, 1, 1, 1, 1, 2]
+let  arr = []
 console.log(countUniqueValues(arr))
 
 function countUniqueValues2(arr){
+    if(arr.length<1) return 0
     let i = 0;                                         
     for(j=1; j<arr.length; j++){               
         if(arr[i] !== arr[j]){              
@@ -36,5 +37,7 @@ function countUniqueValues2(arr){
     }
     return i+1;
 }
+
+
 
 console.log(countUniqueValues2(arr))
