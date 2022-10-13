@@ -52,11 +52,11 @@ function areThereDuplicates(...args) {
   // good luck. (supply any arguments you deem necessary.)
 }
 
-console.log(areThereDuplicates(1, 'c', 2, 'b', 6, 1, 'b'))
+console.log(areThereDuplicates3(1, 2, 3, 'c', 'd', 0, 1))
 
 //areThereDuplicates One Liner Solution   ????????
-function areThereDuplicates3() {
-   return new Set(arguments).size !== arguments.length;
+function areThereDuplicates3(...args) {
+   return new Set(args).size !== args.length;
 }
 //The size accessor property returns the number of (unique) elements in a Set object.
 
