@@ -1,11 +1,11 @@
-//binary search is log2n steps or 2 multiplied by 2 how many times to reach n
+//binary search is log2n or can say ---- Log(N) ----- steps or 2 multiplied by 2 how many times to reach n
 // ?? above
 //also called divide and conquer
 //start index
-//middle index
 //end index
-//if target greater, move start index to middle index
-//if target is smaller, move end index to middle index
+//middle index is (start + end) / 2 // use Math.floor to chop of decimal
+//if target greater, move start index to middle index + 1
+//if target is smaller, move end index to middle index - 1
 
 //Binary Search pseudocode
 // function accepts a sorted array and a value
@@ -41,7 +41,7 @@ const binarySearch = (array, target) => {
   }
 
   arrt = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-  // binarySearch(arrt, 11)
+  binarySearch(arrt, 11)
 
   const bSearch = function (arr, value) {
     let left = 0
@@ -56,4 +56,6 @@ const binarySearch = (array, target) => {
   }
 
  console.log(bSearch(["Adam", "Bob", "Clinton", "Dale", "Erin", "Frank", "Gary"], "Alain"))
+
+
 
