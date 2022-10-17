@@ -1,0 +1,9 @@
+THE CALL STACK
+Any time a function is invoked it is placed (pushed) on top of the call stack.
+When JS sees the return keyword or when the function ends, the compiler will
+remove (pop).
+
+
+TWO ESSENTIAL PARTS:
+Base case
+New input/Changing input
