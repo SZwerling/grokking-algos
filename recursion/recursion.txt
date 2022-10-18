@@ -3,7 +3,9 @@ Any time a function is invoked it is placed (pushed) on top of the call stack.
 When JS sees the return keyword or when the function ends, the compiler will
 remove (pop).
 
+Often used in JSON.parse
+
 
 TWO ESSENTIAL PARTS:
-Base case
-New input/Changing input
+Base case. So it has a place to stop.
+New input/Changing input. Obviously you don't want to call it on the same piece of data again and again.
