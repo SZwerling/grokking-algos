@@ -38,3 +38,6 @@ console.log(pureCollectOdds(nums))
 //for arr's use slice, spread operator, and concat that copies arr's and does not mutate
 //for strings use slice, substr, or substring to make copies of strings
 //to make copies of objects use Object.assign or the spread operator
+
+const arr5 = [0]
+console.log(arr5.concat([1], [], [2], [], 3, [4]))
