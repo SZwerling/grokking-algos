@@ -15,3 +15,6 @@ const productRec = function (arr) {
 const numArr = [1, 2, 3, 4, 5]
 console.log(product(numArr))
 console.log(productRec(numArr))
+
+
+
