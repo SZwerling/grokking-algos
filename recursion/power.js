@@ -10,3 +10,4 @@ function power(base, exponent){
 }
 
 console.log(power(2, 4))
+
