@@ -14,3 +14,13 @@ console.log(reverse(word))
 // reversed.push(theString[theString.length - 1])
 // console.log(theString.pop())
 // console.log(theString.join(''))
+
+function rev(str){
+	result = ''
+	for(let el of str){
+		result = el + result
+	}
+	return result
+}
+
+console.log(rev(word))
