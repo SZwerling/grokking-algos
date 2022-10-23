@@ -18,4 +18,5 @@ function someNotRecursive(arr, callback){
     return false
 }
 
-console.log('string'.slice(1))
+console.log('string'.slice(1, 1))  // use slice for strings NOT SPLICE (only for arrays)
+
