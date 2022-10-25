@@ -34,6 +34,7 @@ function anagram(word1, word2) {
 
    for (let i of word1) {
       ob1[i] = (ob1[i] || 0) + 1;
+   // ob1[i] = ob1[i] + 1 || 1
    }
    for (i = 0; i < word2.length; i++) {
       let letter = word2[i];
@@ -46,32 +47,22 @@ function anagram(word1, word2) {
    return true;
 }
 
-console.log(anagram(wrd3, wrd2))
+//console.log(anagram(wrd3, wrd2))
 
-
-//given two strings write a function to determine if the second string
-//is an anagram of the first
-
-function isAnagram(one, two){
-   if(one.length !== two.length){
-      return false
-   }
-
-   let obj1 = {}
-   let obj2 = {}
-
-   for(let ch of one){
-      obj1[ch] = (obj1[ch] || 0) + 1
-   }
-
-   for(let ch of two){
-      obj2[ch] = (obj2[ch] || 0 + 1)
-   }
-
-   for(let key in obj1){
-      if(!obj2[key]) return false;
-      if(obj1[key !== obj2[key]]) return false;
-   }
-   return true
+//WHAT IF CHECKING FOR ANAGRAM AFTER GETTING RID OF NON-CHARACTERS?
+function anagrandma(str1, str2){
+   const reg = /[^A-Ba-z]/g
+   const phrase1 = str1.replace(reg, "")
+   const phrase2 = str2.replace(reg, "")
+   if(phrase1.length !== phrase2.length) return false;
+   //then make one object
+   //loop through second phrase while subracting from obj
+   //so same as above
 }
+
+
+const newWord = "Hello everyone good day 2 you!"
+const reg = /[^A-Za-z_]/g
+const littleWord = newWord.replace(reg, "").toLowerCase()
+console.log(littleWord)
 
