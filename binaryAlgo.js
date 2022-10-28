@@ -55,7 +55,7 @@ const binarySearch = (array, target) => {
     return -1; //or null or whatever is asked for if value not found
   }
 
- console.log(bSearch(["Adam", "Bob", "Clinton", "Dale", "Erin", "Frank", "Gary"], "Alain"))
+ console.log(bSearch(["Adam", "Bob", "Clinton", "Dale", "Erin", "Frank", "Gary"], "Clinton"))
 
 
 
