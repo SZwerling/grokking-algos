@@ -29,7 +29,7 @@ const word1 = "ha"; //j
 const word2 = "have a happy hand"; //i
 
 
-const naiveStringSeach = function (long, short) {
+const naiveStringSearch = function (long, short) {
    let count = 0;
    for (let i = 0; i < long.length; i++) {
       for (let j = 0; j < short.length; j++) {
@@ -40,4 +40,4 @@ const naiveStringSeach = function (long, short) {
    return count;
 };
 
-console.log(naiveStringSeach(word2, word1));
+console.log(naiveStringSearch(word2, word1));
