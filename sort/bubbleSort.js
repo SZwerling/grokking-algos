@@ -15,7 +15,7 @@
 //     return arr
 // }
 
-const numz = [4, 5, 1, 6, 7, 8];
+const numz = [8, 1, 2, 3, 4];
 // console.log(bubbleSort(numz))
 
 //BUBBLE SORT
