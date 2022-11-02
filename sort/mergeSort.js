@@ -1,9 +1,9 @@
 // BIG O 
-// O(n log n) why?
-// log n in the destructing or decomposition part
+// O(n log n)
+// log n in the destructing or decomposition part 8 items 2 to the 3rd power gives us 8
 // O(n) in the comparing to order them part
 // put it together and it's O(n log n)
-// space complexity is O(n)
+// space complexity is O(n) // larger array means using more space
 
 const arr3 = [1, 2, 3, 4, 0, 50, 9, -1, 52, 60, 8, 7, 6]
 
@@ -64,3 +64,7 @@ function merger(arr1, arr2){
 const num1 = [1, 3, 5, 7, 8, 9, 10, 11, 12, 13]
 const num2 = [2, 3, 4, 6, 8, 10, 11]
 // console.log(merger(num1, num2))
+
+
+
+

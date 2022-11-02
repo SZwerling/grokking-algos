@@ -6,6 +6,7 @@
 // rinse and repeat
 // big O, worst case is O(n**2)
 // but can work well where data is already sorted and new data is coming in
+// It's kind of like we move folders to the right making space to insert one folder in new spot
 
 // function insertionSort(arr){
 //     for(let i = 1; i < arr.length; i++){
