@@ -1,42 +1,34 @@
-let str1 = "happy days are a here"
+// Appears to be O(n) // as n grows the number of steps grows linearly
 
-// function capitalize(str1){
-
-// let arr1 = str1.split(" ")
-
-// for(let i=0; i<arr1.length; i++){
-//     arr1[i] = arr1[i].slice(0, 1).toUpperCase() + arr1[i].slice(1);
-// }
-// return arr1.join(" ")
-
-// }
-
-// console.log(capitalize(str1))
-
-// function capitalize2(str1){
-//     let result = str1[0].toUpperCase();
-
-//     for(let i=1; i<str1.length; i++){
-//         if(str1[i-1] === " "){
-//             result = result + str1[i].toUpperCase()
-//         } else {
-//             result = result + str1[i]
-//         }
-
-//     }
-//     return result
-// }
-
-// console.log(capitalize2(str1))
-
-let str2 = "hello there"
-
-
-function booty(str){
-    str = str.split
-    for(let el of str){
-        console.log(el[0] + el.slice(1))
+function capitalize_1(str){
+    for(let i = 0; i < arr.length; i++){ //split at spaces to form an array
+        arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1) //mutate each element in the array
     }
+    return arr.join(" ") //join with spaces
 }
 
-booty(str2)
+function similar(str){  // same idea as above
+    const words = []
+    for(let word of str.split(" ")){
+        words.push(word[0].toUpperCase() + word.slice(1))
+    }
+    return words.join(" ")
+}
+
+
+
+function capitalize_2(str){
+    let result = str[0].toUpperCase() //start by concating first letter as capitalized
+    for(let i = 1; i < str.length; i++){
+        if(str[i-1] === " "){  //if space before current element, capitalize current element
+            result += str[i].toUpperCase()
+        } else {
+            result = result + str[i]
+        }
+    }
+    return result
+}
+
+
+let str2 = "hello there, everyone."
+console.log(similar(str2))
