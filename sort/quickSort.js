@@ -14,13 +14,15 @@ function pivot(arr, start = 0, end = arr.length - 1) {
    let pivotIndx = start;
    for (let i = start + 1; i <= end; i++) {
       if (arr[start] > arr[i]) {
-         pivotIndx++;
+         pivotIndx++; //1
          [arr[pivotIndx], arr[i]] = [arr[i], arr[pivotIndx]];
       }
    }
    [arr[start], arr[pivotIndx]] = [arr[pivotIndx], arr[start]];
    return pivotIndx;
 }
+
+
 
 // Then we recursively call quickSort on left and right of that pivot.
 

@@ -1,6 +1,6 @@
 // BIG O 
 // O(n log n)
-// log n in the destructing or decomposition part 8 items 2 to the 3rd power gives us 8
+// log n in the destructing or decomposition part //  8 items -- 2 to the 3rd power gives us 8
 // O(n) in the comparing to order them part
 // put it together and it's O(n log n)
 // space complexity is O(n) // larger array means using more space

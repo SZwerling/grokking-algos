@@ -4,6 +4,8 @@
 // To place numbers in buckets according to their digits and digit placement,
 // we need some helper functions.
 
+// HELPER FUNCTIONS
+
 // getDigit(num, place) -- returns digit in num at given place value
 // getDigit(12345, 0); returns 5
 function getDigit(num, i){
@@ -22,7 +24,7 @@ function getDigit(num, i){
 // Math.log10(num) -- 10 to what power gives us the number?
 // Then we floor it and add one.
 function digitCount(num){
-    if(num === 0) return 1;
+    if(num === 0) return 1; // special case because Math.log10(0) is infinity
     return Math.floor(Math.log10(Math.abs(num))) + 1;
 }
 /////////////////////////////////////////////////////////////////////////////////
@@ -52,10 +54,10 @@ function radixSort(list){
     for(let i = 0; i < maxDigits; i++){
         let buckets = Array.from({length: 10}, () => [])  // creates 10 subarrays, indexes 0-9
         for(let num of list){
-            buckets[getDigit(num, i)].push(num)
+            buckets[getDigit(num, i)].push(num) //getDigit returns a number // we use that number as index in subarrays of 'buckets' and push the number into that subarray
         }
         list = [].concat(...buckets) //use spread operator to convert from subarrays to one array
-        console.log(list)
+        //list = buckets.flat() //also works to flatten subarrays
     }
     return list
 }
