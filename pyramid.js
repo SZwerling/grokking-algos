@@ -22,5 +22,24 @@ function pyramid(n) {
    }
 }
 
-(pyramid(3));
+//(pyramid(3));
 
+
+function piramid(n){
+   let width = (n * 2) - 1
+   let mid = Math.floor(width/2)
+   for(let row = 0; row < n; row++){
+      let level = ""
+      for(let col = 0; col < width; col++){
+         if(col >= mid - row && col <= mid + row){
+            level += "#"
+         } else {
+            level += "-"
+         }
+      }
+     console.log(level)
+   }  
+}
+
+
+console.log(piramid(5))
