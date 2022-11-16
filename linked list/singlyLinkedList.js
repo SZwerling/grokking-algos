@@ -161,6 +161,7 @@ list.push('one')
 list.push('two')
 list.push('three')
 list.push(4)
+console.log(list)
 // POP PSUEDOCODE
 // Traverse the list with current and next.
 // When next has no next, sever the connection with that last node and return it.
