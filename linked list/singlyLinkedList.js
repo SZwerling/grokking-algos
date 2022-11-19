@@ -41,25 +41,21 @@ class SinglyLinkedList{
         return this;
     }
     pop(){
-        if(!this.head){
-            return
-        }
-        if(!this.head.next){
-            let temp = this.head
-            this.head = null;
-            this.tail = this.head
-            this.length--;
-            return temp;
-        }
+        if(!this.head) return undefined;
         let current = this.head;
-        let previous = null;
+        let newTail = null;
         while(current.next){
-            previous = current
+            newTail = current
             current = current.next
         }
-        this.tail = previous
-        this.tail.next = null
-        this.length --;
+        this.length--;
+        if(this.length === 0){
+            this.head = null;
+            this.tail = this.head;
+        } else {
+            this.tail = newTail
+            this.tail.next = null
+        }
         return current;
     }
     shift(){
@@ -150,7 +146,7 @@ class SinglyLinkedList{
         return this;
     }
     print(){
-        if(!this.head) return;
+        if(!this.head) return undefined;
         let current = this.head
         while(current){
             console.log(current.val)
@@ -169,14 +165,27 @@ list.push('one')
 list.push('two')
 list.push('three')
 list.push(4)
+list.push('hello there')
 
 // POP PSUEDOCODE
 // Traverse the list with current and next.
 // When next has no next, sever the connection with that last node and return it.
 // current = this.head
 // previous = this.head.next
+console.log(list.length)
+
 console.log(list.pop())
-list.print()
+console.log(list.pop())
+console.log(list.pop())
+console.log(list.pop())
+console.log(list.pop())
+console.log(list.pop())
+
+
+
+
+
+
 // SHIFT PSUEDOCODE
 // If no nodes return undefined
 // Store current head property in temp var
