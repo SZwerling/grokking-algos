@@ -149,6 +149,14 @@ class SinglyLinkedList{
         }
         return this;
     }
+    print(){
+        if(!this.head) return;
+        let current = this.head
+        while(current){
+            console.log(current.val)
+            current = current.next
+        }
+    }
 }
 
 // push PSEUDOCODE
@@ -161,14 +169,14 @@ list.push('one')
 list.push('two')
 list.push('three')
 list.push(4)
-console.log(list)
+
 // POP PSUEDOCODE
 // Traverse the list with current and next.
 // When next has no next, sever the connection with that last node and return it.
 // current = this.head
 // previous = this.head.next
-//
-
+console.log(list.pop())
+list.print()
 // SHIFT PSUEDOCODE
 // If no nodes return undefined
 // Store current head property in temp var
