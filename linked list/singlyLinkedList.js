@@ -59,16 +59,14 @@ class SinglyLinkedList{
         return current;
     }
     shift(){
-        if(!this.head){
-            return undefined
-        }
-        let temp = this.head;
-        this.head = temp.next;
+        if(!this.head) return undefined;
+        let oldHead = this.head;
+        this.head = this.head.next;
         this.length--;
         if(this.length === 0){
             this.tail = null
         }
-        return temp;
+        return oldHead;
     }
     unshift(val){
         const newNode = new Node(val);
@@ -172,14 +170,13 @@ list.push('hello there')
 // When next has no next, sever the connection with that last node and return it.
 // current = this.head
 // previous = this.head.next
-console.log(list.length)
+list.print()
+console.log(list.shift())
+console.log(list.shift())
+console.log(list.shift())
+list.print()
 
-console.log(list.pop())
-console.log(list.pop())
-console.log(list.pop())
-console.log(list.pop())
-console.log(list.pop())
-console.log(list.pop())
+
 
 
 
