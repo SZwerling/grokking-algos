@@ -159,6 +159,10 @@ class SinglyLinkedList{
 // otherwise, set next property on tail to be new node and increment length by one
 
 const list = new SinglyLinkedList()
+list.push(1)
+list.push(2)
+list.push(3)
+console.log(list.get(2))
 
 
 // POP PSUEDOCODE
@@ -166,15 +170,6 @@ const list = new SinglyLinkedList()
 // When next has no next, sever the connection with that last node and return it.
 // current = this.head
 // previous = this.head.next
-list.print()
-console.log(list.unshift('new first'))
-
-
-
-
-
-
-
 
 // SHIFT PSUEDOCODE
 // If no nodes return undefined
