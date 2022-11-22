@@ -159,11 +159,7 @@ class SinglyLinkedList{
 // otherwise, set next property on tail to be new node and increment length by one
 
 const list = new SinglyLinkedList()
-list.push('one')
-list.push('two')
-list.push('three')
-list.push(4)
-list.push('hello there')
+
 
 // POP PSUEDOCODE
 // Traverse the list with current and next.
@@ -171,10 +167,7 @@ list.push('hello there')
 // current = this.head
 // previous = this.head.next
 list.print()
-console.log(list.shift())
-console.log(list.shift())
-console.log(list.shift())
-list.print()
+console.log(list.unshift('new first'))
 
 
 
