@@ -114,6 +114,7 @@ class SinglyLinkedList{
         prev.next = newNode
         newNode.next = oldNext
         this.length++
+        return true
     }
     remove(index){
         if(index < 0 || index >= this.length) return undefined;
@@ -164,6 +165,8 @@ list.push(2)
 list.push(3)
 list.set(1, 'new item at index one')
 list.print()
+list.insert(2, "inserted at two")
+list.print()
 
 
 // POP PSUEDOCODE
@@ -201,7 +204,7 @@ list.print()
 // Accepts index and value.
 // If index is LESS than zero or GREATER than the length, return false.
 // If index is zero, use unshift. If index is equal to length, use push.
-// Otherwise use get method with index -1. Set next property on that node to be new node.
+// Otherwise use get method with (index-1). Set next property on that node to be new node.
 // Set new node's next to the old node's next.
 // Increment length and return true.
 
