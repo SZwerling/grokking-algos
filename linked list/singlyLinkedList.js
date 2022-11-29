@@ -128,7 +128,7 @@ class SinglyLinkedList{
         let removed = prev.next
         prev.next = removed.next
         this.length--
-        return selected
+        return removed
     }
     reverse(){
         let current = this.head;
@@ -163,10 +163,9 @@ const list = new SinglyLinkedList()
 list.push(1)
 list.push(2)
 list.push(3)
-list.set(1, 'new item at index one')
 list.print()
-list.insert(2, "inserted at two")
-list.print()
+console.log(list.remove(1))
+
 
 
 // POP PSUEDOCODE
