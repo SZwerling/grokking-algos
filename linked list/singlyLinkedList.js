@@ -131,16 +131,16 @@ class SinglyLinkedList{
         return removed
     }
     reverse(){
-        let current = this.head;
-        this.head = this.tail;
-        this.tail = current;
-        let prev = null;
-        let next;
-        while(current !== null){
-            next = current.next
-            current.next = prev
-            prev = current
-            current = next
+        let current = this.head; //start at head
+        this.head = this.tail;   //swap pointer
+        this.tail = current;     //swap pointer // this.tail points to curren/head and is not updated in loop
+        let prev = null;                
+        let next;                      
+        while(current !== null){      
+            next = current.next //store so we can advance current      
+            current.next = prev //set next value to point to previous node // starts nulll
+            prev = current      //advance prev to current so we can advance current to next node
+            current = next      //advance current to next node
         }
         return this;
     }
@@ -164,7 +164,8 @@ list.push(1)
 list.push(2)
 list.push(3)
 list.print()
-console.log(list.remove(1))
+list.reverse()
+list.print()
 
 
 
@@ -218,7 +219,7 @@ console.log(list.remove(1))
 // return value of removed node
 
 // REVERSE PSEUDOCODE
-// Swap head and tail.
+// Point tail at this.head
 // Create a variable called next and a variable called previous.
 // Create variable called 'current' and initialize it to start at the head.
 // Loop through the list.
