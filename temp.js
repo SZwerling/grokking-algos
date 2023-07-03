@@ -1,4 +1,4 @@
-//min subArray
+min subArray
 
 function minSubArray(arr, sum){
     let start = 0;
@@ -31,3 +31,4 @@ function squared(n){
   }
 
 squared(25)
+

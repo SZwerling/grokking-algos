@@ -16,40 +16,14 @@ function averagePair(arr, avg) {
          return true;
       } else if (tempAvg < avg) {
          left++;
-      } else if (tempAve > avg) {
-         right++;
+      } else if (tempAvg > avg) {
+         right--;
       }
    }
    return false //if it doesn't return true above, then it's false
 }
 
-// console.log(averagePair([1, 2, 3], 2.5));
 
-function averagePair2(arr, num){
-    let start = 0
-    let end = arr.length-1;
-    while(start < end){
-      let avg = (arr[start]+arr[end]) / 2 
-      if(avg === num) return true;
-      else if(avg < num) start++
-      else end--
-    }
-    return false;
-  }
+console.log(averagePair([1, 3, 3, 5, 6, 7, 10, 12, 19], 8))
+console.log(averagePair([1, 2, 3], 3))
 
-
-  function averagePair3 (givenArr, givenTarget) {
-     if(givenArr.lenght === 0) return false;
-   let left = 0
-   let right = givenArr.length - 1
-   while(left < right){
-      let temp = (left + right / 2)
-      if(temp === givenTarget) return true;
-      if(temp < givenTarget) left++;
-      if(temp > givenTarget) right++;
-   }
-   return false
-}
-
-console.log(averagePair3([1, 3, 3, 5, 6, 7, 10, 12, 19], 8))
-console.log(averagePair3([1, 2, 3], 3))
