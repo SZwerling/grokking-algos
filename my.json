@@ -1,0 +1,6982 @@
+[
+ {
+  "county": "SAN MATEO COUNTY",
+  "code": "06081"
+ },
+ {
+  "county": "SANTA BARBARA COUNTY",
+  "code": "06083"
+ },
+ {
+  "county": "SANTA CLARA COUNTY",
+  "code": "06085"
+ },
+ {
+  "county": "SANTA CRUZ COUNTY",
+  "code": "06087"
+ },
+ {
+  "county": "SHASTA COUNTY",
+  "code": "06089"
+ },
+ {
+  "county": "SIERRA COUNTY",
+  "code": "06091"
+ },
+ {
+  "county": "SISKIYOU COUNTY",
+  "code": "06093"
+ },
+ {
+  "county": "SOLANO COUNTY",
+  "code": "06095"
+ },
+ {
+  "county": "SONOMA COUNTY",
+  "code": "06097"
+ },
+ {
+  "county": "STANISLAUS COUNTY",
+  "code": "06099"
+ },
+ {
+  "county": "SUTTER COUNTY",
+  "code": "06101"
+ },
+ {
+  "county": "TEHAMA COUNTY",
+  "code": "06103"
+ },
+ {
+  "county": "TRINITY COUNTY",
+  "code": "06105"
+ },
+ {
+  "county": "TULARE COUNTY",
+  "code": "06107"
+ },
+ {
+  "county": "TUOLUMNE COUNTY",
+  "code": "06109"
+ },
+ {
+  "county": "VENTURA COUNTY",
+  "code": "06111"
+ },
+ {
+  "county": "YOLO COUNTY",
+  "code": "06113"
+ },
+ {
+  "county": "YUBA COUNTY",
+  "code": "06115"
+ },
+ {
+  "county": "COLORADO",
+  "code": "08000"
+ },
+ {
+  "county": "ADAMS COUNTY",
+  "code": "08001"
+ },
+ {
+  "county": "ALAMOSA COUNTY",
+  "code": "08003"
+ },
+ {
+  "county": "ARAPAHOE COUNTY",
+  "code": "08005"
+ },
+ {
+  "county": "ARCHULETA COUNTY",
+  "code": "08007"
+ },
+ {
+  "county": "BACA COUNTY",
+  "code": "08009"
+ },
+ {
+  "county": "BENT COUNTY",
+  "code": "08011"
+ },
+ {
+  "county": "BOULDER COUNTY",
+  "code": "08013"
+ },
+ {
+  "county": "CHAFFEE COUNTY",
+  "code": "08015"
+ },
+ {
+  "county": "CHEYENNE COUNTY",
+  "code": "08017"
+ },
+ {
+  "county": "CLEAR CREEK COUNTY",
+  "code": "08019"
+ },
+ {
+  "county": "CONEJOS COUNTY",
+  "code": "08021"
+ },
+ {
+  "county": "COSTILLA COUNTY",
+  "code": "08023"
+ },
+ {
+  "county": "CROWLEY COUNTY",
+  "code": "08025"
+ },
+ {
+  "county": "CUSTER COUNTY",
+  "code": "08027"
+ },
+ {
+  "county": "DELTA COUNTY",
+  "code": "08029"
+ },
+ {
+  "county": "DENVER COUNTY",
+  "code": "08031"
+ },
+ {
+  "county": "DOLORES COUNTY",
+  "code": "08033"
+ },
+ {
+  "county": "DOUGLAS COUNTY",
+  "code": "08035"
+ },
+ {
+  "county": "EAGLE COUNTY",
+  "code": "08037"
+ },
+ {
+  "county": "ELBERT COUNTY",
+  "code": "08039"
+ },
+ {
+  "county": "EL PASO COUNTY",
+  "code": "08041"
+ },
+ {
+  "county": "FREMONT COUNTY",
+  "code": "08043"
+ },
+ {
+  "county": "GARFIELD COUNTY",
+  "code": "08045"
+ },
+ {
+  "county": "GILPIN COUNTY",
+  "code": "08047"
+ },
+ {
+  "county": "GRAND COUNTY",
+  "code": "08049"
+ },
+ {
+  "county": "GUNNISON COUNTY",
+  "code": "08051"
+ },
+ {
+  "county": "HINSDALE COUNTY",
+  "code": "08053"
+ },
+ {
+  "county": "HUERFANO COUNTY",
+  "code": "08055"
+ },
+ {
+  "county": "JACKSON COUNTY",
+  "code": "08057"
+ },
+ {
+  "county": "JEFFERSON COUNTY",
+  "code": "08059"
+ },
+ {
+  "county": "KIOWA COUNTY",
+  "code": "08061"
+ },
+ {
+  "county": "KIT CARSON COUNTY",
+  "code": "08063"
+ },
+ {
+  "county": "LAKE COUNTY",
+  "code": "08065"
+ },
+ {
+  "county": "LA PLATA COUNTY",
+  "code": "08067"
+ },
+ {
+  "county": "LARIMER COUNTY",
+  "code": "08069"
+ },
+ {
+  "county": "LAS ANIMAS COUNTY",
+  "code": "08071"
+ },
+ {
+  "county": "LINCOLN COUNTY",
+  "code": "08073"
+ },
+ {
+  "county": "LOGAN COUNTY",
+  "code": "08075"
+ },
+ {
+  "county": "MESA COUNTY",
+  "code": "08077"
+ },
+ {
+  "county": "MINERAL COUNTY",
+  "code": "08079"
+ },
+ {
+  "county": "MOFFAT COUNTY",
+  "code": "08081"
+ },
+ {
+  "county": "MONTEZUMA COUNTY",
+  "code": "08083"
+ },
+ {
+  "county": "MONTROSE COUNTY",
+  "code": "08085"
+ },
+ {
+  "county": "MORGAN COUNTY",
+  "code": "08087"
+ },
+ {
+  "county": "OTERO COUNTY",
+  "code": "08089"
+ },
+ {
+  "county": "OURAY COUNTY",
+  "code": "08091"
+ },
+ {
+  "county": "PARK COUNTY",
+  "code": "08093"
+ },
+ {
+  "county": "PHILLIPS COUNTY",
+  "code": "08095"
+ },
+ {
+  "county": "PITKIN COUNTY",
+  "code": "08097"
+ },
+ {
+  "county": "PROWERS COUNTY",
+  "code": "08099"
+ },
+ {
+  "county": "PUEBLO COUNTY",
+  "code": "08101"
+ },
+ {
+  "county": "RIO BLANCO COUNTY",
+  "code": "08103"
+ },
+ {
+  "county": "RIO GRANDE COUNTY",
+  "code": "08105"
+ },
+ {
+  "county": "ROUTT COUNTY",
+  "code": "08107"
+ },
+ {
+  "county": "SAGUACHE COUNTY",
+  "code": "08109"
+ },
+ {
+  "county": "SAN JUAN COUNTY",
+  "code": "08111"
+ },
+ {
+  "county": "SAN MIGUEL COUNTY",
+  "code": "08113"
+ },
+ {
+  "county": "SEDGWICK COUNTY",
+  "code": "08115"
+ },
+ {
+  "county": "SUMMIT COUNTY",
+  "code": "08117"
+ },
+ {
+  "county": "TELLER COUNTY",
+  "code": "08119"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "08121"
+ },
+ {
+  "county": "WELD COUNTY",
+  "code": "08123"
+ },
+ {
+  "county": "YUMA COUNTY",
+  "code": "08125"
+ },
+ {
+  "county": "CONNECTICUT",
+  "code": "09000"
+ },
+ {
+  "county": "FAIRFIELD COUNTY",
+  "code": "09001"
+ },
+ {
+  "county": "HARTFORD COUNTY",
+  "code": "09003"
+ },
+ {
+  "county": "LITCHFIELD COUNTY",
+  "code": "09005"
+ },
+ {
+  "county": "MIDDLESEX COUNTY",
+  "code": "09007"
+ },
+ {
+  "county": "NEW HAVEN COUNTY",
+  "code": "09009"
+ },
+ {
+  "county": "NEW LONDON COUNTY",
+  "code": "09011"
+ },
+ {
+  "county": "TOLLAND COUNTY",
+  "code": "09013"
+ },
+ {
+  "county": "WINDHAM COUNTY",
+  "code": "09015"
+ },
+ {
+  "county": "DELAWARE",
+  "code": "10000"
+ },
+ {
+  "county": "KENT COUNTY",
+  "code": "10001"
+ },
+ {
+  "county": "NEW CASTLE COUNTY",
+  "code": "10003"
+ },
+ {
+  "county": "SUSSEX COUNTY",
+  "code": "10005"
+ },
+ {
+  "county": "DISTRICT OF COLUMBIA",
+  "code": "11000"
+ },
+ {
+  "county": "DISTRICT OF COLUMBIA",
+  "code": "11001"
+ },
+ {
+  "county": "FLORIDA",
+  "code": "12000"
+ },
+ {
+  "county": "ALACHUA COUNTY",
+  "code": "12001"
+ },
+ {
+  "county": "BAKER COUNTY",
+  "code": "12003"
+ },
+ {
+  "county": "BAY COUNTY",
+  "code": "12005"
+ },
+ {
+  "county": "BRADFORD COUNTY",
+  "code": "12007"
+ },
+ {
+  "county": "BREVARD COUNTY",
+  "code": "12009"
+ },
+ {
+  "county": "BROWARD COUNTY",
+  "code": "12011"
+ },
+ {
+  "county": "CALHOUN COUNTY",
+  "code": "12013"
+ },
+ {
+  "county": "CHARLOTTE COUNTY",
+  "code": "12015"
+ },
+ {
+  "county": "CITRUS COUNTY",
+  "code": "12017"
+ },
+ {
+  "county": "CLAY COUNTY",
+  "code": "12019"
+ },
+ {
+  "county": "COLLIER COUNTY",
+  "code": "12021"
+ },
+ {
+  "county": "COLUMBIA COUNTY",
+  "code": "12023"
+ },
+ {
+  "county": "DADE COUNTY",
+  "code": "12025"
+ },
+ {
+  "county": "DESOTO COUNTY",
+  "code": "12027"
+ },
+ {
+  "county": "DIXIE COUNTY",
+  "code": "12029"
+ },
+ {
+  "county": "DUVAL COUNTY",
+  "code": "12031"
+ },
+ {
+  "county": "ESCAMBIA COUNTY",
+  "code": "12033"
+ },
+ {
+  "county": "FLAGLER COUNTY",
+  "code": "12035"
+ },
+ {
+  "county": "FRANKLIN COUNTY",
+  "code": "12037"
+ },
+ {
+  "county": "GADSDEN COUNTY",
+  "code": "12039"
+ },
+ {
+  "county": "GILCHRIST COUNTY",
+  "code": "12041"
+ },
+ {
+  "county": "GLADES COUNTY",
+  "code": "12043"
+ },
+ {
+  "county": "GULF COUNTY",
+  "code": "12045"
+ },
+ {
+  "county": "HAMILTON COUNTY",
+  "code": "12047"
+ },
+ {
+  "county": "HARDEE COUNTY",
+  "code": "12049"
+ },
+ {
+  "county": "HENDRY COUNTY",
+  "code": "12051"
+ },
+ {
+  "county": "HERNANDO COUNTY",
+  "code": "12053"
+ },
+ {
+  "county": "HIGHLANDS COUNTY",
+  "code": "12055"
+ },
+ {
+  "county": "HILLSBOROUGH COUNTY",
+  "code": "12057"
+ },
+ {
+  "county": "HOLMES COUNTY",
+  "code": "12059"
+ },
+ {
+  "county": "INDIAN RIVER COUNTY",
+  "code": "12061"
+ },
+ {
+  "county": "JACKSON COUNTY",
+  "code": "12063"
+ },
+ {
+  "county": "JEFFERSON COUNTY",
+  "code": "12065"
+ },
+ {
+  "county": "LAFAYETTE COUNTY",
+  "code": "12067"
+ },
+ {
+  "county": "LAKE COUNTY",
+  "code": "12069"
+ },
+ {
+  "county": "LEE COUNTY",
+  "code": "12071"
+ },
+ {
+  "county": "LEON COUNTY",
+  "code": "12073"
+ },
+ {
+  "county": "LEVY COUNTY",
+  "code": "12075"
+ },
+ {
+  "county": "LIBERTY COUNTY",
+  "code": "12077"
+ },
+ {
+  "county": "MADISON COUNTY",
+  "code": "12079"
+ },
+ {
+  "county": "MANATEE COUNTY",
+  "code": "12081"
+ },
+ {
+  "county": "MARION COUNTY",
+  "code": "12083"
+ },
+ {
+  "county": "MARTIN COUNTY",
+  "code": "12085"
+ },
+ {
+  "county": "MONROE COUNTY",
+  "code": "12087"
+ },
+ {
+  "county": "NASSAU COUNTY",
+  "code": "12089"
+ },
+ {
+  "county": "OKALOOSA COUNTY",
+  "code": "12091"
+ },
+ {
+  "county": "OKEECHOBEE COUNTY",
+  "code": "12093"
+ },
+ {
+  "county": "ORANGE COUNTY",
+  "code": "12095"
+ },
+ {
+  "county": "OSCEOLA COUNTY",
+  "code": "12097"
+ },
+ {
+  "county": "PALM BEACH COUNTY",
+  "code": "12099"
+ },
+ {
+  "county": "PASCO COUNTY",
+  "code": "12101"
+ },
+ {
+  "county": "PINELLAS COUNTY",
+  "code": "12103"
+ },
+ {
+  "county": "POLK COUNTY",
+  "code": "12105"
+ },
+ {
+  "county": "PUTNAM COUNTY",
+  "code": "12107"
+ },
+ {
+  "county": "ST. JOHNS COUNTY",
+  "code": "12109"
+ },
+ {
+  "county": "ST. LUCIE COUNTY",
+  "code": "12111"
+ },
+ {
+  "county": "SANTA ROSA COUNTY",
+  "code": "12113"
+ },
+ {
+  "county": "SARASOTA COUNTY",
+  "code": "12115"
+ },
+ {
+  "county": "SEMINOLE COUNTY",
+  "code": "12117"
+ },
+ {
+  "county": "SUMTER COUNTY",
+  "code": "12119"
+ },
+ {
+  "county": "SUWANNEE COUNTY",
+  "code": "12121"
+ },
+ {
+  "county": "TAYLOR COUNTY",
+  "code": "12123"
+ },
+ {
+  "county": "UNION COUNTY",
+  "code": "12125"
+ },
+ {
+  "county": "VOLUSIA COUNTY",
+  "code": "12127"
+ },
+ {
+  "county": "WAKULLA COUNTY",
+  "code": "12129"
+ },
+ {
+  "county": "WALTON COUNTY",
+  "code": "12131"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "12133"
+ },
+ {
+  "county": "GEORGIA",
+  "code": "13000"
+ },
+ {
+  "county": "APPLING COUNTY",
+  "code": "13001"
+ },
+ {
+  "county": "ATKINSON COUNTY",
+  "code": "13003"
+ },
+ {
+  "county": "BACON COUNTY",
+  "code": "13005"
+ },
+ {
+  "county": "BAKER COUNTY",
+  "code": "13007"
+ },
+ {
+  "county": "BALDWIN COUNTY",
+  "code": "13009"
+ },
+ {
+  "county": "BANKS COUNTY",
+  "code": "13011"
+ },
+ {
+  "county": "BARROW COUNTY",
+  "code": "13013"
+ },
+ {
+  "county": "BARTOW COUNTY",
+  "code": "13015"
+ },
+ {
+  "county": "BEN HILL COUNTY",
+  "code": "13017"
+ },
+ {
+  "county": "BERRIEN COUNTY",
+  "code": "13019"
+ },
+ {
+  "county": "BIBB COUNTY",
+  "code": "13021"
+ },
+ {
+  "county": "BLECKLEY COUNTY",
+  "code": "13023"
+ },
+ {
+  "county": "BRANTLEY COUNTY",
+  "code": "13025"
+ },
+ {
+  "county": "BROOKS COUNTY",
+  "code": "13027"
+ },
+ {
+  "county": "BRYAN COUNTY",
+  "code": "13029"
+ },
+ {
+  "county": "BULLOCH COUNTY",
+  "code": "13031"
+ },
+ {
+  "county": "BURKE COUNTY",
+  "code": "13033"
+ },
+ {
+  "county": "BUTTS COUNTY",
+  "code": "13035"
+ },
+ {
+  "county": "CALHOUN COUNTY",
+  "code": "13037"
+ },
+ {
+  "county": "CAMDEN COUNTY",
+  "code": "13039"
+ },
+ {
+  "county": "CANDLER COUNTY",
+  "code": "13043"
+ },
+ {
+  "county": "CARROLL COUNTY",
+  "code": "13045"
+ },
+ {
+  "county": "CATOOSA COUNTY",
+  "code": "13047"
+ },
+ {
+  "county": "CHARLTON COUNTY",
+  "code": "13049"
+ },
+ {
+  "county": "CHATHAM COUNTY",
+  "code": "13051"
+ },
+ {
+  "county": "CHATTAHOOCHEE COUNTY",
+  "code": "13053"
+ },
+ {
+  "county": "CHATTOOGA COUNTY",
+  "code": "13055"
+ },
+ {
+  "county": "CHEROKEE COUNTY",
+  "code": "13057"
+ },
+ {
+  "county": "CLARKE COUNTY",
+  "code": "13059"
+ },
+ {
+  "county": "CLAY COUNTY",
+  "code": "13061"
+ },
+ {
+  "county": "CLAYTON COUNTY",
+  "code": "13063"
+ },
+ {
+  "county": "CLINCH COUNTY",
+  "code": "13065"
+ },
+ {
+  "county": "COBB COUNTY",
+  "code": "13067"
+ },
+ {
+  "county": "COFFEE COUNTY",
+  "code": "13069"
+ },
+ {
+  "county": "COLQUITT COUNTY",
+  "code": "13071"
+ },
+ {
+  "county": "COLUMBIA COUNTY",
+  "code": "13073"
+ },
+ {
+  "county": "COOK COUNTY",
+  "code": "13075"
+ },
+ {
+  "county": "COWETA COUNTY",
+  "code": "13077"
+ },
+ {
+  "county": "CRAWFORD COUNTY",
+  "code": "13079"
+ },
+ {
+  "county": "CRISP COUNTY",
+  "code": "13081"
+ },
+ {
+  "county": "DADE COUNTY",
+  "code": "13083"
+ },
+ {
+  "county": "DAWSON COUNTY",
+  "code": "13085"
+ },
+ {
+  "county": "DECATUR COUNTY",
+  "code": "13087"
+ },
+ {
+  "county": "DEKALB COUNTY",
+  "code": "13089"
+ },
+ {
+  "county": "DODGE COUNTY",
+  "code": "13091"
+ },
+ {
+  "county": "DOOLY COUNTY",
+  "code": "13093"
+ },
+ {
+  "county": "DOUGHERTY COUNTY",
+  "code": "13095"
+ },
+ {
+  "county": "DOUGLAS COUNTY",
+  "code": "13097"
+ },
+ {
+  "county": "EARLY COUNTY",
+  "code": "13099"
+ },
+ {
+  "county": "ECHOLS COUNTY",
+  "code": "13101"
+ },
+ {
+  "county": "EFFINGHAM COUNTY",
+  "code": "13103"
+ },
+ {
+  "county": "ELBERT COUNTY",
+  "code": "13105"
+ },
+ {
+  "county": "EMANUEL COUNTY",
+  "code": "13107"
+ },
+ {
+  "county": "EVANS COUNTY",
+  "code": "13109"
+ },
+ {
+  "county": "FANNIN COUNTY",
+  "code": "13111"
+ },
+ {
+  "county": "FAYETTE COUNTY",
+  "code": "13113"
+ },
+ {
+  "county": "FLOYD COUNTY",
+  "code": "13115"
+ },
+ {
+  "county": "FORSYTH COUNTY",
+  "code": "13117"
+ },
+ {
+  "county": "FRANKLIN COUNTY",
+  "code": "13119"
+ },
+ {
+  "county": "FULTON COUNTY",
+  "code": "13121"
+ },
+ {
+  "county": "GILMER COUNTY",
+  "code": "13123"
+ },
+ {
+  "county": "GLASCOCK COUNTY",
+  "code": "13125"
+ },
+ {
+  "county": "GLYNN COUNTY",
+  "code": "13127"
+ },
+ {
+  "county": "GORDON COUNTY",
+  "code": "13129"
+ },
+ {
+  "county": "GRADY COUNTY",
+  "code": "13131"
+ },
+ {
+  "county": "GREENE COUNTY",
+  "code": "13133"
+ },
+ {
+  "county": "GWINNETT COUNTY",
+  "code": "13135"
+ },
+ {
+  "county": "HABERSHAM COUNTY",
+  "code": "13137"
+ },
+ {
+  "county": "HALL COUNTY",
+  "code": "13139"
+ },
+ {
+  "county": "HANCOCK COUNTY",
+  "code": "13141"
+ },
+ {
+  "county": "HARALSON COUNTY",
+  "code": "13143"
+ },
+ {
+  "county": "HARRIS COUNTY",
+  "code": "13145"
+ },
+ {
+  "county": "HART COUNTY",
+  "code": "13147"
+ },
+ {
+  "county": "HEARD COUNTY",
+  "code": "13149"
+ },
+ {
+  "county": "HENRY COUNTY",
+  "code": "13151"
+ },
+ {
+  "county": "HOUSTON COUNTY",
+  "code": "13153"
+ },
+ {
+  "county": "IRWIN COUNTY",
+  "code": "13155"
+ },
+ {
+  "county": "JACKSON COUNTY",
+  "code": "13157"
+ },
+ {
+  "county": "JASPER COUNTY",
+  "code": "13159"
+ },
+ {
+  "county": "JEFF DAVIS COUNTY",
+  "code": "13161"
+ },
+ {
+  "county": "JEFFERSON COUNTY",
+  "code": "13163"
+ },
+ {
+  "county": "JENKINS COUNTY",
+  "code": "13165"
+ },
+ {
+  "county": "JOHNSON COUNTY",
+  "code": "13167"
+ },
+ {
+  "county": "JONES COUNTY",
+  "code": "13169"
+ },
+ {
+  "county": "LAMAR COUNTY",
+  "code": "13171"
+ },
+ {
+  "county": "LANIER COUNTY",
+  "code": "13173"
+ },
+ {
+  "county": "LAURENS COUNTY",
+  "code": "13175"
+ },
+ {
+  "county": "LEE COUNTY",
+  "code": "13177"
+ },
+ {
+  "county": "LIBERTY COUNTY",
+  "code": "13179"
+ },
+ {
+  "county": "LINCOLN COUNTY",
+  "code": "13181"
+ },
+ {
+  "county": "LONG COUNTY",
+  "code": "13183"
+ },
+ {
+  "county": "LOWNDES COUNTY",
+  "code": "13185"
+ },
+ {
+  "county": "LUMPKIN COUNTY",
+  "code": "13187"
+ },
+ {
+  "county": "MCDUFFIE COUNTY",
+  "code": "13189"
+ },
+ {
+  "county": "MCINTOSH COUNTY",
+  "code": "13191"
+ },
+ {
+  "county": "MACON COUNTY",
+  "code": "13193"
+ },
+ {
+  "county": "MADISON COUNTY",
+  "code": "13195"
+ },
+ {
+  "county": "MARION COUNTY",
+  "code": "13197"
+ },
+ {
+  "county": "MERIWETHER COUNTY",
+  "code": "13199"
+ },
+ {
+  "county": "MILLER COUNTY",
+  "code": "13201"
+ },
+ {
+  "county": "MITCHELL COUNTY",
+  "code": "13205"
+ },
+ {
+  "county": "MONROE COUNTY",
+  "code": "13207"
+ },
+ {
+  "county": "MONTGOMERY COUNTY",
+  "code": "13209"
+ },
+ {
+  "county": "MORGAN COUNTY",
+  "code": "13211"
+ },
+ {
+  "county": "MURRAY COUNTY",
+  "code": "13213"
+ },
+ {
+  "county": "MUSCOGEE COUNTY",
+  "code": "13215"
+ },
+ {
+  "county": "NEWTON COUNTY",
+  "code": "13217"
+ },
+ {
+  "county": "OCONEE COUNTY",
+  "code": "13219"
+ },
+ {
+  "county": "OGLETHORPE COUNTY",
+  "code": "13221"
+ },
+ {
+  "county": "PAULDING COUNTY",
+  "code": "13223"
+ },
+ {
+  "county": "PEACH COUNTY",
+  "code": "13225"
+ },
+ {
+  "county": "PICKENS COUNTY",
+  "code": "13227"
+ },
+ {
+  "county": "PIERCE COUNTY",
+  "code": "13229"
+ },
+ {
+  "county": "PIKE COUNTY",
+  "code": "13231"
+ },
+ {
+  "county": "POLK COUNTY",
+  "code": "13233"
+ },
+ {
+  "county": "PULASKI COUNTY",
+  "code": "13235"
+ },
+ {
+  "county": "PUTNAM COUNTY",
+  "code": "13237"
+ },
+ {
+  "county": "QUITMAN COUNTY",
+  "code": "13239"
+ },
+ {
+  "county": "RABUN COUNTY",
+  "code": "13241"
+ },
+ {
+  "county": "RANDOLPH COUNTY",
+  "code": "13243"
+ },
+ {
+  "county": "RICHMOND COUNTY",
+  "code": "13245"
+ },
+ {
+  "county": "ROCKDALE COUNTY",
+  "code": "13247"
+ },
+ {
+  "county": "SCHLEY COUNTY",
+  "code": "13249"
+ },
+ {
+  "county": "SCREVEN COUNTY",
+  "code": "13251"
+ },
+ {
+  "county": "SEMINOLE COUNTY",
+  "code": "13253"
+ },
+ {
+  "county": "SPALDING COUNTY",
+  "code": "13255"
+ },
+ {
+  "county": "STEPHENS COUNTY",
+  "code": "13257"
+ },
+ {
+  "county": "STEWART COUNTY",
+  "code": "13259"
+ },
+ {
+  "county": "SUMTER COUNTY",
+  "code": "13261"
+ },
+ {
+  "county": "TALBOT COUNTY",
+  "code": "13263"
+ },
+ {
+  "county": "TALIAFERRO COUNTY",
+  "code": "13265"
+ },
+ {
+  "county": "TATTNALL COUNTY",
+  "code": "13267"
+ },
+ {
+  "county": "TAYLOR COUNTY",
+  "code": "13269"
+ },
+ {
+  "county": "TELFAIR COUNTY",
+  "code": "13271"
+ },
+ {
+  "county": "TERRELL COUNTY",
+  "code": "13273"
+ },
+ {
+  "county": "THOMAS COUNTY",
+  "code": "13275"
+ },
+ {
+  "county": "TIFT COUNTY",
+  "code": "13277"
+ },
+ {
+  "county": "TOOMBS COUNTY",
+  "code": "13279"
+ },
+ {
+  "county": "TOWNS COUNTY",
+  "code": "13281"
+ },
+ {
+  "county": "TREUTLEN COUNTY",
+  "code": "13283"
+ },
+ {
+  "county": "TROUP COUNTY",
+  "code": "13285"
+ },
+ {
+  "county": "TURNER COUNTY",
+  "code": "13287"
+ },
+ {
+  "county": "TWIGGS COUNTY",
+  "code": "13289"
+ },
+ {
+  "county": "UNION COUNTY",
+  "code": "13291"
+ },
+ {
+  "county": "UPSON COUNTY",
+  "code": "13293"
+ },
+ {
+  "county": "WALKER COUNTY",
+  "code": "13295"
+ },
+ {
+  "county": "WALTON COUNTY",
+  "code": "13297"
+ },
+ {
+  "county": "WARE COUNTY",
+  "code": "13299"
+ },
+ {
+  "county": "WARREN COUNTY",
+  "code": "13301"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "13303"
+ },
+ {
+  "county": "WAYNE COUNTY",
+  "code": "13305"
+ },
+ {
+  "county": "WEBSTER COUNTY",
+  "code": "13307"
+ },
+ {
+  "county": "WHEELER COUNTY",
+  "code": "13309"
+ },
+ {
+  "county": "WHITE COUNTY",
+  "code": "13311"
+ },
+ {
+  "county": "WHITFIELD COUNTY",
+  "code": "13313"
+ },
+ {
+  "county": "WILCOX COUNTY",
+  "code": "13315"
+ },
+ {
+  "county": "WILKES COUNTY",
+  "code": "13317"
+ },
+ {
+  "county": "WILKINSON COUNTY",
+  "code": "13319"
+ },
+ {
+  "county": "WORTH COUNTY",
+  "code": "13321"
+ },
+ {
+  "county": "HAWAII",
+  "code": "15000"
+ },
+ {
+  "county": "HAWAII COUNTY",
+  "code": "15001"
+ },
+ {
+  "county": "HONOLULU COUNTY",
+  "code": "15003"
+ },
+ {
+  "county": "KALAWAO COUNTY",
+  "code": "15005"
+ },
+ {
+  "county": "KAUAI COUNTY",
+  "code": "15007"
+ },
+ {
+  "county": "MAUI COUNTY",
+  "code": "15009"
+ },
+ {
+  "county": "IDAHO",
+  "code": "16000"
+ },
+ {
+  "county": "ADA COUNTY",
+  "code": "16001"
+ },
+ {
+  "county": "ADAMS COUNTY",
+  "code": "16003"
+ },
+ {
+  "county": "BANNOCK COUNTY",
+  "code": "16005"
+ },
+ {
+  "county": "BEAR LAKE COUNTY",
+  "code": "16007"
+ },
+ {
+  "county": "BENEWAH COUNTY",
+  "code": "16009"
+ },
+ {
+  "county": "BINGHAM COUNTY",
+  "code": "16011"
+ },
+ {
+  "county": "BLAINE COUNTY",
+  "code": "16013"
+ },
+ {
+  "county": "BOISE COUNTY",
+  "code": "16015"
+ },
+ {
+  "county": "BONNER COUNTY",
+  "code": "16017"
+ },
+ {
+  "county": "BONNEVILLE COUNTY",
+  "code": "16019"
+ },
+ {
+  "county": "BOUNDARY COUNTY",
+  "code": "16021"
+ },
+ {
+  "county": "BUTTE COUNTY",
+  "code": "16023"
+ },
+ {
+  "county": "CAMAS COUNTY",
+  "code": "16025"
+ },
+ {
+  "county": "CANYON COUNTY",
+  "code": "16027"
+ },
+ {
+  "county": "CARIBOU COUNTY",
+  "code": "16029"
+ },
+ {
+  "county": "CASSIA COUNTY",
+  "code": "16031"
+ },
+ {
+  "county": "CLARK COUNTY",
+  "code": "16033"
+ },
+ {
+  "county": "CLEARWATER COUNTY",
+  "code": "16035"
+ },
+ {
+  "county": "CUSTER COUNTY",
+  "code": "16037"
+ },
+ {
+  "county": "ELMORE COUNTY",
+  "code": "16039"
+ },
+ {
+  "county": "FRANKLIN COUNTY",
+  "code": "16041"
+ },
+ {
+  "county": "FREMONT COUNTY",
+  "code": "16043"
+ },
+ {
+  "county": "GEM COUNTY",
+  "code": "16045"
+ },
+ {
+  "county": "GOODING COUNTY",
+  "code": "16047"
+ },
+ {
+  "county": "IDAHO COUNTY",
+  "code": "16049"
+ },
+ {
+  "county": "JEFFERSON COUNTY",
+  "code": "16051"
+ },
+ {
+  "county": "JEROME COUNTY",
+  "code": "16053"
+ },
+ {
+  "county": "KOOTENAI COUNTY",
+  "code": "16055"
+ },
+ {
+  "county": "LATAH COUNTY",
+  "code": "16057"
+ },
+ {
+  "county": "LEMHI COUNTY",
+  "code": "16059"
+ },
+ {
+  "county": "LEWIS COUNTY",
+  "code": "16061"
+ },
+ {
+  "county": "LINCOLN COUNTY",
+  "code": "16063"
+ },
+ {
+  "county": "MADISON COUNTY",
+  "code": "16065"
+ },
+ {
+  "county": "MINIDOKA COUNTY",
+  "code": "16067"
+ },
+ {
+  "county": "NEZ PERCE COUNTY",
+  "code": "16069"
+ },
+ {
+  "county": "ONEIDA COUNTY",
+  "code": "16071"
+ },
+ {
+  "county": "OWYHEE COUNTY",
+  "code": "16073"
+ },
+ {
+  "county": "PAYETTE COUNTY",
+  "code": "16075"
+ },
+ {
+  "county": "POWER COUNTY",
+  "code": "16077"
+ },
+ {
+  "county": "SHOSHONE COUNTY",
+  "code": "16079"
+ },
+ {
+  "county": "TETON COUNTY",
+  "code": "16081"
+ },
+ {
+  "county": "TWIN FALLS COUNTY",
+  "code": "16083"
+ },
+ {
+  "county": "VALLEY COUNTY",
+  "code": "16085"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "16087"
+ },
+ {
+  "county": "ILLINOIS",
+  "code": "17000"
+ },
+ {
+  "county": "ADAMS COUNTY",
+  "code": "17001"
+ },
+ {
+  "county": "ALEXANDER COUNTY",
+  "code": "17003"
+ },
+ {
+  "county": "BOND COUNTY",
+  "code": "17005"
+ },
+ {
+  "county": "BOONE COUNTY",
+  "code": "17007"
+ },
+ {
+  "county": "BROWN COUNTY",
+  "code": "17009"
+ },
+ {
+  "county": "BUREAU COUNTY",
+  "code": "17011"
+ },
+ {
+  "county": "CALHOUN COUNTY",
+  "code": "17013"
+ },
+ {
+  "county": "CARROLL COUNTY",
+  "code": "17015"
+ },
+ {
+  "county": "CASS COUNTY",
+  "code": "17017"
+ },
+ {
+  "county": "CHAMPAIGN COUNTY",
+  "code": "17019"
+ },
+ {
+  "county": "CHRISTIAN COUNTY",
+  "code": "17021"
+ },
+ {
+  "county": "CLARK COUNTY",
+  "code": "17023"
+ },
+ {
+  "county": "CLAY COUNTY",
+  "code": "17025"
+ },
+ {
+  "county": "CLINTON COUNTY",
+  "code": "17027"
+ },
+ {
+  "county": "COLES COUNTY",
+  "code": "17029"
+ },
+ {
+  "county": "COOK COUNTY",
+  "code": "17031"
+ },
+ {
+  "county": "CRAWFORD COUNTY",
+  "code": "17033"
+ },
+ {
+  "county": "CUMBERLAND COUNTY",
+  "code": "17035"
+ },
+ {
+  "county": "DEKALB COUNTY",
+  "code": "17037"
+ },
+ {
+  "county": "DE WITT COUNTY",
+  "code": "17039"
+ },
+ {
+  "county": "DOUGLAS COUNTY",
+  "code": "17041"
+ },
+ {
+  "county": "DUPAGE COUNTY",
+  "code": "17043"
+ },
+ {
+  "county": "EDGAR COUNTY",
+  "code": "17045"
+ },
+ {
+  "county": "EDWARDS COUNTY",
+  "code": "17047"
+ },
+ {
+  "county": "EFFINGHAM COUNTY",
+  "code": "17049"
+ },
+ {
+  "county": "FAYETTE COUNTY",
+  "code": "17051"
+ },
+ {
+  "county": "FORD COUNTY",
+  "code": "17053"
+ },
+ {
+  "county": "FRANKLIN COUNTY",
+  "code": "17055"
+ },
+ {
+  "county": "FULTON COUNTY",
+  "code": "17057"
+ },
+ {
+  "county": "GALLATIN COUNTY",
+  "code": "17059"
+ },
+ {
+  "county": "GREENE COUNTY",
+  "code": "17061"
+ },
+ {
+  "county": "GRUNDY COUNTY",
+  "code": "17063"
+ },
+ {
+  "county": "HAMILTON COUNTY",
+  "code": "17065"
+ },
+ {
+  "county": "HANCOCK COUNTY",
+  "code": "17067"
+ },
+ {
+  "county": "HARDIN COUNTY",
+  "code": "17069"
+ },
+ {
+  "county": "HENDERSON COUNTY",
+  "code": "17071"
+ },
+ {
+  "county": "HENRY COUNTY",
+  "code": "17073"
+ },
+ {
+  "county": "IROQUOIS COUNTY",
+  "code": "17075"
+ },
+ {
+  "county": "JACKSON COUNTY",
+  "code": "17077"
+ },
+ {
+  "county": "JASPER COUNTY",
+  "code": "17079"
+ },
+ {
+  "county": "JEFFERSON COUNTY",
+  "code": "17081"
+ },
+ {
+  "county": "JERSEY COUNTY",
+  "code": "17083"
+ },
+ {
+  "county": "JO DAVIESS COUNTY",
+  "code": "17085"
+ },
+ {
+  "county": "JOHNSON COUNTY",
+  "code": "17087"
+ },
+ {
+  "county": "KANE COUNTY",
+  "code": "17089"
+ },
+ {
+  "county": "KANKAKEE COUNTY",
+  "code": "17091"
+ },
+ {
+  "county": "KENDALL COUNTY",
+  "code": "17093"
+ },
+ {
+  "county": "KNOX COUNTY",
+  "code": "17095"
+ },
+ {
+  "county": "LAKE COUNTY",
+  "code": "17097"
+ },
+ {
+  "county": "LA SALLE COUNTY",
+  "code": "17099"
+ },
+ {
+  "county": "LAWRENCE COUNTY",
+  "code": "17101"
+ },
+ {
+  "county": "LEE COUNTY",
+  "code": "17103"
+ },
+ {
+  "county": "LIVINGSTON COUNTY",
+  "code": "17105"
+ },
+ {
+  "county": "LOGAN COUNTY",
+  "code": "17107"
+ },
+ {
+  "county": "MCDONOUGH COUNTY",
+  "code": "17109"
+ },
+ {
+  "county": "MCHENRY COUNTY",
+  "code": "17111"
+ },
+ {
+  "county": "MCLEAN COUNTY",
+  "code": "17113"
+ },
+ {
+  "county": "MACON COUNTY",
+  "code": "17115"
+ },
+ {
+  "county": "MACOUPIN COUNTY",
+  "code": "17117"
+ },
+ {
+  "county": "MADISON COUNTY",
+  "code": "17119"
+ },
+ {
+  "county": "MARION COUNTY",
+  "code": "17121"
+ },
+ {
+  "county": "MARSHALL COUNTY",
+  "code": "17123"
+ },
+ {
+  "county": "MASON COUNTY",
+  "code": "17125"
+ },
+ {
+  "county": "MASSAC COUNTY",
+  "code": "17127"
+ },
+ {
+  "county": "MENARD COUNTY",
+  "code": "17129"
+ },
+ {
+  "county": "MERCER COUNTY",
+  "code": "17131"
+ },
+ {
+  "county": "MONROE COUNTY",
+  "code": "17133"
+ },
+ {
+  "county": "MONTGOMERY COUNTY",
+  "code": "17135"
+ },
+ {
+  "county": "MORGAN COUNTY",
+  "code": "17137"
+ },
+ {
+  "county": "MOULTRIE COUNTY",
+  "code": "17139"
+ },
+ {
+  "county": "OGLE COUNTY",
+  "code": "17141"
+ },
+ {
+  "county": "PEORIA COUNTY",
+  "code": "17143"
+ },
+ {
+  "county": "PERRY COUNTY",
+  "code": "17145"
+ },
+ {
+  "county": "PIATT COUNTY",
+  "code": "17147"
+ },
+ {
+  "county": "PIKE COUNTY",
+  "code": "17149"
+ },
+ {
+  "county": "POPE COUNTY",
+  "code": "17151"
+ },
+ {
+  "county": "PULASKI COUNTY",
+  "code": "17153"
+ },
+ {
+  "county": "PUTNAM COUNTY",
+  "code": "17155"
+ },
+ {
+  "county": "RANDOLPH COUNTY",
+  "code": "17157"
+ },
+ {
+  "county": "RICHLAND COUNTY",
+  "code": "17159"
+ },
+ {
+  "county": "ROCK ISLAND COUNTY",
+  "code": "17161"
+ },
+ {
+  "county": "ST. CLAIR COUNTY",
+  "code": "17163"
+ },
+ {
+  "county": "SALINE COUNTY",
+  "code": "17165"
+ },
+ {
+  "county": "SANGAMON COUNTY",
+  "code": "17167"
+ },
+ {
+  "county": "SCHUYLER COUNTY",
+  "code": "17169"
+ },
+ {
+  "county": "SCOTT COUNTY",
+  "code": "17171"
+ },
+ {
+  "county": "SHELBY COUNTY",
+  "code": "17173"
+ },
+ {
+  "county": "STARK COUNTY",
+  "code": "17175"
+ },
+ {
+  "county": "STEPHENSON COUNTY",
+  "code": "17177"
+ },
+ {
+  "county": "TAZEWELL COUNTY",
+  "code": "17179"
+ },
+ {
+  "county": "UNION COUNTY",
+  "code": "17181"
+ },
+ {
+  "county": "VERMILION COUNTY",
+  "code": "17183"
+ },
+ {
+  "county": "WABASH COUNTY",
+  "code": "17185"
+ },
+ {
+  "county": "WARREN COUNTY",
+  "code": "17187"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "17189"
+ },
+ {
+  "county": "WAYNE COUNTY",
+  "code": "17191"
+ },
+ {
+  "county": "WHITE COUNTY",
+  "code": "17193"
+ },
+ {
+  "county": "WHITESIDE COUNTY",
+  "code": "17195"
+ },
+ {
+  "county": "WILL COUNTY",
+  "code": "17197"
+ },
+ {
+  "county": "WILLIAMSON COUNTY",
+  "code": "17199"
+ },
+ {
+  "county": "WINNEBAGO COUNTY",
+  "code": "17201"
+ },
+ {
+  "county": "WOODFORD COUNTY",
+  "code": "17203"
+ },
+ {
+  "county": "INDIANA",
+  "code": "18000"
+ },
+ {
+  "county": "ADAMS COUNTY",
+  "code": "18001"
+ },
+ {
+  "county": "ALLEN COUNTY",
+  "code": "18003"
+ },
+ {
+  "county": "BARTHOLOMEW COUNTY",
+  "code": "18005"
+ },
+ {
+  "county": "BENTON COUNTY",
+  "code": "18007"
+ },
+ {
+  "county": "BLACKFORD COUNTY",
+  "code": "18009"
+ },
+ {
+  "county": "BOONE COUNTY",
+  "code": "18011"
+ },
+ {
+  "county": "BROWN COUNTY",
+  "code": "18013"
+ },
+ {
+  "county": "CARROLL COUNTY",
+  "code": "18015"
+ },
+ {
+  "county": "CASS COUNTY",
+  "code": "18017"
+ },
+ {
+  "county": "CLARK COUNTY",
+  "code": "18019"
+ },
+ {
+  "county": "CLAY COUNTY",
+  "code": "18021"
+ },
+ {
+  "county": "CLINTON COUNTY",
+  "code": "18023"
+ },
+ {
+  "county": "CRAWFORD COUNTY",
+  "code": "18025"
+ },
+ {
+  "county": "DAVIESS COUNTY",
+  "code": "18027"
+ },
+ {
+  "county": "DEARBORN COUNTY",
+  "code": "18029"
+ },
+ {
+  "county": "DECATUR COUNTY",
+  "code": "18031"
+ },
+ {
+  "county": "DE KALB COUNTY",
+  "code": "18033"
+ },
+ {
+  "county": "DELAWARE COUNTY",
+  "code": "18035"
+ },
+ {
+  "county": "DUBOIS COUNTY",
+  "code": "18037"
+ },
+ {
+  "county": "ELKHART COUNTY",
+  "code": "18039"
+ },
+ {
+  "county": "FAYETTE COUNTY",
+  "code": "18041"
+ },
+ {
+  "county": "FLOYD COUNTY",
+  "code": "18043"
+ },
+ {
+  "county": "FOUNTAIN COUNTY",
+  "code": "18045"
+ },
+ {
+  "county": "FRANKLIN COUNTY",
+  "code": "18047"
+ },
+ {
+  "county": "FULTON COUNTY",
+  "code": "18049"
+ },
+ {
+  "county": "GIBSON COUNTY",
+  "code": "18051"
+ },
+ {
+  "county": "GRANT COUNTY",
+  "code": "18053"
+ },
+ {
+  "county": "GREENE COUNTY",
+  "code": "18055"
+ },
+ {
+  "county": "HAMILTON COUNTY",
+  "code": "18057"
+ },
+ {
+  "county": "HANCOCK COUNTY",
+  "code": "18059"
+ },
+ {
+  "county": "HARRISON COUNTY",
+  "code": "18061"
+ },
+ {
+  "county": "HENDRICKS COUNTY",
+  "code": "18063"
+ },
+ {
+  "county": "HENRY COUNTY",
+  "code": "18065"
+ },
+ {
+  "county": "HOWARD COUNTY",
+  "code": "18067"
+ },
+ {
+  "county": "HUNTINGTON COUNTY",
+  "code": "18069"
+ },
+ {
+  "county": "JACKSON COUNTY",
+  "code": "18071"
+ },
+ {
+  "county": "JASPER COUNTY",
+  "code": "18073"
+ },
+ {
+  "county": "JAY COUNTY",
+  "code": "18075"
+ },
+ {
+  "county": "JEFFERSON COUNTY",
+  "code": "18077"
+ },
+ {
+  "county": "JENNINGS COUNTY",
+  "code": "18079"
+ },
+ {
+  "county": "JOHNSON COUNTY",
+  "code": "18081"
+ },
+ {
+  "county": "KNOX COUNTY",
+  "code": "18083"
+ },
+ {
+  "county": "KOSCIUSKO COUNTY",
+  "code": "18085"
+ },
+ {
+  "county": "LAGRANGE COUNTY",
+  "code": "18087"
+ },
+ {
+  "county": "LAKE COUNTY",
+  "code": "18089"
+ },
+ {
+  "county": "LA PORTE COUNTY",
+  "code": "18091"
+ },
+ {
+  "county": "LAWRENCE COUNTY",
+  "code": "18093"
+ },
+ {
+  "county": "MADISON COUNTY",
+  "code": "18095"
+ },
+ {
+  "county": "MARION COUNTY",
+  "code": "18097"
+ },
+ {
+  "county": "MARSHALL COUNTY",
+  "code": "18099"
+ },
+ {
+  "county": "MARTIN COUNTY",
+  "code": "18101"
+ },
+ {
+  "county": "MIAMI COUNTY",
+  "code": "18103"
+ },
+ {
+  "county": "MONROE COUNTY",
+  "code": "18105"
+ },
+ {
+  "county": "MONTGOMERY COUNTY",
+  "code": "18107"
+ },
+ {
+  "county": "MORGAN COUNTY",
+  "code": "18109"
+ },
+ {
+  "county": "NEWTON COUNTY",
+  "code": "18111"
+ },
+ {
+  "county": "NOBLE COUNTY",
+  "code": "18113"
+ },
+ {
+  "county": "OHIO COUNTY",
+  "code": "18115"
+ },
+ {
+  "county": "ORANGE COUNTY",
+  "code": "18117"
+ },
+ {
+  "county": "OWEN COUNTY",
+  "code": "18119"
+ },
+ {
+  "county": "PARKE COUNTY",
+  "code": "18121"
+ },
+ {
+  "county": "PERRY COUNTY",
+  "code": "18123"
+ },
+ {
+  "county": "PIKE COUNTY",
+  "code": "18125"
+ },
+ {
+  "county": "PORTER COUNTY",
+  "code": "18127"
+ },
+ {
+  "county": "POSEY COUNTY",
+  "code": "18129"
+ },
+ {
+  "county": "PULASKI COUNTY",
+  "code": "18131"
+ },
+ {
+  "county": "PUTNAM COUNTY",
+  "code": "18133"
+ },
+ {
+  "county": "RANDOLPH COUNTY",
+  "code": "18135"
+ },
+ {
+  "county": "RIPLEY COUNTY",
+  "code": "18137"
+ },
+ {
+  "county": "RUSH COUNTY",
+  "code": "18139"
+ },
+ {
+  "county": "ST. JOSEPH COUNTY",
+  "code": "18141"
+ },
+ {
+  "county": "SCOTT COUNTY",
+  "code": "18143"
+ },
+ {
+  "county": "SHELBY COUNTY",
+  "code": "18145"
+ },
+ {
+  "county": "SPENCER COUNTY",
+  "code": "18147"
+ },
+ {
+  "county": "STARKE COUNTY",
+  "code": "18149"
+ },
+ {
+  "county": "STEUBEN COUNTY",
+  "code": "18151"
+ },
+ {
+  "county": "SULLIVAN COUNTY",
+  "code": "18153"
+ },
+ {
+  "county": "SWITZERLAND COUNTY",
+  "code": "18155"
+ },
+ {
+  "county": "TIPPECANOE COUNTY",
+  "code": "18157"
+ },
+ {
+  "county": "TIPTON COUNTY",
+  "code": "18159"
+ },
+ {
+  "county": "UNION COUNTY",
+  "code": "18161"
+ },
+ {
+  "county": "VANDERBURGH COUNTY",
+  "code": "18163"
+ },
+ {
+  "county": "VERMILLION COUNTY",
+  "code": "18165"
+ },
+ {
+  "county": "VIGO COUNTY",
+  "code": "18167"
+ },
+ {
+  "county": "WABASH COUNTY",
+  "code": "18169"
+ },
+ {
+  "county": "WARREN COUNTY",
+  "code": "18171"
+ },
+ {
+  "county": "WARRICK COUNTY",
+  "code": "18173"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "18175"
+ },
+ {
+  "county": "WAYNE COUNTY",
+  "code": "18177"
+ },
+ {
+  "county": "WELLS COUNTY",
+  "code": "18179"
+ },
+ {
+  "county": "WHITE COUNTY",
+  "code": "18181"
+ },
+ {
+  "county": "WHITLEY COUNTY",
+  "code": "18183"
+ },
+ {
+  "county": "IOWA",
+  "code": "19000"
+ },
+ {
+  "county": "ADAIR COUNTY",
+  "code": "19001"
+ },
+ {
+  "county": "ADAMS COUNTY",
+  "code": "19003"
+ },
+ {
+  "county": "ALLAMAKEE COUNTY",
+  "code": "19005"
+ },
+ {
+  "county": "APPANOOSE COUNTY",
+  "code": "19007"
+ },
+ {
+  "county": "AUDUBON COUNTY",
+  "code": "19009"
+ },
+ {
+  "county": "BENTON COUNTY",
+  "code": "19011"
+ },
+ {
+  "county": "BLACK HAWK COUNTY",
+  "code": "19013"
+ },
+ {
+  "county": "BOONE COUNTY",
+  "code": "19015"
+ },
+ {
+  "county": "BREMER COUNTY",
+  "code": "19017"
+ },
+ {
+  "county": "BUCHANAN COUNTY",
+  "code": "19019"
+ },
+ {
+  "county": "BUENA VISTA COUNTY",
+  "code": "19021"
+ },
+ {
+  "county": "BUTLER COUNTY",
+  "code": "19023"
+ },
+ {
+  "county": "CALHOUN COUNTY",
+  "code": "19025"
+ },
+ {
+  "county": "CARROLL COUNTY",
+  "code": "19027"
+ },
+ {
+  "county": "CASS COUNTY",
+  "code": "19029"
+ },
+ {
+  "county": "CEDAR COUNTY",
+  "code": "19031"
+ },
+ {
+  "county": "CERRO GORDO COUNTY",
+  "code": "19033"
+ },
+ {
+  "county": "CHEROKEE COUNTY",
+  "code": "19035"
+ },
+ {
+  "county": "CHICKASAW COUNTY",
+  "code": "19037"
+ },
+ {
+  "county": "CLARKE COUNTY",
+  "code": "19039"
+ },
+ {
+  "county": "CLAY COUNTY",
+  "code": "19041"
+ },
+ {
+  "county": "CLAYTON COUNTY",
+  "code": "19043"
+ },
+ {
+  "county": "CLINTON COUNTY",
+  "code": "19045"
+ },
+ {
+  "county": "CRAWFORD COUNTY",
+  "code": "19047"
+ },
+ {
+  "county": "DALLAS COUNTY",
+  "code": "19049"
+ },
+ {
+  "county": "DAVIS COUNTY",
+  "code": "19051"
+ },
+ {
+  "county": "DECATUR COUNTY",
+  "code": "19053"
+ },
+ {
+  "county": "DELAWARE COUNTY",
+  "code": "19055"
+ },
+ {
+  "county": "DES MOINES COUNTY",
+  "code": "19057"
+ },
+ {
+  "county": "DICKINSON COUNTY",
+  "code": "19059"
+ },
+ {
+  "county": "DUBUQUE COUNTY",
+  "code": "19061"
+ },
+ {
+  "county": "EMMET COUNTY",
+  "code": "19063"
+ },
+ {
+  "county": "FAYETTE COUNTY",
+  "code": "19065"
+ },
+ {
+  "county": "FLOYD COUNTY",
+  "code": "19067"
+ },
+ {
+  "county": "FRANKLIN COUNTY",
+  "code": "19069"
+ },
+ {
+  "county": "FREMONT COUNTY",
+  "code": "19071"
+ },
+ {
+  "county": "GREENE COUNTY",
+  "code": "19073"
+ },
+ {
+  "county": "GRUNDY COUNTY",
+  "code": "19075"
+ },
+ {
+  "county": "GUTHRIE COUNTY",
+  "code": "19077"
+ },
+ {
+  "county": "HAMILTON COUNTY",
+  "code": "19079"
+ },
+ {
+  "county": "HANCOCK COUNTY",
+  "code": "19081"
+ },
+ {
+  "county": "HARDIN COUNTY",
+  "code": "19083"
+ },
+ {
+  "county": "HARRISON COUNTY",
+  "code": "19085"
+ },
+ {
+  "county": "HENRY COUNTY",
+  "code": "19087"
+ },
+ {
+  "county": "HOWARD COUNTY",
+  "code": "19089"
+ },
+ {
+  "county": "HUMBOLDT COUNTY",
+  "code": "19091"
+ },
+ {
+  "county": "IDA COUNTY",
+  "code": "19093"
+ },
+ {
+  "county": "IOWA COUNTY",
+  "code": "19095"
+ },
+ {
+  "county": "JACKSON COUNTY",
+  "code": "19097"
+ },
+ {
+  "county": "JASPER COUNTY",
+  "code": "19099"
+ },
+ {
+  "county": "JEFFERSON COUNTY",
+  "code": "19101"
+ },
+ {
+  "county": "JOHNSON COUNTY",
+  "code": "19103"
+ },
+ {
+  "county": "JONES COUNTY",
+  "code": "19105"
+ },
+ {
+  "county": "KEOKUK COUNTY",
+  "code": "19107"
+ },
+ {
+  "county": "KOSSUTH COUNTY",
+  "code": "19109"
+ },
+ {
+  "county": "LEE COUNTY",
+  "code": "19111"
+ },
+ {
+  "county": "LINN COUNTY",
+  "code": "19113"
+ },
+ {
+  "county": "LOUISA COUNTY",
+  "code": "19115"
+ },
+ {
+  "county": "LUCAS COUNTY",
+  "code": "19117"
+ },
+ {
+  "county": "LYON COUNTY",
+  "code": "19119"
+ },
+ {
+  "county": "MADISON COUNTY",
+  "code": "19121"
+ },
+ {
+  "county": "MAHASKA COUNTY",
+  "code": "19123"
+ },
+ {
+  "county": "MARION COUNTY",
+  "code": "19125"
+ },
+ {
+  "county": "MARSHALL COUNTY",
+  "code": "19127"
+ },
+ {
+  "county": "MILLS COUNTY",
+  "code": "19129"
+ },
+ {
+  "county": "MITCHELL COUNTY",
+  "code": "19131"
+ },
+ {
+  "county": "MONONA COUNTY",
+  "code": "19133"
+ },
+ {
+  "county": "MONROE COUNTY",
+  "code": "19135"
+ },
+ {
+  "county": "MONTGOMERY COUNTY",
+  "code": "19137"
+ },
+ {
+  "county": "MUSCATINE COUNTY",
+  "code": "19139"
+ },
+ {
+  "county": "O",
+  "code": "19141"
+ },
+ {
+  "county": "OSCEOLA COUNTY",
+  "code": "19143"
+ },
+ {
+  "county": "PAGE COUNTY",
+  "code": "19145"
+ },
+ {
+  "county": "PALO ALTO COUNTY",
+  "code": "19147"
+ },
+ {
+  "county": "PLYMOUTH COUNTY",
+  "code": "19149"
+ },
+ {
+  "county": "POCAHONTAS COUNTY",
+  "code": "19151"
+ },
+ {
+  "county": "POLK COUNTY",
+  "code": "19153"
+ },
+ {
+  "county": "POTTAWATTAMIE COUNTY",
+  "code": "19155"
+ },
+ {
+  "county": "POWESHIEK COUNTY",
+  "code": "19157"
+ },
+ {
+  "county": "RINGGOLD COUNTY",
+  "code": "19159"
+ },
+ {
+  "county": "SAC COUNTY",
+  "code": "19161"
+ },
+ {
+  "county": "SCOTT COUNTY",
+  "code": "19163"
+ },
+ {
+  "county": "SHELBY COUNTY",
+  "code": "19165"
+ },
+ {
+  "county": "SIOUX COUNTY",
+  "code": "19167"
+ },
+ {
+  "county": "STORY COUNTY",
+  "code": "19169"
+ },
+ {
+  "county": "TAMA COUNTY",
+  "code": "19171"
+ },
+ {
+  "county": "TAYLOR COUNTY",
+  "code": "19173"
+ },
+ {
+  "county": "UNION COUNTY",
+  "code": "19175"
+ },
+ {
+  "county": "VAN BUREN COUNTY",
+  "code": "19177"
+ },
+ {
+  "county": "WAPELLO COUNTY",
+  "code": "19179"
+ },
+ {
+  "county": "WARREN COUNTY",
+  "code": "19181"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "19183"
+ },
+ {
+  "county": "WAYNE COUNTY",
+  "code": "19185"
+ },
+ {
+  "county": "WEBSTER COUNTY",
+  "code": "19187"
+ },
+ {
+  "county": "WINNEBAGO COUNTY",
+  "code": "19189"
+ },
+ {
+  "county": "WINNESHIEK COUNTY",
+  "code": "19191"
+ },
+ {
+  "county": "WOODBURY COUNTY",
+  "code": "19193"
+ },
+ {
+  "county": "WORTH COUNTY",
+  "code": "19195"
+ },
+ {
+  "county": "WRIGHT COUNTY",
+  "code": "19197"
+ },
+ {
+  "county": "KANSAS",
+  "code": "20000"
+ },
+ {
+  "county": "ALLEN COUNTY",
+  "code": "20001"
+ },
+ {
+  "county": "ANDERSON COUNTY",
+  "code": "20003"
+ },
+ {
+  "county": "ATCHISON COUNTY",
+  "code": "20005"
+ },
+ {
+  "county": "BARBER COUNTY",
+  "code": "20007"
+ },
+ {
+  "county": "BARTON COUNTY",
+  "code": "20009"
+ },
+ {
+  "county": "BOURBON COUNTY",
+  "code": "20011"
+ },
+ {
+  "county": "BROWN COUNTY",
+  "code": "20013"
+ },
+ {
+  "county": "BUTLER COUNTY",
+  "code": "20015"
+ },
+ {
+  "county": "CHASE COUNTY",
+  "code": "20017"
+ },
+ {
+  "county": "CHAUTAUQUA COUNTY",
+  "code": "20019"
+ },
+ {
+  "county": "CHEROKEE COUNTY",
+  "code": "20021"
+ },
+ {
+  "county": "CHEYENNE COUNTY",
+  "code": "20023"
+ },
+ {
+  "county": "CLARK COUNTY",
+  "code": "20025"
+ },
+ {
+  "county": "CLAY COUNTY",
+  "code": "20027"
+ },
+ {
+  "county": "CLOUD COUNTY",
+  "code": "20029"
+ },
+ {
+  "county": "COFFEY COUNTY",
+  "code": "20031"
+ },
+ {
+  "county": "COMANCHE COUNTY",
+  "code": "20033"
+ },
+ {
+  "county": "COWLEY COUNTY",
+  "code": "20035"
+ },
+ {
+  "county": "CRAWFORD COUNTY",
+  "code": "20037"
+ },
+ {
+  "county": "DECATUR COUNTY",
+  "code": "20039"
+ },
+ {
+  "county": "DICKINSON COUNTY",
+  "code": "20041"
+ },
+ {
+  "county": "DONIPHAN COUNTY",
+  "code": "20043"
+ },
+ {
+  "county": "DOUGLAS COUNTY",
+  "code": "20045"
+ },
+ {
+  "county": "EDWARDS COUNTY",
+  "code": "20047"
+ },
+ {
+  "county": "ELK COUNTY",
+  "code": "20049"
+ },
+ {
+  "county": "ELLIS COUNTY",
+  "code": "20051"
+ },
+ {
+  "county": "ELLSWORTH COUNTY",
+  "code": "20053"
+ },
+ {
+  "county": "FINNEY COUNTY",
+  "code": "20055"
+ },
+ {
+  "county": "FORD COUNTY",
+  "code": "20057"
+ },
+ {
+  "county": "FRANKLIN COUNTY",
+  "code": "20059"
+ },
+ {
+  "county": "GEARY COUNTY",
+  "code": "20061"
+ },
+ {
+  "county": "GOVE COUNTY",
+  "code": "20063"
+ },
+ {
+  "county": "GRAHAM COUNTY",
+  "code": "20065"
+ },
+ {
+  "county": "GRANT COUNTY",
+  "code": "20067"
+ },
+ {
+  "county": "GRAY COUNTY",
+  "code": "20069"
+ },
+ {
+  "county": "GREELEY COUNTY",
+  "code": "20071"
+ },
+ {
+  "county": "GREENWOOD COUNTY",
+  "code": "20073"
+ },
+ {
+  "county": "HAMILTON COUNTY",
+  "code": "20075"
+ },
+ {
+  "county": "HARPER COUNTY",
+  "code": "20077"
+ },
+ {
+  "county": "HARVEY COUNTY",
+  "code": "20079"
+ },
+ {
+  "county": "HASKELL COUNTY",
+  "code": "20081"
+ },
+ {
+  "county": "HODGEMAN COUNTY",
+  "code": "20083"
+ },
+ {
+  "county": "JACKSON COUNTY",
+  "code": "20085"
+ },
+ {
+  "county": "JEFFERSON COUNTY",
+  "code": "20087"
+ },
+ {
+  "county": "JEWELL COUNTY",
+  "code": "20089"
+ },
+ {
+  "county": "JOHNSON COUNTY",
+  "code": "20091"
+ },
+ {
+  "county": "KEARNY COUNTY",
+  "code": "20093"
+ },
+ {
+  "county": "KINGMAN COUNTY",
+  "code": "20095"
+ },
+ {
+  "county": "KIOWA COUNTY",
+  "code": "20097"
+ },
+ {
+  "county": "LABETTE COUNTY",
+  "code": "20099"
+ },
+ {
+  "county": "LANE COUNTY",
+  "code": "20101"
+ },
+ {
+  "county": "LEAVENWORTH COUNTY",
+  "code": "20103"
+ },
+ {
+  "county": "LINCOLN COUNTY",
+  "code": "20105"
+ },
+ {
+  "county": "LINN COUNTY",
+  "code": "20107"
+ },
+ {
+  "county": "LOGAN COUNTY",
+  "code": "20109"
+ },
+ {
+  "county": "LYON COUNTY",
+  "code": "20111"
+ },
+ {
+  "county": "MCPHERSON COUNTY",
+  "code": "20113"
+ },
+ {
+  "county": "MARION COUNTY",
+  "code": "20115"
+ },
+ {
+  "county": "MARSHALL COUNTY",
+  "code": "20117"
+ },
+ {
+  "county": "MEADE COUNTY",
+  "code": "20119"
+ },
+ {
+  "county": "MIAMI COUNTY",
+  "code": "20121"
+ },
+ {
+  "county": "MITCHELL COUNTY",
+  "code": "20123"
+ },
+ {
+  "county": "MONTGOMERY COUNTY",
+  "code": "20125"
+ },
+ {
+  "county": "MORRIS COUNTY",
+  "code": "20127"
+ },
+ {
+  "county": "MORTON COUNTY",
+  "code": "20129"
+ },
+ {
+  "county": "NEMAHA COUNTY",
+  "code": "20131"
+ },
+ {
+  "county": "NEOSHO COUNTY",
+  "code": "20133"
+ },
+ {
+  "county": "NESS COUNTY",
+  "code": "20135"
+ },
+ {
+  "county": "NORTON COUNTY",
+  "code": "20137"
+ },
+ {
+  "county": "OSAGE COUNTY",
+  "code": "20139"
+ },
+ {
+  "county": "OSBORNE COUNTY",
+  "code": "20141"
+ },
+ {
+  "county": "OTTAWA COUNTY",
+  "code": "20143"
+ },
+ {
+  "county": "PAWNEE COUNTY",
+  "code": "20145"
+ },
+ {
+  "county": "PHILLIPS COUNTY",
+  "code": "20147"
+ },
+ {
+  "county": "POTTAWATOMIE COUNTY",
+  "code": "20149"
+ },
+ {
+  "county": "PRATT COUNTY",
+  "code": "20151"
+ },
+ {
+  "county": "RAWLINS COUNTY",
+  "code": "20153"
+ },
+ {
+  "county": "RENO COUNTY",
+  "code": "20155"
+ },
+ {
+  "county": "REPUBLIC COUNTY",
+  "code": "20157"
+ },
+ {
+  "county": "RICE COUNTY",
+  "code": "20159"
+ },
+ {
+  "county": "RILEY COUNTY",
+  "code": "20161"
+ },
+ {
+  "county": "ROOKS COUNTY",
+  "code": "20163"
+ },
+ {
+  "county": "RUSH COUNTY",
+  "code": "20165"
+ },
+ {
+  "county": "RUSSELL COUNTY",
+  "code": "20167"
+ },
+ {
+  "county": "SALINE COUNTY",
+  "code": "20169"
+ },
+ {
+  "county": "SCOTT COUNTY",
+  "code": "20171"
+ },
+ {
+  "county": "SEDGWICK COUNTY",
+  "code": "20173"
+ },
+ {
+  "county": "SEWARD COUNTY",
+  "code": "20175"
+ },
+ {
+  "county": "SHAWNEE COUNTY",
+  "code": "20177"
+ },
+ {
+  "county": "SHERIDAN COUNTY",
+  "code": "20179"
+ },
+ {
+  "county": "SHERMAN COUNTY",
+  "code": "20181"
+ },
+ {
+  "county": "SMITH COUNTY",
+  "code": "20183"
+ },
+ {
+  "county": "STAFFORD COUNTY",
+  "code": "20185"
+ },
+ {
+  "county": "STANTON COUNTY",
+  "code": "20187"
+ },
+ {
+  "county": "STEVENS COUNTY",
+  "code": "20189"
+ },
+ {
+  "county": "SUMNER COUNTY",
+  "code": "20191"
+ },
+ {
+  "county": "THOMAS COUNTY",
+  "code": "20193"
+ },
+ {
+  "county": "TREGO COUNTY",
+  "code": "20195"
+ },
+ {
+  "county": "WABAUNSEE COUNTY",
+  "code": "20197"
+ },
+ {
+  "county": "WALLACE COUNTY",
+  "code": "20199"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "20201"
+ },
+ {
+  "county": "WICHITA COUNTY",
+  "code": "20203"
+ },
+ {
+  "county": "WILSON COUNTY",
+  "code": "20205"
+ },
+ {
+  "county": "WOODSON COUNTY",
+  "code": "20207"
+ },
+ {
+  "county": "WYANDOTTE COUNTY",
+  "code": "20209"
+ },
+ {
+  "county": "KENTUCKY",
+  "code": "21000"
+ },
+ {
+  "county": "ADAIR COUNTY",
+  "code": "21001"
+ },
+ {
+  "county": "ALLEN COUNTY",
+  "code": "21003"
+ },
+ {
+  "county": "ANDERSON COUNTY",
+  "code": "21005"
+ },
+ {
+  "county": "BALLARD COUNTY",
+  "code": "21007"
+ },
+ {
+  "county": "BARREN COUNTY",
+  "code": "21009"
+ },
+ {
+  "county": "BATH COUNTY",
+  "code": "21011"
+ },
+ {
+  "county": "BELL COUNTY",
+  "code": "21013"
+ },
+ {
+  "county": "BOONE COUNTY",
+  "code": "21015"
+ },
+ {
+  "county": "BOURBON COUNTY",
+  "code": "21017"
+ },
+ {
+  "county": "BOYD COUNTY",
+  "code": "21019"
+ },
+ {
+  "county": "BOYLE COUNTY",
+  "code": "21021"
+ },
+ {
+  "county": "BRACKEN COUNTY",
+  "code": "21023"
+ },
+ {
+  "county": "BREATHITT COUNTY",
+  "code": "21025"
+ },
+ {
+  "county": "BRECKINRIDGE COUNTY",
+  "code": "21027"
+ },
+ {
+  "county": "BULLITT COUNTY",
+  "code": "21029"
+ },
+ {
+  "county": "BUTLER COUNTY",
+  "code": "21031"
+ },
+ {
+  "county": "CALDWELL COUNTY",
+  "code": "21033"
+ },
+ {
+  "county": "CALLOWAY COUNTY",
+  "code": "21035"
+ },
+ {
+  "county": "CAMPBELL COUNTY",
+  "code": "21037"
+ },
+ {
+  "county": "CARLISLE COUNTY",
+  "code": "21039"
+ },
+ {
+  "county": "CARROLL COUNTY",
+  "code": "21041"
+ },
+ {
+  "county": "CARTER COUNTY",
+  "code": "21043"
+ },
+ {
+  "county": "CASEY COUNTY",
+  "code": "21045"
+ },
+ {
+  "county": "CHRISTIAN COUNTY",
+  "code": "21047"
+ },
+ {
+  "county": "CLARK COUNTY",
+  "code": "21049"
+ },
+ {
+  "county": "CLAY COUNTY",
+  "code": "21051"
+ },
+ {
+  "county": "CLINTON COUNTY",
+  "code": "21053"
+ },
+ {
+  "county": "CRITTENDEN COUNTY",
+  "code": "21055"
+ },
+ {
+  "county": "CUMBERLAND COUNTY",
+  "code": "21057"
+ },
+ {
+  "county": "DAVIESS COUNTY",
+  "code": "21059"
+ },
+ {
+  "county": "EDMONSON COUNTY",
+  "code": "21061"
+ },
+ {
+  "county": "ELLIOTT COUNTY",
+  "code": "21063"
+ },
+ {
+  "county": "ESTILL COUNTY",
+  "code": "21065"
+ },
+ {
+  "county": "FAYETTE COUNTY",
+  "code": "21067"
+ },
+ {
+  "county": "FLEMING COUNTY",
+  "code": "21069"
+ },
+ {
+  "county": "FLOYD COUNTY",
+  "code": "21071"
+ },
+ {
+  "county": "FRANKLIN COUNTY",
+  "code": "21073"
+ },
+ {
+  "county": "FULTON COUNTY",
+  "code": "21075"
+ },
+ {
+  "county": "GALLATIN COUNTY",
+  "code": "21077"
+ },
+ {
+  "county": "GARRARD COUNTY",
+  "code": "21079"
+ },
+ {
+  "county": "GRANT COUNTY",
+  "code": "21081"
+ },
+ {
+  "county": "GRAVES COUNTY",
+  "code": "21083"
+ },
+ {
+  "county": "GRAYSON COUNTY",
+  "code": "21085"
+ },
+ {
+  "county": "GREEN COUNTY",
+  "code": "21087"
+ },
+ {
+  "county": "GREENUP COUNTY",
+  "code": "21089"
+ },
+ {
+  "county": "HANCOCK COUNTY",
+  "code": "21091"
+ },
+ {
+  "county": "HARDIN COUNTY",
+  "code": "21093"
+ },
+ {
+  "county": "HARLAN COUNTY",
+  "code": "21095"
+ },
+ {
+  "county": "HARRISON COUNTY",
+  "code": "21097"
+ },
+ {
+  "county": "HART COUNTY",
+  "code": "21099"
+ },
+ {
+  "county": "HENDERSON COUNTY",
+  "code": "21101"
+ },
+ {
+  "county": "HENRY COUNTY",
+  "code": "21103"
+ },
+ {
+  "county": "HICKMAN COUNTY",
+  "code": "21105"
+ },
+ {
+  "county": "HOPKINS COUNTY",
+  "code": "21107"
+ },
+ {
+  "county": "JACKSON COUNTY",
+  "code": "21109"
+ },
+ {
+  "county": "JEFFERSON COUNTY",
+  "code": "21111"
+ },
+ {
+  "county": "JESSAMINE COUNTY",
+  "code": "21113"
+ },
+ {
+  "county": "JOHNSON COUNTY",
+  "code": "21115"
+ },
+ {
+  "county": "KENTON COUNTY",
+  "code": "21117"
+ },
+ {
+  "county": "KNOTT COUNTY",
+  "code": "21119"
+ },
+ {
+  "county": "KNOX COUNTY",
+  "code": "21121"
+ },
+ {
+  "county": "LARUE COUNTY",
+  "code": "21123"
+ },
+ {
+  "county": "LAUREL COUNTY",
+  "code": "21125"
+ },
+ {
+  "county": "LAWRENCE COUNTY",
+  "code": "21127"
+ },
+ {
+  "county": "LEE COUNTY",
+  "code": "21129"
+ },
+ {
+  "county": "LESLIE COUNTY",
+  "code": "21131"
+ },
+ {
+  "county": "LETCHER COUNTY",
+  "code": "21133"
+ },
+ {
+  "county": "LEWIS COUNTY",
+  "code": "21135"
+ },
+ {
+  "county": "LINCOLN COUNTY",
+  "code": "21137"
+ },
+ {
+  "county": "LIVINGSTON COUNTY",
+  "code": "21139"
+ },
+ {
+  "county": "LOGAN COUNTY",
+  "code": "21141"
+ },
+ {
+  "county": "LYON COUNTY",
+  "code": "21143"
+ },
+ {
+  "county": "MCCRACKEN COUNTY",
+  "code": "21145"
+ },
+ {
+  "county": "MCCREARY COUNTY",
+  "code": "21147"
+ },
+ {
+  "county": "MCLEAN COUNTY",
+  "code": "21149"
+ },
+ {
+  "county": "MADISON COUNTY",
+  "code": "21151"
+ },
+ {
+  "county": "MAGOFFIN COUNTY",
+  "code": "21153"
+ },
+ {
+  "county": "MARION COUNTY",
+  "code": "21155"
+ },
+ {
+  "county": "MARSHALL COUNTY",
+  "code": "21157"
+ },
+ {
+  "county": "MARTIN COUNTY",
+  "code": "21159"
+ },
+ {
+  "county": "MASON COUNTY",
+  "code": "21161"
+ },
+ {
+  "county": "MEADE COUNTY",
+  "code": "21163"
+ },
+ {
+  "county": "MENIFEE COUNTY",
+  "code": "21165"
+ },
+ {
+  "county": "MERCER COUNTY",
+  "code": "21167"
+ },
+ {
+  "county": "METCALFE COUNTY",
+  "code": "21169"
+ },
+ {
+  "county": "MONROE COUNTY",
+  "code": "21171"
+ },
+ {
+  "county": "MONTGOMERY COUNTY",
+  "code": "21173"
+ },
+ {
+  "county": "MORGAN COUNTY",
+  "code": "21175"
+ },
+ {
+  "county": "MUHLENBERG COUNTY",
+  "code": "21177"
+ },
+ {
+  "county": "NELSON COUNTY",
+  "code": "21179"
+ },
+ {
+  "county": "NICHOLAS COUNTY",
+  "code": "21181"
+ },
+ {
+  "county": "OHIO COUNTY",
+  "code": "21183"
+ },
+ {
+  "county": "OLDHAM COUNTY",
+  "code": "21185"
+ },
+ {
+  "county": "OWEN COUNTY",
+  "code": "21187"
+ },
+ {
+  "county": "OWSLEY COUNTY",
+  "code": "21189"
+ },
+ {
+  "county": "PENDLETON COUNTY",
+  "code": "21191"
+ },
+ {
+  "county": "PERRY COUNTY",
+  "code": "21193"
+ },
+ {
+  "county": "PIKE COUNTY",
+  "code": "21195"
+ },
+ {
+  "county": "POWELL COUNTY",
+  "code": "21197"
+ },
+ {
+  "county": "PULASKI COUNTY",
+  "code": "21199"
+ },
+ {
+  "county": "ROBERTSON COUNTY",
+  "code": "21201"
+ },
+ {
+  "county": "ROCKCASTLE COUNTY",
+  "code": "21203"
+ },
+ {
+  "county": "ROWAN COUNTY",
+  "code": "21205"
+ },
+ {
+  "county": "RUSSELL COUNTY",
+  "code": "21207"
+ },
+ {
+  "county": "SCOTT COUNTY",
+  "code": "21209"
+ },
+ {
+  "county": "SHELBY COUNTY",
+  "code": "21211"
+ },
+ {
+  "county": "SIMPSON COUNTY",
+  "code": "21213"
+ },
+ {
+  "county": "SPENCER COUNTY",
+  "code": "21215"
+ },
+ {
+  "county": "TAYLOR COUNTY",
+  "code": "21217"
+ },
+ {
+  "county": "TODD COUNTY",
+  "code": "21219"
+ },
+ {
+  "county": "TRIGG COUNTY",
+  "code": "21221"
+ },
+ {
+  "county": "TRIMBLE COUNTY",
+  "code": "21223"
+ },
+ {
+  "county": "UNION COUNTY",
+  "code": "21225"
+ },
+ {
+  "county": "WARREN COUNTY",
+  "code": "21227"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "21229"
+ },
+ {
+  "county": "WAYNE COUNTY",
+  "code": "21231"
+ },
+ {
+  "county": "WEBSTER COUNTY",
+  "code": "21233"
+ },
+ {
+  "county": "WHITLEY COUNTY",
+  "code": "21235"
+ },
+ {
+  "county": "WOLFE COUNTY",
+  "code": "21237"
+ },
+ {
+  "county": "WOODFORD COUNTY",
+  "code": "21239"
+ },
+ {
+  "county": "LOUISIANA",
+  "code": "22000"
+ },
+ {
+  "county": "ACADIA PARISH",
+  "code": "22001"
+ },
+ {
+  "county": "ALLEN PARISH",
+  "code": "22003"
+ },
+ {
+  "county": "ASCENSION PARISH",
+  "code": "22005"
+ },
+ {
+  "county": "ASSUMPTION PARISH",
+  "code": "22007"
+ },
+ {
+  "county": "AVOYELLES PARISH",
+  "code": "22009"
+ },
+ {
+  "county": "BEAUREGARD PARISH",
+  "code": "22011"
+ },
+ {
+  "county": "BIENVILLE PARISH",
+  "code": "22013"
+ },
+ {
+  "county": "BOSSIER PARISH",
+  "code": "22015"
+ },
+ {
+  "county": "CADDO PARISH",
+  "code": "22017"
+ },
+ {
+  "county": "CALCASIEU PARISH",
+  "code": "22019"
+ },
+ {
+  "county": "CALDWELL PARISH",
+  "code": "22021"
+ },
+ {
+  "county": "CAMERON PARISH",
+  "code": "22023"
+ },
+ {
+  "county": "CATAHOULA PARISH",
+  "code": "22025"
+ },
+ {
+  "county": "CLAIBORNE PARISH",
+  "code": "22027"
+ },
+ {
+  "county": "CONCORDIA PARISH",
+  "code": "22029"
+ },
+ {
+  "county": "DE SOTO PARISH",
+  "code": "22031"
+ },
+ {
+  "county": "EAST BATON ROUGE PARISH",
+  "code": "22033"
+ },
+ {
+  "county": "EAST CARROLL PARISH",
+  "code": "22035"
+ },
+ {
+  "county": "EAST FELICIANA PARISH",
+  "code": "22037"
+ },
+ {
+  "county": "EVANGELINE PARISH",
+  "code": "22039"
+ },
+ {
+  "county": "FRANKLIN PARISH",
+  "code": "22041"
+ },
+ {
+  "county": "GRANT PARISH",
+  "code": "22043"
+ },
+ {
+  "county": "IBERIA PARISH",
+  "code": "22045"
+ },
+ {
+  "county": "IBERVILLE PARISH",
+  "code": "22047"
+ },
+ {
+  "county": "JACKSON PARISH",
+  "code": "22049"
+ },
+ {
+  "county": "JEFFERSON PARISH",
+  "code": "22051"
+ },
+ {
+  "county": "JEFFERSON DAVIS PARISH",
+  "code": "22053"
+ },
+ {
+  "county": "LAFAYETTE PARISH",
+  "code": "22055"
+ },
+ {
+  "county": "LAFOURCHE PARISH",
+  "code": "22057"
+ },
+ {
+  "county": "LA SALLE PARISH",
+  "code": "22059"
+ },
+ {
+  "county": "LINCOLN PARISH",
+  "code": "22061"
+ },
+ {
+  "county": "LIVINGSTON PARISH",
+  "code": "22063"
+ },
+ {
+  "county": "MADISON PARISH",
+  "code": "22065"
+ },
+ {
+  "county": "MOREHOUSE PARISH",
+  "code": "22067"
+ },
+ {
+  "county": "NATCHITOCHES PARISH",
+  "code": "22069"
+ },
+ {
+  "county": "ORLEANS PARISH",
+  "code": "22071"
+ },
+ {
+  "county": "OUACHITA PARISH",
+  "code": "22073"
+ },
+ {
+  "county": "PLAQUEMINES PARISH",
+  "code": "22075"
+ },
+ {
+  "county": "POINTE COUPEE PARISH",
+  "code": "22077"
+ },
+ {
+  "county": "RAPIDES PARISH",
+  "code": "22079"
+ },
+ {
+  "county": "RED RIVER PARISH",
+  "code": "22081"
+ },
+ {
+  "county": "RICHLAND PARISH",
+  "code": "22083"
+ },
+ {
+  "county": "SABINE PARISH",
+  "code": "22085"
+ },
+ {
+  "county": "ST. BERNARD PARISH",
+  "code": "22087"
+ },
+ {
+  "county": "ST. CHARLES PARISH",
+  "code": "22089"
+ },
+ {
+  "county": "ST. HELENA PARISH",
+  "code": "22091"
+ },
+ {
+  "county": "ST. JAMES PARISH",
+  "code": "22093"
+ },
+ {
+  "county": "ST. JOHN THE BAPTIST PARISH",
+  "code": "22095"
+ },
+ {
+  "county": "ST. LANDRY PARISH",
+  "code": "22097"
+ },
+ {
+  "county": "ST. MARTIN PARISH",
+  "code": "22099"
+ },
+ {
+  "county": "ST. MARY PARISH",
+  "code": "22101"
+ },
+ {
+  "county": "ST. TAMMANY PARISH",
+  "code": "22103"
+ },
+ {
+  "county": "TANGIPAHOA PARISH",
+  "code": "22105"
+ },
+ {
+  "county": "TENSAS PARISH",
+  "code": "22107"
+ },
+ {
+  "county": "TERREBONNE PARISH",
+  "code": "22109"
+ },
+ {
+  "county": "UNION PARISH",
+  "code": "22111"
+ },
+ {
+  "county": "VERMILION PARISH",
+  "code": "22113"
+ },
+ {
+  "county": "VERNON PARISH",
+  "code": "22115"
+ },
+ {
+  "county": "WASHINGTON PARISH",
+  "code": "22117"
+ },
+ {
+  "county": "WEBSTER PARISH",
+  "code": "22119"
+ },
+ {
+  "county": "WEST BATON ROUGE PARISH",
+  "code": "22121"
+ },
+ {
+  "county": "WEST CARROLL PARISH",
+  "code": "22123"
+ },
+ {
+  "county": "WEST FELICIANA PARISH",
+  "code": "22125"
+ },
+ {
+  "county": "WINN PARISH",
+  "code": "22127"
+ },
+ {
+  "county": "MAINE",
+  "code": "23000"
+ },
+ {
+  "county": "ANDROSCOGGIN COUNTY",
+  "code": "23001"
+ },
+ {
+  "county": "AROOSTOOK COUNTY",
+  "code": "23003"
+ },
+ {
+  "county": "CUMBERLAND COUNTY",
+  "code": "23005"
+ },
+ {
+  "county": "FRANKLIN COUNTY",
+  "code": "23007"
+ },
+ {
+  "county": "HANCOCK COUNTY",
+  "code": "23009"
+ },
+ {
+  "county": "KENNEBEC COUNTY",
+  "code": "23011"
+ },
+ {
+  "county": "KNOX COUNTY",
+  "code": "23013"
+ },
+ {
+  "county": "LINCOLN COUNTY",
+  "code": "23015"
+ },
+ {
+  "county": "OXFORD COUNTY",
+  "code": "23017"
+ },
+ {
+  "county": "PENOBSCOT COUNTY",
+  "code": "23019"
+ },
+ {
+  "county": "PISCATAQUIS COUNTY",
+  "code": "23021"
+ },
+ {
+  "county": "SAGADAHOC COUNTY",
+  "code": "23023"
+ },
+ {
+  "county": "SOMERSET COUNTY",
+  "code": "23025"
+ },
+ {
+  "county": "WALDO COUNTY",
+  "code": "23027"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "23029"
+ },
+ {
+  "county": "YORK COUNTY",
+  "code": "23031"
+ },
+ {
+  "county": "MARYLAND",
+  "code": "24000"
+ },
+ {
+  "county": "ALLEGANY COUNTY",
+  "code": "24001"
+ },
+ {
+  "county": "ANNE ARUNDEL COUNTY",
+  "code": "24003"
+ },
+ {
+  "county": "BALTIMORE COUNTY",
+  "code": "24005"
+ },
+ {
+  "county": "CALVERT COUNTY",
+  "code": "24009"
+ },
+ {
+  "county": "CAROLINE COUNTY",
+  "code": "24011"
+ },
+ {
+  "county": "CARROLL COUNTY",
+  "code": "24013"
+ },
+ {
+  "county": "CECIL COUNTY",
+  "code": "24015"
+ },
+ {
+  "county": "CHARLES COUNTY",
+  "code": "24017"
+ },
+ {
+  "county": "DORCHESTER COUNTY",
+  "code": "24019"
+ },
+ {
+  "county": "FREDERICK COUNTY",
+  "code": "24021"
+ },
+ {
+  "county": "GARRETT COUNTY",
+  "code": "24023"
+ },
+ {
+  "county": "HARFORD COUNTY",
+  "code": "24025"
+ },
+ {
+  "county": "HOWARD COUNTY",
+  "code": "24027"
+ },
+ {
+  "county": "KENT COUNTY",
+  "code": "24029"
+ },
+ {
+  "county": "MONTGOMERY COUNTY",
+  "code": "24031"
+ },
+ {
+  "county": "PRINCE GEORGE",
+  "code": "24033"
+ },
+ {
+  "county": "QUEEN ANNE",
+  "code": "24035"
+ },
+ {
+  "county": "ST. MARY",
+  "code": "24037"
+ },
+ {
+  "county": "SOMERSET COUNTY",
+  "code": "24039"
+ },
+ {
+  "county": "TALBOT COUNTY",
+  "code": "24041"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "24043"
+ },
+ {
+  "county": "WICOMICO COUNTY",
+  "code": "24045"
+ },
+ {
+  "county": "WORCESTER COUNTY",
+  "code": "24047"
+ },
+ {
+  "county": "BALTIMORE CITY",
+  "code": "24510"
+ },
+ {
+  "county": "MASSACHUSETTS",
+  "code": "25000"
+ },
+ {
+  "county": "BARNSTABLE COUNTY",
+  "code": "25001"
+ },
+ {
+  "county": "BERKSHIRE COUNTY",
+  "code": "25003"
+ },
+ {
+  "county": "BRISTOL COUNTY",
+  "code": "25005"
+ },
+ {
+  "county": "DUKES COUNTY",
+  "code": "25007"
+ },
+ {
+  "county": "ESSEX COUNTY",
+  "code": "25009"
+ },
+ {
+  "county": "FRANKLIN COUNTY",
+  "code": "25011"
+ },
+ {
+  "county": "HAMPDEN COUNTY",
+  "code": "25013"
+ },
+ {
+  "county": "HAMPSHIRE COUNTY",
+  "code": "25015"
+ },
+ {
+  "county": "MIDDLESEX COUNTY",
+  "code": "25017"
+ },
+ {
+  "county": "NANTUCKET COUNTY",
+  "code": "25019"
+ },
+ {
+  "county": "NORFOLK COUNTY",
+  "code": "25021"
+ },
+ {
+  "county": "PLYMOUTH COUNTY",
+  "code": "25023"
+ },
+ {
+  "county": "SUFFOLK COUNTY",
+  "code": "25025"
+ },
+ {
+  "county": "WORCESTER COUNTY",
+  "code": "25027"
+ },
+ {
+  "county": "MICHIGAN",
+  "code": "26000"
+ },
+ {
+  "county": "ALCONA COUNTY",
+  "code": "26001"
+ },
+ {
+  "county": "ALGER COUNTY",
+  "code": "26003"
+ },
+ {
+  "county": "ALLEGAN COUNTY",
+  "code": "26005"
+ },
+ {
+  "county": "ALPENA COUNTY",
+  "code": "26007"
+ },
+ {
+  "county": "ANTRIM COUNTY",
+  "code": "26009"
+ },
+ {
+  "county": "ARENAC COUNTY",
+  "code": "26011"
+ },
+ {
+  "county": "BARAGA COUNTY",
+  "code": "26013"
+ },
+ {
+  "county": "BARRY COUNTY",
+  "code": "26015"
+ },
+ {
+  "county": "BAY COUNTY",
+  "code": "26017"
+ },
+ {
+  "county": "BENZIE COUNTY",
+  "code": "26019"
+ },
+ {
+  "county": "BERRIEN COUNTY",
+  "code": "26021"
+ },
+ {
+  "county": "BRANCH COUNTY",
+  "code": "26023"
+ },
+ {
+  "county": "CALHOUN COUNTY",
+  "code": "26025"
+ },
+ {
+  "county": "CASS COUNTY",
+  "code": "26027"
+ },
+ {
+  "county": "CHARLEVOIX COUNTY",
+  "code": "26029"
+ },
+ {
+  "county": "CHEBOYGAN COUNTY",
+  "code": "26031"
+ },
+ {
+  "county": "CHIPPEWA COUNTY",
+  "code": "26033"
+ },
+ {
+  "county": "CLARE COUNTY",
+  "code": "26035"
+ },
+ {
+  "county": "CLINTON COUNTY",
+  "code": "26037"
+ },
+ {
+  "county": "CRAWFORD COUNTY",
+  "code": "26039"
+ },
+ {
+  "county": "DELTA COUNTY",
+  "code": "26041"
+ },
+ {
+  "county": "DICKINSON COUNTY",
+  "code": "26043"
+ },
+ {
+  "county": "EATON COUNTY",
+  "code": "26045"
+ },
+ {
+  "county": "EMMET COUNTY",
+  "code": "26047"
+ },
+ {
+  "county": "GENESEE COUNTY",
+  "code": "26049"
+ },
+ {
+  "county": "GLADWIN COUNTY",
+  "code": "26051"
+ },
+ {
+  "county": "GOGEBIC COUNTY",
+  "code": "26053"
+ },
+ {
+  "county": "GRAND TRAVERSE COUNTY",
+  "code": "26055"
+ },
+ {
+  "county": "GRATIOT COUNTY",
+  "code": "26057"
+ },
+ {
+  "county": "HILLSDALE COUNTY",
+  "code": "26059"
+ },
+ {
+  "county": "HOUGHTON COUNTY",
+  "code": "26061"
+ },
+ {
+  "county": "HURON COUNTY",
+  "code": "26063"
+ },
+ {
+  "county": "INGHAM COUNTY",
+  "code": "26065"
+ },
+ {
+  "county": "IONIA COUNTY",
+  "code": "26067"
+ },
+ {
+  "county": "IOSCO COUNTY",
+  "code": "26069"
+ },
+ {
+  "county": "IRON COUNTY",
+  "code": "26071"
+ },
+ {
+  "county": "ISABELLA COUNTY",
+  "code": "26073"
+ },
+ {
+  "county": "JACKSON COUNTY",
+  "code": "26075"
+ },
+ {
+  "county": "KALAMAZOO COUNTY",
+  "code": "26077"
+ },
+ {
+  "county": "KALKASKA COUNTY",
+  "code": "26079"
+ },
+ {
+  "county": "KENT COUNTY",
+  "code": "26081"
+ },
+ {
+  "county": "KEWEENAW COUNTY",
+  "code": "26083"
+ },
+ {
+  "county": "LAKE COUNTY",
+  "code": "26085"
+ },
+ {
+  "county": "LAPEER COUNTY",
+  "code": "26087"
+ },
+ {
+  "county": "LEELANAU COUNTY",
+  "code": "26089"
+ },
+ {
+  "county": "LENAWEE COUNTY",
+  "code": "26091"
+ },
+ {
+  "county": "LIVINGSTON COUNTY",
+  "code": "26093"
+ },
+ {
+  "county": "LUCE COUNTY",
+  "code": "26095"
+ },
+ {
+  "county": "MACKINAC COUNTY",
+  "code": "26097"
+ },
+ {
+  "county": "MACOMB COUNTY",
+  "code": "26099"
+ },
+ {
+  "county": "MANISTEE COUNTY",
+  "code": "26101"
+ },
+ {
+  "county": "MARQUETTE COUNTY",
+  "code": "26103"
+ },
+ {
+  "county": "MASON COUNTY",
+  "code": "26105"
+ },
+ {
+  "county": "MECOSTA COUNTY",
+  "code": "26107"
+ },
+ {
+  "county": "MENOMINEE COUNTY",
+  "code": "26109"
+ },
+ {
+  "county": "MIDLAND COUNTY",
+  "code": "26111"
+ },
+ {
+  "county": "MISSAUKEE COUNTY",
+  "code": "26113"
+ },
+ {
+  "county": "MONROE COUNTY",
+  "code": "26115"
+ },
+ {
+  "county": "MONTCALM COUNTY",
+  "code": "26117"
+ },
+ {
+  "county": "MONTMORENCY COUNTY",
+  "code": "26119"
+ },
+ {
+  "county": "MUSKEGON COUNTY",
+  "code": "26121"
+ },
+ {
+  "county": "NEWAYGO COUNTY",
+  "code": "26123"
+ },
+ {
+  "county": "OAKLAND COUNTY",
+  "code": "26125"
+ },
+ {
+  "county": "OCEANA COUNTY",
+  "code": "26127"
+ },
+ {
+  "county": "OGEMAW COUNTY",
+  "code": "26129"
+ },
+ {
+  "county": "ONTONAGON COUNTY",
+  "code": "26131"
+ },
+ {
+  "county": "OSCEOLA COUNTY",
+  "code": "26133"
+ },
+ {
+  "county": "OSCODA COUNTY",
+  "code": "26135"
+ },
+ {
+  "county": "OTSEGO COUNTY",
+  "code": "26137"
+ },
+ {
+  "county": "OTTAWA COUNTY",
+  "code": "26139"
+ },
+ {
+  "county": "PRESQUE ISLE COUNTY",
+  "code": "26141"
+ },
+ {
+  "county": "ROSCOMMON COUNTY",
+  "code": "26143"
+ },
+ {
+  "county": "SAGINAW COUNTY",
+  "code": "26145"
+ },
+ {
+  "county": "ST. CLAIR COUNTY",
+  "code": "26147"
+ },
+ {
+  "county": "ST. JOSEPH COUNTY",
+  "code": "26149"
+ },
+ {
+  "county": "SANILAC COUNTY",
+  "code": "26151"
+ },
+ {
+  "county": "SCHOOLCRAFT COUNTY",
+  "code": "26153"
+ },
+ {
+  "county": "SHIAWASSEE COUNTY",
+  "code": "26155"
+ },
+ {
+  "county": "TUSCOLA COUNTY",
+  "code": "26157"
+ },
+ {
+  "county": "VAN BUREN COUNTY",
+  "code": "26159"
+ },
+ {
+  "county": "WASHTENAW COUNTY",
+  "code": "26161"
+ },
+ {
+  "county": "WAYNE COUNTY",
+  "code": "26163"
+ },
+ {
+  "county": "WEXFORD COUNTY",
+  "code": "26165"
+ },
+ {
+  "county": "MINNESOTA",
+  "code": "27000"
+ },
+ {
+  "county": "AITKIN COUNTY",
+  "code": "27001"
+ },
+ {
+  "county": "ANOKA COUNTY",
+  "code": "27003"
+ },
+ {
+  "county": "BECKER COUNTY",
+  "code": "27005"
+ },
+ {
+  "county": "BELTRAMI COUNTY",
+  "code": "27007"
+ },
+ {
+  "county": "BENTON COUNTY",
+  "code": "27009"
+ },
+ {
+  "county": "BIG STONE COUNTY",
+  "code": "27011"
+ },
+ {
+  "county": "BLUE EARTH COUNTY",
+  "code": "27013"
+ },
+ {
+  "county": "BROWN COUNTY",
+  "code": "27015"
+ },
+ {
+  "county": "CARLTON COUNTY",
+  "code": "27017"
+ },
+ {
+  "county": "CARVER COUNTY",
+  "code": "27019"
+ },
+ {
+  "county": "CASS COUNTY",
+  "code": "27021"
+ },
+ {
+  "county": "CHIPPEWA COUNTY",
+  "code": "27023"
+ },
+ {
+  "county": "CHISAGO COUNTY",
+  "code": "27025"
+ },
+ {
+  "county": "CLAY COUNTY",
+  "code": "27027"
+ },
+ {
+  "county": "CLEARWATER COUNTY",
+  "code": "27029"
+ },
+ {
+  "county": "COOK COUNTY",
+  "code": "27031"
+ },
+ {
+  "county": "COTTONWOOD COUNTY",
+  "code": "27033"
+ },
+ {
+  "county": "CROW WING COUNTY",
+  "code": "27035"
+ },
+ {
+  "county": "DAKOTA COUNTY",
+  "code": "27037"
+ },
+ {
+  "county": "DODGE COUNTY",
+  "code": "27039"
+ },
+ {
+  "county": "DOUGLAS COUNTY",
+  "code": "27041"
+ },
+ {
+  "county": "FARIBAULT COUNTY",
+  "code": "27043"
+ },
+ {
+  "county": "FILLMORE COUNTY",
+  "code": "27045"
+ },
+ {
+  "county": "FREEBORN COUNTY",
+  "code": "27047"
+ },
+ {
+  "county": "GOODHUE COUNTY",
+  "code": "27049"
+ },
+ {
+  "county": "GRANT COUNTY",
+  "code": "27051"
+ },
+ {
+  "county": "HENNEPIN COUNTY",
+  "code": "27053"
+ },
+ {
+  "county": "HOUSTON COUNTY",
+  "code": "27055"
+ },
+ {
+  "county": "HUBBARD COUNTY",
+  "code": "27057"
+ },
+ {
+  "county": "ISANTI COUNTY",
+  "code": "27059"
+ },
+ {
+  "county": "ITASCA COUNTY",
+  "code": "27061"
+ },
+ {
+  "county": "JACKSON COUNTY",
+  "code": "27063"
+ },
+ {
+  "county": "KANABEC COUNTY",
+  "code": "27065"
+ },
+ {
+  "county": "KANDIYOHI COUNTY",
+  "code": "27067"
+ },
+ {
+  "county": "KITTSON COUNTY",
+  "code": "27069"
+ },
+ {
+  "county": "KOOCHICHING COUNTY",
+  "code": "27071"
+ },
+ {
+  "county": "LAC QUI PARLE COUNTY",
+  "code": "27073"
+ },
+ {
+  "county": "LAKE COUNTY",
+  "code": "27075"
+ },
+ {
+  "county": "LAKE OF THE WOODS COUNTY",
+  "code": "27077"
+ },
+ {
+  "county": "LE SUEUR COUNTY",
+  "code": "27079"
+ },
+ {
+  "county": "LINCOLN COUNTY",
+  "code": "27081"
+ },
+ {
+  "county": "LYON COUNTY",
+  "code": "27083"
+ },
+ {
+  "county": "MCLEOD COUNTY",
+  "code": "27085"
+ },
+ {
+  "county": "MAHNOMEN COUNTY",
+  "code": "27087"
+ },
+ {
+  "county": "MARSHALL COUNTY",
+  "code": "27089"
+ },
+ {
+  "county": "MARTIN COUNTY",
+  "code": "27091"
+ },
+ {
+  "county": "MEEKER COUNTY",
+  "code": "27093"
+ },
+ {
+  "county": "MILLE LACS COUNTY",
+  "code": "27095"
+ },
+ {
+  "county": "MORRISON COUNTY",
+  "code": "27097"
+ },
+ {
+  "county": "MOWER COUNTY",
+  "code": "27099"
+ },
+ {
+  "county": "MURRAY COUNTY",
+  "code": "27101"
+ },
+ {
+  "county": "NICOLLET COUNTY",
+  "code": "27103"
+ },
+ {
+  "county": "NOBLES COUNTY",
+  "code": "27105"
+ },
+ {
+  "county": "NORMAN COUNTY",
+  "code": "27107"
+ },
+ {
+  "county": "OLMSTED COUNTY",
+  "code": "27109"
+ },
+ {
+  "county": "OTTER TAIL COUNTY",
+  "code": "27111"
+ },
+ {
+  "county": "PENNINGTON COUNTY",
+  "code": "27113"
+ },
+ {
+  "county": "PINE COUNTY",
+  "code": "27115"
+ },
+ {
+  "county": "PIPESTONE COUNTY",
+  "code": "27117"
+ },
+ {
+  "county": "POLK COUNTY",
+  "code": "27119"
+ },
+ {
+  "county": "POPE COUNTY",
+  "code": "27121"
+ },
+ {
+  "county": "RAMSEY COUNTY",
+  "code": "27123"
+ },
+ {
+  "county": "RED LAKE COUNTY",
+  "code": "27125"
+ },
+ {
+  "county": "REDWOOD COUNTY",
+  "code": "27127"
+ },
+ {
+  "county": "RENVILLE COUNTY",
+  "code": "27129"
+ },
+ {
+  "county": "RICE COUNTY",
+  "code": "27131"
+ },
+ {
+  "county": "ROCK COUNTY",
+  "code": "27133"
+ },
+ {
+  "county": "ROSEAU COUNTY",
+  "code": "27135"
+ },
+ {
+  "county": "ST. LOUIS COUNTY",
+  "code": "27137"
+ },
+ {
+  "county": "SCOTT COUNTY",
+  "code": "27139"
+ },
+ {
+  "county": "SHERBURNE COUNTY",
+  "code": "27141"
+ },
+ {
+  "county": "SIBLEY COUNTY",
+  "code": "27143"
+ },
+ {
+  "county": "STEARNS COUNTY",
+  "code": "27145"
+ },
+ {
+  "county": "STEELE COUNTY",
+  "code": "27147"
+ },
+ {
+  "county": "STEVENS COUNTY",
+  "code": "27149"
+ },
+ {
+  "county": "SWIFT COUNTY",
+  "code": "27151"
+ },
+ {
+  "county": "TODD COUNTY",
+  "code": "27153"
+ },
+ {
+  "county": "TRAVERSE COUNTY",
+  "code": "27155"
+ },
+ {
+  "county": "WABASHA COUNTY",
+  "code": "27157"
+ },
+ {
+  "county": "WADENA COUNTY",
+  "code": "27159"
+ },
+ {
+  "county": "WASECA COUNTY",
+  "code": "27161"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "27163"
+ },
+ {
+  "county": "WATONWAN COUNTY",
+  "code": "27165"
+ },
+ {
+  "county": "WILKIN COUNTY",
+  "code": "27167"
+ },
+ {
+  "county": "WINONA COUNTY",
+  "code": "27169"
+ },
+ {
+  "county": "WRIGHT COUNTY",
+  "code": "27171"
+ },
+ {
+  "county": "YELLOW MEDICINE COUNTY",
+  "code": "27173"
+ },
+ {
+  "county": "MISSISSIPPI",
+  "code": "28000"
+ },
+ {
+  "county": "ADAMS COUNTY",
+  "code": "28001"
+ },
+ {
+  "county": "ALCORN COUNTY",
+  "code": "28003"
+ },
+ {
+  "county": "AMITE COUNTY",
+  "code": "28005"
+ },
+ {
+  "county": "ATTALA COUNTY",
+  "code": "28007"
+ },
+ {
+  "county": "BENTON COUNTY",
+  "code": "28009"
+ },
+ {
+  "county": "BOLIVAR COUNTY",
+  "code": "28011"
+ },
+ {
+  "county": "CALHOUN COUNTY",
+  "code": "28013"
+ },
+ {
+  "county": "CARROLL COUNTY",
+  "code": "28015"
+ },
+ {
+  "county": "CHICKASAW COUNTY",
+  "code": "28017"
+ },
+ {
+  "county": "CHOCTAW COUNTY",
+  "code": "28019"
+ },
+ {
+  "county": "CLAIBORNE COUNTY",
+  "code": "28021"
+ },
+ {
+  "county": "CLARKE COUNTY",
+  "code": "28023"
+ },
+ {
+  "county": "CLAY COUNTY",
+  "code": "28025"
+ },
+ {
+  "county": "COAHOMA COUNTY",
+  "code": "28027"
+ },
+ {
+  "county": "COPIAH COUNTY",
+  "code": "28029"
+ },
+ {
+  "county": "COVINGTON COUNTY",
+  "code": "28031"
+ },
+ {
+  "county": "DESOTO COUNTY",
+  "code": "28033"
+ },
+ {
+  "county": "FORREST COUNTY",
+  "code": "28035"
+ },
+ {
+  "county": "FRANKLIN COUNTY",
+  "code": "28037"
+ },
+ {
+  "county": "GEORGE COUNTY",
+  "code": "28039"
+ },
+ {
+  "county": "GREENE COUNTY",
+  "code": "28041"
+ },
+ {
+  "county": "GRENADA COUNTY",
+  "code": "28043"
+ },
+ {
+  "county": "HANCOCK COUNTY",
+  "code": "28045"
+ },
+ {
+  "county": "HARRISON COUNTY",
+  "code": "28047"
+ },
+ {
+  "county": "HINDS COUNTY",
+  "code": "28049"
+ },
+ {
+  "county": "HOLMES COUNTY",
+  "code": "28051"
+ },
+ {
+  "county": "HUMPHREYS COUNTY",
+  "code": "28053"
+ },
+ {
+  "county": "ISSAQUENA COUNTY",
+  "code": "28055"
+ },
+ {
+  "county": "ITAWAMBA COUNTY",
+  "code": "28057"
+ },
+ {
+  "county": "JACKSON COUNTY",
+  "code": "28059"
+ },
+ {
+  "county": "JASPER COUNTY",
+  "code": "28061"
+ },
+ {
+  "county": "JEFFERSON COUNTY",
+  "code": "28063"
+ },
+ {
+  "county": "JEFFERSON DAVIS COUNTY",
+  "code": "28065"
+ },
+ {
+  "county": "JONES COUNTY",
+  "code": "28067"
+ },
+ {
+  "county": "KEMPER COUNTY",
+  "code": "28069"
+ },
+ {
+  "county": "LAFAYETTE COUNTY",
+  "code": "28071"
+ },
+ {
+  "county": "LAMAR COUNTY",
+  "code": "28073"
+ },
+ {
+  "county": "LAUDERDALE COUNTY",
+  "code": "28075"
+ },
+ {
+  "county": "LAWRENCE COUNTY",
+  "code": "28077"
+ },
+ {
+  "county": "LEAKE COUNTY",
+  "code": "28079"
+ },
+ {
+  "county": "LEE COUNTY",
+  "code": "28081"
+ },
+ {
+  "county": "LEFLORE COUNTY",
+  "code": "28083"
+ },
+ {
+  "county": "LINCOLN COUNTY",
+  "code": "28085"
+ },
+ {
+  "county": "LOWNDES COUNTY",
+  "code": "28087"
+ },
+ {
+  "county": "MADISON COUNTY",
+  "code": "28089"
+ },
+ {
+  "county": "MARION COUNTY",
+  "code": "28091"
+ },
+ {
+  "county": "MARSHALL COUNTY",
+  "code": "28093"
+ },
+ {
+  "county": "MONROE COUNTY",
+  "code": "28095"
+ },
+ {
+  "county": "MONTGOMERY COUNTY",
+  "code": "28097"
+ },
+ {
+  "county": "NESHOBA COUNTY",
+  "code": "28099"
+ },
+ {
+  "county": "NEWTON COUNTY",
+  "code": "28101"
+ },
+ {
+  "county": "NOXUBEE COUNTY",
+  "code": "28103"
+ },
+ {
+  "county": "OKTIBBEHA COUNTY",
+  "code": "28105"
+ },
+ {
+  "county": "PANOLA COUNTY",
+  "code": "28107"
+ },
+ {
+  "county": "PEARL RIVER COUNTY",
+  "code": "28109"
+ },
+ {
+  "county": "PERRY COUNTY",
+  "code": "28111"
+ },
+ {
+  "county": "PIKE COUNTY",
+  "code": "28113"
+ },
+ {
+  "county": "PONTOTOC COUNTY",
+  "code": "28115"
+ },
+ {
+  "county": "PRENTISS COUNTY",
+  "code": "28117"
+ },
+ {
+  "county": "QUITMAN COUNTY",
+  "code": "28119"
+ },
+ {
+  "county": "RANKIN COUNTY",
+  "code": "28121"
+ },
+ {
+  "county": "SCOTT COUNTY",
+  "code": "28123"
+ },
+ {
+  "county": "SHARKEY COUNTY",
+  "code": "28125"
+ },
+ {
+  "county": "SIMPSON COUNTY",
+  "code": "28127"
+ },
+ {
+  "county": "SMITH COUNTY",
+  "code": "28129"
+ },
+ {
+  "county": "STONE COUNTY",
+  "code": "28131"
+ },
+ {
+  "county": "SUNFLOWER COUNTY",
+  "code": "28133"
+ },
+ {
+  "county": "TALLAHATCHIE COUNTY",
+  "code": "28135"
+ },
+ {
+  "county": "TATE COUNTY",
+  "code": "28137"
+ },
+ {
+  "county": "TIPPAH COUNTY",
+  "code": "28139"
+ },
+ {
+  "county": "TISHOMINGO COUNTY",
+  "code": "28141"
+ },
+ {
+  "county": "TUNICA COUNTY",
+  "code": "28143"
+ },
+ {
+  "county": "UNION COUNTY",
+  "code": "28145"
+ },
+ {
+  "county": "WALTHALL COUNTY",
+  "code": "28147"
+ },
+ {
+  "county": "WARREN COUNTY",
+  "code": "28149"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "28151"
+ },
+ {
+  "county": "WAYNE COUNTY",
+  "code": "28153"
+ },
+ {
+  "county": "WEBSTER COUNTY",
+  "code": "28155"
+ },
+ {
+  "county": "WILKINSON COUNTY",
+  "code": "28157"
+ },
+ {
+  "county": "WINSTON COUNTY",
+  "code": "28159"
+ },
+ {
+  "county": "YALOBUSHA COUNTY",
+  "code": "28161"
+ },
+ {
+  "county": "YAZOO COUNTY",
+  "code": "28163"
+ },
+ {
+  "county": "MISSOURI",
+  "code": "29000"
+ },
+ {
+  "county": "ADAIR COUNTY",
+  "code": "29001"
+ },
+ {
+  "county": "ANDREW COUNTY",
+  "code": "29003"
+ },
+ {
+  "county": "ATCHISON COUNTY",
+  "code": "29005"
+ },
+ {
+  "county": "AUDRAIN COUNTY",
+  "code": "29007"
+ },
+ {
+  "county": "BARRY COUNTY",
+  "code": "29009"
+ },
+ {
+  "county": "BARTON COUNTY",
+  "code": "29011"
+ },
+ {
+  "county": "BATES COUNTY",
+  "code": "29013"
+ },
+ {
+  "county": "BENTON COUNTY",
+  "code": "29015"
+ },
+ {
+  "county": "BOLLINGER COUNTY",
+  "code": "29017"
+ },
+ {
+  "county": "BOONE COUNTY",
+  "code": "29019"
+ },
+ {
+  "county": "BUCHANAN COUNTY",
+  "code": "29021"
+ },
+ {
+  "county": "BUTLER COUNTY",
+  "code": "29023"
+ },
+ {
+  "county": "CALDWELL COUNTY",
+  "code": "29025"
+ },
+ {
+  "county": "CALLAWAY COUNTY",
+  "code": "29027"
+ },
+ {
+  "county": "CAMDEN COUNTY",
+  "code": "29029"
+ },
+ {
+  "county": "CAPE GIRARDEAU COUNTY",
+  "code": "29031"
+ },
+ {
+  "county": "CARROLL COUNTY",
+  "code": "29033"
+ },
+ {
+  "county": "CARTER COUNTY",
+  "code": "29035"
+ },
+ {
+  "county": "CASS COUNTY",
+  "code": "29037"
+ },
+ {
+  "county": "CEDAR COUNTY",
+  "code": "29039"
+ },
+ {
+  "county": "CHARITON COUNTY",
+  "code": "29041"
+ },
+ {
+  "county": "CHRISTIAN COUNTY",
+  "code": "29043"
+ },
+ {
+  "county": "CLARK COUNTY",
+  "code": "29045"
+ },
+ {
+  "county": "CLAY COUNTY",
+  "code": "29047"
+ },
+ {
+  "county": "CLINTON COUNTY",
+  "code": "29049"
+ },
+ {
+  "county": "COLE COUNTY",
+  "code": "29051"
+ },
+ {
+  "county": "COOPER COUNTY",
+  "code": "29053"
+ },
+ {
+  "county": "CRAWFORD COUNTY",
+  "code": "29055"
+ },
+ {
+  "county": "DADE COUNTY",
+  "code": "29057"
+ },
+ {
+  "county": "DALLAS COUNTY",
+  "code": "29059"
+ },
+ {
+  "county": "DAVIESS COUNTY",
+  "code": "29061"
+ },
+ {
+  "county": "DEKALB COUNTY",
+  "code": "29063"
+ },
+ {
+  "county": "DENT COUNTY",
+  "code": "29065"
+ },
+ {
+  "county": "DOUGLAS COUNTY",
+  "code": "29067"
+ },
+ {
+  "county": "DUNKLIN COUNTY",
+  "code": "29069"
+ },
+ {
+  "county": "FRANKLIN COUNTY",
+  "code": "29071"
+ },
+ {
+  "county": "GASCONADE COUNTY",
+  "code": "29073"
+ },
+ {
+  "county": "GENTRY COUNTY",
+  "code": "29075"
+ },
+ {
+  "county": "GREENE COUNTY",
+  "code": "29077"
+ },
+ {
+  "county": "GRUNDY COUNTY",
+  "code": "29079"
+ },
+ {
+  "county": "HARRISON COUNTY",
+  "code": "29081"
+ },
+ {
+  "county": "HENRY COUNTY",
+  "code": "29083"
+ },
+ {
+  "county": "HICKORY COUNTY",
+  "code": "29085"
+ },
+ {
+  "county": "HOLT COUNTY",
+  "code": "29087"
+ },
+ {
+  "county": "HOWARD COUNTY",
+  "code": "29089"
+ },
+ {
+  "county": "HOWELL COUNTY",
+  "code": "29091"
+ },
+ {
+  "county": "IRON COUNTY",
+  "code": "29093"
+ },
+ {
+  "county": "JACKSON COUNTY",
+  "code": "29095"
+ },
+ {
+  "county": "JASPER COUNTY",
+  "code": "29097"
+ },
+ {
+  "county": "JEFFERSON COUNTY",
+  "code": "29099"
+ },
+ {
+  "county": "JOHNSON COUNTY",
+  "code": "29101"
+ },
+ {
+  "county": "KNOX COUNTY",
+  "code": "29103"
+ },
+ {
+  "county": "LACLEDE COUNTY",
+  "code": "29105"
+ },
+ {
+  "county": "LAFAYETTE COUNTY",
+  "code": "29107"
+ },
+ {
+  "county": "LAWRENCE COUNTY",
+  "code": "29109"
+ },
+ {
+  "county": "LEWIS COUNTY",
+  "code": "29111"
+ },
+ {
+  "county": "LINCOLN COUNTY",
+  "code": "29113"
+ },
+ {
+  "county": "LINN COUNTY",
+  "code": "29115"
+ },
+ {
+  "county": "LIVINGSTON COUNTY",
+  "code": "29117"
+ },
+ {
+  "county": "MCDONALD COUNTY",
+  "code": "29119"
+ },
+ {
+  "county": "MACON COUNTY",
+  "code": "29121"
+ },
+ {
+  "county": "MADISON COUNTY",
+  "code": "29123"
+ },
+ {
+  "county": "MARIES COUNTY",
+  "code": "29125"
+ },
+ {
+  "county": "MARION COUNTY",
+  "code": "29127"
+ },
+ {
+  "county": "MERCER COUNTY",
+  "code": "29129"
+ },
+ {
+  "county": "MILLER COUNTY",
+  "code": "29131"
+ },
+ {
+  "county": "MISSISSIPPI COUNTY",
+  "code": "29133"
+ },
+ {
+  "county": "MONITEAU COUNTY",
+  "code": "29135"
+ },
+ {
+  "county": "MONROE COUNTY",
+  "code": "29137"
+ },
+ {
+  "county": "MONTGOMERY COUNTY",
+  "code": "29139"
+ },
+ {
+  "county": "MORGAN COUNTY",
+  "code": "29141"
+ },
+ {
+  "county": "NEW MADRID COUNTY",
+  "code": "29143"
+ },
+ {
+  "county": "NEWTON COUNTY",
+  "code": "29145"
+ },
+ {
+  "county": "NODAWAY COUNTY",
+  "code": "29147"
+ },
+ {
+  "county": "OREGON COUNTY",
+  "code": "29149"
+ },
+ {
+  "county": "OSAGE COUNTY",
+  "code": "29151"
+ },
+ {
+  "county": "OZARK COUNTY",
+  "code": "29153"
+ },
+ {
+  "county": "PEMISCOT COUNTY",
+  "code": "29155"
+ },
+ {
+  "county": "PERRY COUNTY",
+  "code": "29157"
+ },
+ {
+  "county": "PETTIS COUNTY",
+  "code": "29159"
+ },
+ {
+  "county": "PHELPS COUNTY",
+  "code": "29161"
+ },
+ {
+  "county": "PIKE COUNTY",
+  "code": "29163"
+ },
+ {
+  "county": "PLATTE COUNTY",
+  "code": "29165"
+ },
+ {
+  "county": "POLK COUNTY",
+  "code": "29167"
+ },
+ {
+  "county": "PULASKI COUNTY",
+  "code": "29169"
+ },
+ {
+  "county": "PUTNAM COUNTY",
+  "code": "29171"
+ },
+ {
+  "county": "RALLS COUNTY",
+  "code": "29173"
+ },
+ {
+  "county": "RANDOLPH COUNTY",
+  "code": "29175"
+ },
+ {
+  "county": "RAY COUNTY",
+  "code": "29177"
+ },
+ {
+  "county": "REYNOLDS COUNTY",
+  "code": "29179"
+ },
+ {
+  "county": "RIPLEY COUNTY",
+  "code": "29181"
+ },
+ {
+  "county": "ST. CHARLES COUNTY",
+  "code": "29183"
+ },
+ {
+  "county": "ST. CLAIR COUNTY",
+  "code": "29185"
+ },
+ {
+  "county": "STE. GENEVIEVE COUNTY",
+  "code": "29186"
+ },
+ {
+  "county": "ST. FRANCOIS COUNTY",
+  "code": "29187"
+ },
+ {
+  "county": "ST. LOUIS COUNTY",
+  "code": "29189"
+ },
+ {
+  "county": "SALINE COUNTY",
+  "code": "29195"
+ },
+ {
+  "county": "SCHUYLER COUNTY",
+  "code": "29197"
+ },
+ {
+  "county": "SCOTLAND COUNTY",
+  "code": "29199"
+ },
+ {
+  "county": "SCOTT COUNTY",
+  "code": "29201"
+ },
+ {
+  "county": "SHANNON COUNTY",
+  "code": "29203"
+ },
+ {
+  "county": "SHELBY COUNTY",
+  "code": "29205"
+ },
+ {
+  "county": "STODDARD COUNTY",
+  "code": "29207"
+ },
+ {
+  "county": "STONE COUNTY",
+  "code": "29209"
+ },
+ {
+  "county": "SULLIVAN COUNTY",
+  "code": "29211"
+ },
+ {
+  "county": "TANEY COUNTY",
+  "code": "29213"
+ },
+ {
+  "county": "TEXAS COUNTY",
+  "code": "29215"
+ },
+ {
+  "county": "VERNON COUNTY",
+  "code": "29217"
+ },
+ {
+  "county": "WARREN COUNTY",
+  "code": "29219"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "29221"
+ },
+ {
+  "county": "WAYNE COUNTY",
+  "code": "29223"
+ },
+ {
+  "county": "WEBSTER COUNTY",
+  "code": "29225"
+ },
+ {
+  "county": "WORTH COUNTY",
+  "code": "29227"
+ },
+ {
+  "county": "WRIGHT COUNTY",
+  "code": "29229"
+ },
+ {
+  "county": "ST. LOUIS CITY",
+  "code": "29510"
+ },
+ {
+  "county": "MONTANA",
+  "code": "30000"
+ },
+ {
+  "county": "BEAVERHEAD COUNTY",
+  "code": "30001"
+ },
+ {
+  "county": "BIG HORN COUNTY",
+  "code": "30003"
+ },
+ {
+  "county": "BLAINE COUNTY",
+  "code": "30005"
+ },
+ {
+  "county": "BROADWATER COUNTY",
+  "code": "30007"
+ },
+ {
+  "county": "CARBON COUNTY",
+  "code": "30009"
+ },
+ {
+  "county": "CARTER COUNTY",
+  "code": "30011"
+ },
+ {
+  "county": "CASCADE COUNTY",
+  "code": "30013"
+ },
+ {
+  "county": "CHOUTEAU COUNTY",
+  "code": "30015"
+ },
+ {
+  "county": "CUSTER COUNTY",
+  "code": "30017"
+ },
+ {
+  "county": "DANIELS COUNTY",
+  "code": "30019"
+ },
+ {
+  "county": "DAWSON COUNTY",
+  "code": "30021"
+ },
+ {
+  "county": "DEER LODGE COUNTY",
+  "code": "30023"
+ },
+ {
+  "county": "FALLON COUNTY",
+  "code": "30025"
+ },
+ {
+  "county": "FERGUS COUNTY",
+  "code": "30027"
+ },
+ {
+  "county": "FLATHEAD COUNTY",
+  "code": "30029"
+ },
+ {
+  "county": "GALLATIN COUNTY",
+  "code": "30031"
+ },
+ {
+  "county": "GARFIELD COUNTY",
+  "code": "30033"
+ },
+ {
+  "county": "GLACIER COUNTY",
+  "code": "30035"
+ },
+ {
+  "county": "GOLDEN VALLEY COUNTY",
+  "code": "30037"
+ },
+ {
+  "county": "GRANITE COUNTY",
+  "code": "30039"
+ },
+ {
+  "county": "HILL COUNTY",
+  "code": "30041"
+ },
+ {
+  "county": "JEFFERSON COUNTY",
+  "code": "30043"
+ },
+ {
+  "county": "JUDITH BASIN COUNTY",
+  "code": "30045"
+ },
+ {
+  "county": "LAKE COUNTY",
+  "code": "30047"
+ },
+ {
+  "county": "LEWIS AND CLARK COUNTY",
+  "code": "30049"
+ },
+ {
+  "county": "LIBERTY COUNTY",
+  "code": "30051"
+ },
+ {
+  "county": "LINCOLN COUNTY",
+  "code": "30053"
+ },
+ {
+  "county": "MCCONE COUNTY",
+  "code": "30055"
+ },
+ {
+  "county": "MADISON COUNTY",
+  "code": "30057"
+ },
+ {
+  "county": "MEAGHER COUNTY",
+  "code": "30059"
+ },
+ {
+  "county": "MINERAL COUNTY",
+  "code": "30061"
+ },
+ {
+  "county": "MISSOULA COUNTY",
+  "code": "30063"
+ },
+ {
+  "county": "MUSSELSHELL COUNTY",
+  "code": "30065"
+ },
+ {
+  "county": "PARK COUNTY",
+  "code": "30067"
+ },
+ {
+  "county": "PETROLEUM COUNTY",
+  "code": "30069"
+ },
+ {
+  "county": "PHILLIPS COUNTY",
+  "code": "30071"
+ },
+ {
+  "county": "PONDERA COUNTY",
+  "code": "30073"
+ },
+ {
+  "county": "POWDER RIVER COUNTY",
+  "code": "30075"
+ },
+ {
+  "county": "POWELL COUNTY",
+  "code": "30077"
+ },
+ {
+  "county": "PRAIRIE COUNTY",
+  "code": "30079"
+ },
+ {
+  "county": "RAVALLI COUNTY",
+  "code": "30081"
+ },
+ {
+  "county": "RICHLAND COUNTY",
+  "code": "30083"
+ },
+ {
+  "county": "ROOSEVELT COUNTY",
+  "code": "30085"
+ },
+ {
+  "county": "ROSEBUD COUNTY",
+  "code": "30087"
+ },
+ {
+  "county": "SANDERS COUNTY",
+  "code": "30089"
+ },
+ {
+  "county": "SHERIDAN COUNTY",
+  "code": "30091"
+ },
+ {
+  "county": "SILVER BOW COUNTY",
+  "code": "30093"
+ },
+ {
+  "county": "STILLWATER COUNTY",
+  "code": "30095"
+ },
+ {
+  "county": "SWEET GRASS COUNTY",
+  "code": "30097"
+ },
+ {
+  "county": "TETON COUNTY",
+  "code": "30099"
+ },
+ {
+  "county": "TOOLE COUNTY",
+  "code": "30101"
+ },
+ {
+  "county": "TREASURE COUNTY",
+  "code": "30103"
+ },
+ {
+  "county": "VALLEY COUNTY",
+  "code": "30105"
+ },
+ {
+  "county": "WHEATLAND COUNTY",
+  "code": "30107"
+ },
+ {
+  "county": "WIBAUX COUNTY",
+  "code": "30109"
+ },
+ {
+  "county": "YELLOWSTONE COUNTY",
+  "code": "30111"
+ },
+ {
+  "county": "YELLOWSTONE NATIONAL PARK",
+  "code": "30113"
+ },
+ {
+  "county": "NEBRASKA",
+  "code": "31000"
+ },
+ {
+  "county": "ADAMS COUNTY",
+  "code": "31001"
+ },
+ {
+  "county": "ANTELOPE COUNTY",
+  "code": "31003"
+ },
+ {
+  "county": "ARTHUR COUNTY",
+  "code": "31005"
+ },
+ {
+  "county": "BANNER COUNTY",
+  "code": "31007"
+ },
+ {
+  "county": "BLAINE COUNTY",
+  "code": "31009"
+ },
+ {
+  "county": "BOONE COUNTY",
+  "code": "31011"
+ },
+ {
+  "county": "BOX BUTTE COUNTY",
+  "code": "31013"
+ },
+ {
+  "county": "BOYD COUNTY",
+  "code": "31015"
+ },
+ {
+  "county": "BROWN COUNTY",
+  "code": "31017"
+ },
+ {
+  "county": "BUFFALO COUNTY",
+  "code": "31019"
+ },
+ {
+  "county": "BURT COUNTY",
+  "code": "31021"
+ },
+ {
+  "county": "BUTLER COUNTY",
+  "code": "31023"
+ },
+ {
+  "county": "CASS COUNTY",
+  "code": "31025"
+ },
+ {
+  "county": "CEDAR COUNTY",
+  "code": "31027"
+ },
+ {
+  "county": "CHASE COUNTY",
+  "code": "31029"
+ },
+ {
+  "county": "CHERRY COUNTY",
+  "code": "31031"
+ },
+ {
+  "county": "CHEYENNE COUNTY",
+  "code": "31033"
+ },
+ {
+  "county": "CLAY COUNTY",
+  "code": "31035"
+ },
+ {
+  "county": "COLFAX COUNTY",
+  "code": "31037"
+ },
+ {
+  "county": "CUMING COUNTY",
+  "code": "31039"
+ },
+ {
+  "county": "CUSTER COUNTY",
+  "code": "31041"
+ },
+ {
+  "county": "DAKOTA COUNTY",
+  "code": "31043"
+ },
+ {
+  "county": "DAWES COUNTY",
+  "code": "31045"
+ },
+ {
+  "county": "DAWSON COUNTY",
+  "code": "31047"
+ },
+ {
+  "county": "DEUEL COUNTY",
+  "code": "31049"
+ },
+ {
+  "county": "DIXON COUNTY",
+  "code": "31051"
+ },
+ {
+  "county": "DODGE COUNTY",
+  "code": "31053"
+ },
+ {
+  "county": "DOUGLAS COUNTY",
+  "code": "31055"
+ },
+ {
+  "county": "DUNDY COUNTY",
+  "code": "31057"
+ },
+ {
+  "county": "FILLMORE COUNTY",
+  "code": "31059"
+ },
+ {
+  "county": "FRANKLIN COUNTY",
+  "code": "31061"
+ },
+ {
+  "county": "FRONTIER COUNTY",
+  "code": "31063"
+ },
+ {
+  "county": "FURNAS COUNTY",
+  "code": "31065"
+ },
+ {
+  "county": "GAGE COUNTY",
+  "code": "31067"
+ },
+ {
+  "county": "GARDEN COUNTY",
+  "code": "31069"
+ },
+ {
+  "county": "GARFIELD COUNTY",
+  "code": "31071"
+ },
+ {
+  "county": "GOSPER COUNTY",
+  "code": "31073"
+ },
+ {
+  "county": "GRANT COUNTY",
+  "code": "31075"
+ },
+ {
+  "county": "GREELEY COUNTY",
+  "code": "31077"
+ },
+ {
+  "county": "HALL COUNTY",
+  "code": "31079"
+ },
+ {
+  "county": "HAMILTON COUNTY",
+  "code": "31081"
+ },
+ {
+  "county": "HARLAN COUNTY",
+  "code": "31083"
+ },
+ {
+  "county": "HAYES COUNTY",
+  "code": "31085"
+ },
+ {
+  "county": "HITCHCOCK COUNTY",
+  "code": "31087"
+ },
+ {
+  "county": "HOLT COUNTY",
+  "code": "31089"
+ },
+ {
+  "county": "HOOKER COUNTY",
+  "code": "31091"
+ },
+ {
+  "county": "HOWARD COUNTY",
+  "code": "31093"
+ },
+ {
+  "county": "JEFFERSON COUNTY",
+  "code": "31095"
+ },
+ {
+  "county": "JOHNSON COUNTY",
+  "code": "31097"
+ },
+ {
+  "county": "KEARNEY COUNTY",
+  "code": "31099"
+ },
+ {
+  "county": "KEITH COUNTY",
+  "code": "31101"
+ },
+ {
+  "county": "KEYA PAHA COUNTY",
+  "code": "31103"
+ },
+ {
+  "county": "KIMBALL COUNTY",
+  "code": "31105"
+ },
+ {
+  "county": "KNOX COUNTY",
+  "code": "31107"
+ },
+ {
+  "county": "LANCASTER COUNTY",
+  "code": "31109"
+ },
+ {
+  "county": "LINCOLN COUNTY",
+  "code": "31111"
+ },
+ {
+  "county": "LOGAN COUNTY",
+  "code": "31113"
+ },
+ {
+  "county": "LOUP COUNTY",
+  "code": "31115"
+ },
+ {
+  "county": "MCPHERSON COUNTY",
+  "code": "31117"
+ },
+ {
+  "county": "MADISON COUNTY",
+  "code": "31119"
+ },
+ {
+  "county": "MERRICK COUNTY",
+  "code": "31121"
+ },
+ {
+  "county": "MORRILL COUNTY",
+  "code": "31123"
+ },
+ {
+  "county": "NANCE COUNTY",
+  "code": "31125"
+ },
+ {
+  "county": "NEMAHA COUNTY",
+  "code": "31127"
+ },
+ {
+  "county": "NUCKOLLS COUNTY",
+  "code": "31129"
+ },
+ {
+  "county": "OTOE COUNTY",
+  "code": "31131"
+ },
+ {
+  "county": "PAWNEE COUNTY",
+  "code": "31133"
+ },
+ {
+  "county": "PERKINS COUNTY",
+  "code": "31135"
+ },
+ {
+  "county": "PHELPS COUNTY",
+  "code": "31137"
+ },
+ {
+  "county": "PIERCE COUNTY",
+  "code": "31139"
+ },
+ {
+  "county": "PLATTE COUNTY",
+  "code": "31141"
+ },
+ {
+  "county": "POLK COUNTY",
+  "code": "31143"
+ },
+ {
+  "county": "RED WILLOW COUNTY",
+  "code": "31145"
+ },
+ {
+  "county": "RICHARDSON COUNTY",
+  "code": "31147"
+ },
+ {
+  "county": "ROCK COUNTY",
+  "code": "31149"
+ },
+ {
+  "county": "SALINE COUNTY",
+  "code": "31151"
+ },
+ {
+  "county": "SARPY COUNTY",
+  "code": "31153"
+ },
+ {
+  "county": "SAUNDERS COUNTY",
+  "code": "31155"
+ },
+ {
+  "county": "SCOTTS BLUFF COUNTY",
+  "code": "31157"
+ },
+ {
+  "county": "SEWARD COUNTY",
+  "code": "31159"
+ },
+ {
+  "county": "SHERIDAN COUNTY",
+  "code": "31161"
+ },
+ {
+  "county": "SHERMAN COUNTY",
+  "code": "31163"
+ },
+ {
+  "county": "SIOUX COUNTY",
+  "code": "31165"
+ },
+ {
+  "county": "STANTON COUNTY",
+  "code": "31167"
+ },
+ {
+  "county": "THAYER COUNTY",
+  "code": "31169"
+ },
+ {
+  "county": "THOMAS COUNTY",
+  "code": "31171"
+ },
+ {
+  "county": "THURSTON COUNTY",
+  "code": "31173"
+ },
+ {
+  "county": "VALLEY COUNTY",
+  "code": "31175"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "31177"
+ },
+ {
+  "county": "WAYNE COUNTY",
+  "code": "31179"
+ },
+ {
+  "county": "WEBSTER COUNTY",
+  "code": "31181"
+ },
+ {
+  "county": "WHEELER COUNTY",
+  "code": "31183"
+ },
+ {
+  "county": "YORK COUNTY",
+  "code": "31185"
+ },
+ {
+  "county": "NEVADA",
+  "code": "32000"
+ },
+ {
+  "county": "CHURCHILL COUNTY",
+  "code": "32001"
+ },
+ {
+  "county": "CLARK COUNTY",
+  "code": "32003"
+ },
+ {
+  "county": "DOUGLAS COUNTY",
+  "code": "32005"
+ },
+ {
+  "county": "ELKO COUNTY",
+  "code": "32007"
+ },
+ {
+  "county": "ESMERALDA COUNTY",
+  "code": "32009"
+ },
+ {
+  "county": "EUREKA COUNTY",
+  "code": "32011"
+ },
+ {
+  "county": "HUMBOLDT COUNTY",
+  "code": "32013"
+ },
+ {
+  "county": "LANDER COUNTY",
+  "code": "32015"
+ },
+ {
+  "county": "LINCOLN COUNTY",
+  "code": "32017"
+ },
+ {
+  "county": "LYON COUNTY",
+  "code": "32019"
+ },
+ {
+  "county": "MINERAL COUNTY",
+  "code": "32021"
+ },
+ {
+  "county": "NYE COUNTY",
+  "code": "32023"
+ },
+ {
+  "county": "PERSHING COUNTY",
+  "code": "32027"
+ },
+ {
+  "county": "STOREY COUNTY",
+  "code": "32029"
+ },
+ {
+  "county": "WASHOE COUNTY",
+  "code": "32031"
+ },
+ {
+  "county": "WHITE PINE COUNTY",
+  "code": "32033"
+ },
+ {
+  "county": "CARSON CITY",
+  "code": "32510"
+ },
+ {
+  "county": "NEW HAMPSHIRE",
+  "code": "33000"
+ },
+ {
+  "county": "BELKNAP COUNTY",
+  "code": "33001"
+ },
+ {
+  "county": "CARROLL COUNTY",
+  "code": "33003"
+ },
+ {
+  "county": "CHESHIRE COUNTY",
+  "code": "33005"
+ },
+ {
+  "county": "COOS COUNTY",
+  "code": "33007"
+ },
+ {
+  "county": "GRAFTON COUNTY",
+  "code": "33009"
+ },
+ {
+  "county": "HILLSBOROUGH COUNTY",
+  "code": "33011"
+ },
+ {
+  "county": "MERRIMACK COUNTY",
+  "code": "33013"
+ },
+ {
+  "county": "ROCKINGHAM COUNTY",
+  "code": "33015"
+ },
+ {
+  "county": "STRAFFORD COUNTY",
+  "code": "33017"
+ },
+ {
+  "county": "SULLIVAN COUNTY",
+  "code": "33019"
+ },
+ {
+  "county": "NEW JERSEY",
+  "code": "34000"
+ },
+ {
+  "county": "ATLANTIC COUNTY",
+  "code": "34001"
+ },
+ {
+  "county": "BERGEN COUNTY",
+  "code": "34003"
+ },
+ {
+  "county": "BURLINGTON COUNTY",
+  "code": "34005"
+ },
+ {
+  "county": "CAMDEN COUNTY",
+  "code": "34007"
+ },
+ {
+  "county": "CAPE MAY COUNTY",
+  "code": "34009"
+ },
+ {
+  "county": "CUMBERLAND COUNTY",
+  "code": "34011"
+ },
+ {
+  "county": "ESSEX COUNTY",
+  "code": "34013"
+ },
+ {
+  "county": "GLOUCESTER COUNTY",
+  "code": "34015"
+ },
+ {
+  "county": "HUDSON COUNTY",
+  "code": "34017"
+ },
+ {
+  "county": "HUNTERDON COUNTY",
+  "code": "34019"
+ },
+ {
+  "county": "MERCER COUNTY",
+  "code": "34021"
+ },
+ {
+  "county": "MIDDLESEX COUNTY",
+  "code": "34023"
+ },
+ {
+  "county": "MONMOUTH COUNTY",
+  "code": "34025"
+ },
+ {
+  "county": "MORRIS COUNTY",
+  "code": "34027"
+ },
+ {
+  "county": "OCEAN COUNTY",
+  "code": "34029"
+ },
+ {
+  "county": "PASSAIC COUNTY",
+  "code": "34031"
+ },
+ {
+  "county": "SALEM COUNTY",
+  "code": "34033"
+ },
+ {
+  "county": "SOMERSET COUNTY",
+  "code": "34035"
+ },
+ {
+  "county": "SUSSEX COUNTY",
+  "code": "34037"
+ },
+ {
+  "county": "UNION COUNTY",
+  "code": "34039"
+ },
+ {
+  "county": "WARREN COUNTY",
+  "code": "34041"
+ },
+ {
+  "county": "NEW MEXICO",
+  "code": "35000"
+ },
+ {
+  "county": "BERNALILLO COUNTY",
+  "code": "35001"
+ },
+ {
+  "county": "CATRON COUNTY",
+  "code": "35003"
+ },
+ {
+  "county": "CHAVES COUNTY",
+  "code": "35005"
+ },
+ {
+  "county": "CIBOLA COUNTY",
+  "code": "35006"
+ },
+ {
+  "county": "COLFAX COUNTY",
+  "code": "35007"
+ },
+ {
+  "county": "CURRY COUNTY",
+  "code": "35009"
+ },
+ {
+  "county": "DEBACA COUNTY",
+  "code": "35011"
+ },
+ {
+  "county": "DONA ANA COUNTY",
+  "code": "35013"
+ },
+ {
+  "county": "EDDY COUNTY",
+  "code": "35015"
+ },
+ {
+  "county": "GRANT COUNTY",
+  "code": "35017"
+ },
+ {
+  "county": "GUADALUPE COUNTY",
+  "code": "35019"
+ },
+ {
+  "county": "HARDING COUNTY",
+  "code": "35021"
+ },
+ {
+  "county": "HIDALGO COUNTY",
+  "code": "35023"
+ },
+ {
+  "county": "LEA COUNTY",
+  "code": "35025"
+ },
+ {
+  "county": "LINCOLN COUNTY",
+  "code": "35027"
+ },
+ {
+  "county": "LOS ALAMOS COUNTY",
+  "code": "35028"
+ },
+ {
+  "county": "LUNA COUNTY",
+  "code": "35029"
+ },
+ {
+  "county": "MCKINLEY COUNTY",
+  "code": "35031"
+ },
+ {
+  "county": "MORA COUNTY",
+  "code": "35033"
+ },
+ {
+  "county": "OTERO COUNTY",
+  "code": "35035"
+ },
+ {
+  "county": "QUAY COUNTY",
+  "code": "35037"
+ },
+ {
+  "county": "RIO ARRIBA COUNTY",
+  "code": "35039"
+ },
+ {
+  "county": "ROOSEVELT COUNTY",
+  "code": "35041"
+ },
+ {
+  "county": "SANDOVAL COUNTY",
+  "code": "35043"
+ },
+ {
+  "county": "SAN JUAN COUNTY",
+  "code": "35045"
+ },
+ {
+  "county": "SAN MIGUEL COUNTY",
+  "code": "35047"
+ },
+ {
+  "county": "SANTA FE COUNTY",
+  "code": "35049"
+ },
+ {
+  "county": "SIERRA COUNTY",
+  "code": "35051"
+ },
+ {
+  "county": "SOCORRO COUNTY",
+  "code": "35053"
+ },
+ {
+  "county": "TAOS COUNTY",
+  "code": "35055"
+ },
+ {
+  "county": "TORRANCE COUNTY",
+  "code": "35057"
+ },
+ {
+  "county": "UNION COUNTY",
+  "code": "35059"
+ },
+ {
+  "county": "VALENCIA COUNTY",
+  "code": "35061"
+ },
+ {
+  "county": "NEW YORK",
+  "code": "36000"
+ },
+ {
+  "county": "ALBANY COUNTY",
+  "code": "36001"
+ },
+ {
+  "county": "ALLEGANY COUNTY",
+  "code": "36003"
+ },
+ {
+  "county": "BRONX COUNTY",
+  "code": "36005"
+ },
+ {
+  "county": "BROOME COUNTY",
+  "code": "36007"
+ },
+ {
+  "county": "CATTARAUGUS COUNTY",
+  "code": "36009"
+ },
+ {
+  "county": "CAYUGA COUNTY",
+  "code": "36011"
+ },
+ {
+  "county": "CHAUTAUQUA COUNTY",
+  "code": "36013"
+ },
+ {
+  "county": "CHEMUNG COUNTY",
+  "code": "36015"
+ },
+ {
+  "county": "CHENANGO COUNTY",
+  "code": "36017"
+ },
+ {
+  "county": "CLINTON COUNTY",
+  "code": "36019"
+ },
+ {
+  "county": "COLUMBIA COUNTY",
+  "code": "36021"
+ },
+ {
+  "county": "CORTLAND COUNTY",
+  "code": "36023"
+ },
+ {
+  "county": "DELAWARE COUNTY",
+  "code": "36025"
+ },
+ {
+  "county": "DUTCHESS COUNTY",
+  "code": "36027"
+ },
+ {
+  "county": "ERIE COUNTY",
+  "code": "36029"
+ },
+ {
+  "county": "ESSEX COUNTY",
+  "code": "36031"
+ },
+ {
+  "county": "FRANKLIN COUNTY",
+  "code": "36033"
+ },
+ {
+  "county": "FULTON COUNTY",
+  "code": "36035"
+ },
+ {
+  "county": "GENESEE COUNTY",
+  "code": "36037"
+ },
+ {
+  "county": "GREENE COUNTY",
+  "code": "36039"
+ },
+ {
+  "county": "HAMILTON COUNTY",
+  "code": "36041"
+ },
+ {
+  "county": "HERKIMER COUNTY",
+  "code": "36043"
+ },
+ {
+  "county": "JEFFERSON COUNTY",
+  "code": "36045"
+ },
+ {
+  "county": "KINGS COUNTY",
+  "code": "36047"
+ },
+ {
+  "county": "LEWIS COUNTY",
+  "code": "36049"
+ },
+ {
+  "county": "LIVINGSTON COUNTY",
+  "code": "36051"
+ },
+ {
+  "county": "MADISON COUNTY",
+  "code": "36053"
+ },
+ {
+  "county": "MONROE COUNTY",
+  "code": "36055"
+ },
+ {
+  "county": "MONTGOMERY COUNTY",
+  "code": "36057"
+ },
+ {
+  "county": "NASSAU COUNTY",
+  "code": "36059"
+ },
+ {
+  "county": "NEW YORK COUNTY",
+  "code": "36061"
+ },
+ {
+  "county": "NIAGARA COUNTY",
+  "code": "36063"
+ },
+ {
+  "county": "ONEIDA COUNTY",
+  "code": "36065"
+ },
+ {
+  "county": "ONONDAGA COUNTY",
+  "code": "36067"
+ },
+ {
+  "county": "ONTARIO COUNTY",
+  "code": "36069"
+ },
+ {
+  "county": "ORANGE COUNTY",
+  "code": "36071"
+ },
+ {
+  "county": "ORLEANS COUNTY",
+  "code": "36073"
+ },
+ {
+  "county": "OSWEGO COUNTY",
+  "code": "36075"
+ },
+ {
+  "county": "OTSEGO COUNTY",
+  "code": "36077"
+ },
+ {
+  "county": "PUTNAM COUNTY",
+  "code": "36079"
+ },
+ {
+  "county": "QUEENS COUNTY",
+  "code": "36081"
+ },
+ {
+  "county": "RENSSELAER COUNTY",
+  "code": "36083"
+ },
+ {
+  "county": "RICHMOND COUNTY",
+  "code": "36085"
+ },
+ {
+  "county": "ROCKLAND COUNTY",
+  "code": "36087"
+ },
+ {
+  "county": "ST. LAWRENCE COUNTY",
+  "code": "36089"
+ },
+ {
+  "county": "SARATOGA COUNTY",
+  "code": "36091"
+ },
+ {
+  "county": "SCHENECTADY COUNTY",
+  "code": "36093"
+ },
+ {
+  "county": "SCHOHARIE COUNTY",
+  "code": "36095"
+ },
+ {
+  "county": "SCHUYLER COUNTY",
+  "code": "36097"
+ },
+ {
+  "county": "SENECA COUNTY",
+  "code": "36099"
+ },
+ {
+  "county": "STEUBEN COUNTY",
+  "code": "36101"
+ },
+ {
+  "county": "SUFFOLK COUNTY",
+  "code": "36103"
+ },
+ {
+  "county": "SULLIVAN COUNTY",
+  "code": "36105"
+ },
+ {
+  "county": "TIOGA COUNTY",
+  "code": "36107"
+ },
+ {
+  "county": "TOMPKINS COUNTY",
+  "code": "36109"
+ },
+ {
+  "county": "ULSTER COUNTY",
+  "code": "36111"
+ },
+ {
+  "county": "WARREN COUNTY",
+  "code": "36113"
+ },
+ {
+  "county": "WASHINGTON COUNTY",
+  "code": "36115"
+ },
+ {
+  "county": "WAYNE COUNTY",
+  "code": "36117"
+ },
+ {
+  "county": "WESTCHESTER COUNTY",
+  "code": "36119"
+ },
+ {
+  "county": "WYOMING COUNTY",
+  "code": "36121"
+ },
+ {
+  "county": "YATES COUNTY",
+  "code": "36123"
+ },
+ {
+  "county": "NORTH CAROLINA",
+  "code": "37000"
+ },
+ {
+  "county": "ALAMANCE COUNTY",
+  "code": "37001"
+ },
+ {
+  "county": "ALEXANDER COUNTY",
+  "code": "37003"
+ },
+ {
+  "county": "ALLEGHANY COUNTY",
+  "code": "37005"
+ },
+ {
+  "county": "ANSON COUNTY",
+  "code": "37007"
+ },
+ {
+  "county": "ASHE COUNTY",
+  "code": "37009"
+ },
+ {
+  "county": "AVERY COUNTY",
+  "code": "37011"
+ },
+ {
+  "county": "BEAUFORT COUNTY",
+  "code": "37013"
+ },
+ {
+  "county": "BERTIE COUNTY",
+  "code": "37015"
+ },
+ {
+  "county": "BLADEN COUNTY",
+  "code": "37017"
+ },
+ {
+  "county": "BRUNSWICK COUNTY",
+  "code": "37019"
+ },
+ {
+  "county": "BUNCOMBE COUNTY",
+  "code": "37021"
+ },
+ {
+  "county": "BURKE COUNTY",
+  "code": "37023"
+ },
+ {
+  "county": "CABARRUS COUNTY",
+  "code": "37025"
+ },
+ {
+  "county": "CALDWELL COUNTY",
+  "code": "37027"
+ },
+ {
+  "county": "CAMDEN COUNTY",
+  "code": "37029"
+ },
+ {
+  "county": "CARTERET COUNTY",
+  "code": "37031"
+ },
+ {
+  "county": "CASWELL COUNTY",
+  "code": "37033"
+ },
+ {
+  "county": "CATAWBA COUNTY",
+  "code": "37035"
+ },
+ {
+  "county": "CHATHAM COUNTY",
+  "code": "37037"
+ },
+ {
+  "county": "CHEROKEE COUNTY",
+  "code": "37039"
+ },
+ {
+  "county": "CHOWAN COUNTY",
+  "code": "37041"
+ },
+ {
+  "county": "CLAY COUNTY",
+  "code": "37043"
+ },
+ {
+  "county": "CLEVELAND COUNTY",
+  "code": "37045"
+ },
+ {
+  "county": "COLUMBUS COUNTY",
+  "code": "37047"
+ },
+ {
+  "county": "CRAVEN COUNTY",
+  "code": "37049"
+ },
+ {
+  "county": "CUMBERLAND COUNTY",
+  "code": "37051"
+ },
+ {
+  "county": "CURRITUCK COUNTY",
+  "code": "37053"
+ },
+ {
+  "county": "DARE COUNTY",
+  "code": "37055"
+ },
+ {
+  "county": "DAVIDSON COUNTY",
+  "code": "37057"
+ },
+ {
+  "county": "DAVIE COUNTY",
+  "code": "37059"
+ },
+ {
+  "county": "DUPLIN COUNTY",
+  "code": "37061"
+ },
+ {
+  "county": "DURHAM COUNTY",
+  "code": "37063"
+ },
+ {
+  "county": "EDGECOMBE COUNTY",
+  "code": "37065"
+ },
+ {
+  "county": "FORSYTH COUNTY",
+  "code": "37067"
+ },
+ {
+  "county": "FRANKLIN COUNTY",
+  "code": "37069"
+ },
+ {
+  "county": "GASTON COUNTY",
+  "code": "37071"
+ },
+ {
+  "county": "GATES COUNTY",
+  "code": "37073"
+ },
+ {
+  "county": "GRAHAM COUNTY",
+  "code": "37075"
+ },
+ {
+  "county": "GRANVILLE COUNTY",
+  "code": "37077"
+ },
+ {
+  "county": "GREENE COUNTY",
+  "code": "37079"
+ },
+ {
+  "county": "GUILFORD COUNTY",
+  "code": "37081"
+ },
+ {
+  "county": "HALIFAX COUNTY",
+  "code": "37083"
+ },
+ {
+  "county": "HARNETT COUNTY",
+  "code": "37085"
+ },
+ {
+  "county": "HAYWOOD COUNTY",
+  "code": "37087"
+ },
+ {
+  "county": "HENDERSON COUNTY",
+  "code": "37089"
+ },
+ {
+  "county": "HERTFORD COUNTY",
+  "code": "37091"
+ },
+ {
+  "county": "HOKE COUNTY",
+  "code": "37093"
+ },
+ {
+  "county": "HYDE COUNTY",
+  "code": "37095"
+ },
+ {
+  "county": "IREDELL COUNTY",
+  "code": "37097"
+ },
+ {
+  "county": "JACKSON COUNTY",
+  "code": "37099"
+ },
+ {
+  "county": "JOHNSTON COUNTY",
+  "code": "37101"
+ },
+ {
+  "county": "JONES COUNTY",
+  "code": "37103"
+ }
+]
